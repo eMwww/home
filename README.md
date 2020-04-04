@@ -1,5 +1,4 @@
-## Welcome to my web page
-
+## Welcome to Emilio's web page
 
 # Research
 
@@ -62,7 +61,7 @@ I have contributed several the Leverhulme project Tracing Networks, several EU-f
 
 ## PhD students
 I had the privilege to supervise the following students (in year and alphabetic order)
-- Alex Coto (GSSI)
+- Alex Coto (GSSI, started in 2018)
 - Julien Lange (Leicester, VIVA passed Oct 2013)
 - Kyriakos Poyias (Leicester, VIVA passed Nov 2013)
 - Qurat Ul Ain Nizamani (Leicester, graduated 2011)

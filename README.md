@@ -73,11 +73,11 @@ I had the privilege to supervise the following students (in year and alphabetic 
       
 
 ## Other research-related activities
-- I'm member of the following research themes of the school of informatics at Leicester
+* I'm member of the following research themes of the school of informatics at Leicester
   * [VALVE](http://www2.le.ac.uk/departments/computer-science/research/rthemes/valve),
   * [FoCo](http://www2.le.ac.uk/departments/computer-science/research/rthemes/foco), and
   * [SOME](http://www2.le.ac.uk/departments/computer-science/research/rthemes/some).
-- Visiting professor (starting April 2011) at the University of Cagliari
+* Visiting professor (starting April 2011) at the University of Cagliari
 
 	  
 

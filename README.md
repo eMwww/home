@@ -1,7 +1,7 @@
 ## Welcome to my web page
 
 
-## Research
+# Research
 
 My [ORCID](https://orcid.org/0000-0002-7032-3281)
       
@@ -29,35 +29,59 @@ My papers can be found on [DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd
 - ICE 2008 [ENTCS 229(3)](http://www.sciencedirect.com/science/article/pii/S157106610900214X)
 - [Doctoral Symposium International Conference on Graph Transformation 2008](http://www.informatik.uni-trier.de/~ley/db/journals/eceasst/eceasst16.html#CorradiniT08)
 
+## Projects
+I'm currently collaborating in the following projects:
+- [BehAPI](https://www.um.edu.mt/projects/behapi): EU RISE Action, co-PI + site and WP4 leader; started in March 2018
+- RCADE: EU MSCA Fellowship, co-PI Claudio Mezzina joined in September 2018 our department as MSCA fellow collaborating with  [Irek Ulidowski](http://www.cs.le.ac.uk/people/iu3/) and me on causal consistency reversible debuggers. Shortly after the project was discontinued because Claudio got a permanent position in Italy
+- [Reversible Computation](http://www.revcomp.eu): EU Cost Action
+- [BETTY](http://www.behavioural-types.eu):EU COST Action (RTD Framework Programme).
 
-## Markdown
+	
+I have contributed several the Leverhulme project Tracing Networks, several EU-funded projects (PROFUNDIS, AGILE, and DEGAS) as well as some Italian projects (COMETA, SP4 and NAPI).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## Past grants and collaborations to research projects
+- [Sensoria](http://www.sensoria-ist.eu): IST project funded by the EU as Integrated Project in the 6th Framework Programme (FP6) as part of the Global Computing Initiative (GC)
+- [HiDe4SOC](grants/hidea4soc.html): a [Nuffield Foundation](http://www.nuffieldfoundation.org) grant; ref. NAL 32612, PI
+- [Tracing Networks](http://www.cs.le.ac.uk/TracingNetworks): a [Levehulme Trust](http://www.leverhulme.ac.uk/grants_awards) award; co-PI
+- [PAIS](http://www.cs.le.ac.uk/projects.html#pais): Process Algebras for Interaction and Spatiality British-Italian Partnership Programme for Young Researchers [British Council](http://www.britishcouncil.org) and [CRUI](http://www.crui.it); co-PI
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+## PhD Courses
+- Padova 9 - 12 May 2016: [Introduction to distributed choreographies](http://www.math.unipd.it/~baldan/Global/) (Guest lecturer for the course on ""Linguaggi e Modelli per il Global Computing", Laurea Magistrale in Informatica - Università di Padova Anno Accademico 2015/2016)
+- Birmingham 11 - 15 April 2016: [Introduction to distributed choreographies](http://www.cs.bham.ac.uk/~pbl/mgs2016)
+- Cagliari 30 June 2015 - 16 July 2015: [Designing and analysing distributed applications with automata and choreographies](http://tcs.unica.it/news/cfsm-tuosto-2015)
+- Cagliari  April 2014: [Introduction to security protocols](http://tcs.unica.it/positions/phdcoursebisimulationprocessalgebrasandcoinduction)
+- Cagliari  Aprile / July 2012: [Introduction to concurrent systems / Bisimulation, process algebras, and co-induction](http://tcs.unica.it/positions/phdcoursebisimulationprocessalgebrasandcoinduction)
+- Pisa 3-14 December 2012: [Interactions, automata, and names](phd_courses/nominal_automata.html)
+- Sheffield 28 March - 1 April 2010: [Protocol Verification](http://mgs2010.group.shef.ac.uk)
+- Copenhagen 16-19 October 2007:[Synchronised Hyperedge Replacement as a Model for Service Oriented Computing](phd_courses/bpeso.html)
+- Leicester 8-12 April 2006: [Concurrency and Mobility](http://www.cs.le.ac.uk/events/mgs2006)
+- Buenos Aires 26-31 July 2004: [Automata for verification of mobile system](http://www-2.dc.uba.ar/eci/2004)
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+## PhD students
+I had the privilege to supervise the following students (in year and alphabetic order)
+- Alex Coto (GSSI)
+- Julien Lange (Leicester, VIVA passed Oct 2013)
+- Kyriakos Poyias (Leicester, VIVA passed Nov 2013)
+- Qurat Ul Ain Nizamani (Leicester, graduated 2011)
+- Hyder Ali Nizamani (Leicester, graduated 2011)
+- Daniele Strollo (IMT, graduated 2009, co-supervised with Prof. G. Ferrari)
+- Yi Xiao (Leicester, graduated 2019)
+- Hao Zeng (Leicester, graduated 2019)
+      
 
-[Link](url) and ![Image](src)
-```
+## Other research-related activities
+- I'm member of the following research themes of the school of informatics at Leicester
+-- [VALVE](http://www2.le.ac.uk/departments/computer-science/research/rthemes/valve),
+-- [FoCo](http://www2.le.ac.uk/departments/computer-science/research/rthemes/foco), and
+-- [SOME](http://www2.le.ac.uk/departments/computer-science/research/rthemes/some).
+- Visiting professor (starting April 2011) at the University of Cagliari
+	  
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+	
+      
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/eMwww/trash/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

@@ -1,30 +1,36 @@
 ## Welcome to my web page
 
 
-### Research
-      
-###	A brief curriculum vitae
+## Research
 
+My [ORCID](https://orcid.org/0000-0002-7032-3281)
+      
+##	A brief curriculum vitae
 
 I am an associate professor at the [Gran Sasso Science Institute](www.gssi.it) and at the [University of Leicester](www.cs.le.ac.uk).
+My main research interests are in theoretical and applied aspects of complex distributed systems. Recently I have been working on automata- and behavioural type-based models of distributed choreographies, contract-based models of distributed interactions, and their application to software engineering of distributed and concurrent systems.
 
-My main research interests are in theoretical and applied aspects of
-complex distributed systems. Recently I have been working on automata-
-and behavioural type-based models of distributed choreographies,
-contract-based models of distributed interactions, and their
-application to software engineering of distributed and concurrent
-systems.
-
-I graduated (1998) and got my PhD degree in Computer Science (2003) at
-the [department of Computer Science, University of
-Pisa](www.di.unipi.it).
+I graduated (1998) and got my PhD degree in Computer Science (2003) at the [department of Computer Science, University of Pisa](www.di.unipi.it).
 
 
-You can use the [editor on GitHub](https://github.com/eMwww/trash/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Publications
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+My papers can be found on [DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd/t/Tuosto:Emilio.html) and my
+[google scholar profile](https://scholar.google.se/citations?user=UsADbUQAAAAJ&hl=en). 
 
-### Markdown
+## Edited volumes
+
+- COORDINATION 2019 - [LNCS 11533](https://link.springer.com/book/10.1007%2F978-3-030-22397-7), June 2019
+- SOCA 2015 - [Volume 9, Issue 3-4](http://link.springer.com/journal/11761/9/3?wt_mc=alerts.TOCjournals), September 2015
+- TGC 2014 - [LNCS 8902](http://www.springer.com/us/book/9783662459164)
+- WS-FM 2013 - [LNCS 8379](http://link.springer.com/book/10.1007%2F978-3-319-08260-8)
+- GT-VMT 2010 (ECEASST 29)
+- ICE 2009 [EPTCS 12](http://arxiv.org/abs/0910.4053v1)
+- ICE 2008 [ENTCS 229(3)](http://www.sciencedirect.com/science/article/pii/S157106610900214X)
+- [Doctoral Symposium International Conference on Graph Transformation 2008](http://www.informatik.uni-trier.de/~ley/db/journals/eceasst/eceasst16.html#CorradiniT08)
+
+
+## Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 

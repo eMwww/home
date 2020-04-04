@@ -1,4 +1,24 @@
-## Welcome to GitHub Pages
+## Welcome to my web page
+
+
+### Research
+      
+###	A brief curriculum vitae
+
+
+I am an associate professor at the [Gran Sasso Science Institute](www.gssi.it) and at the [University of Leicester](www.cs.le.ac.uk).
+
+My main research interests are in theoretical and applied aspects of
+complex distributed systems. Recently I have been working on automata-
+and behavioural type-based models of distributed choreographies,
+contract-based models of distributed interactions, and their
+application to software engineering of distributed and concurrent
+systems.
+
+I graduated (1998) and got my PhD degree in Computer Science (2003) at
+the [department of Computer Science, University of
+Pisa](www.di.unipi.it).
+
 
 You can use the [editor on GitHub](https://github.com/eMwww/trash/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 

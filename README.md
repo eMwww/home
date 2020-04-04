@@ -1,9 +1,6 @@
-## Welcome to Emilio's web page
+# Welcome to Emilio's web page
 
-# Research
-
-My [ORCID](https://orcid.org/0000-0002-7032-3281)
-      
+     
 ##	A brief curriculum vitae
 
 I am an associate professor at the [Gran Sasso Science Institute](www.gssi.it) and at the [University of Leicester](www.cs.le.ac.uk).
@@ -11,6 +8,10 @@ My main research interests are in theoretical and applied aspects of complex dis
 
 I graduated (1998) and got my PhD degree in Computer Science (2003) at the [department of Computer Science, University of Pisa](www.di.unipi.it).
 
+
+# Research
+
+My [ORCID](https://orcid.org/0000-0002-7032-3281)
 
 ## Publications
 

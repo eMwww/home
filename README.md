@@ -1,4 +1,4 @@
-### Welcome to Emilio's web page
+# Welcome to Emilio's web page
 
      
 # About me...in brief
@@ -13,8 +13,7 @@ I graduated (1998) and got my PhD degree in Computer Science (2003) at the [depa
 
 ## Publications
 
-My papers can be found on [DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd/t/Tuosto:Emilio.html) and my
-[google scholar profile](https://scholar.google.se/citations?user=UsADbUQAAAAJ&hl=en).
+My papers can be found on [DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd/t/Tuosto:Emilio.html) and my on google scholar [profile](https://scholar.google.se/citations?user=UsADbUQAAAAJ&hl=en).
 
 My [ORCID](https://orcid.org/0000-0002-7032-3281)
 

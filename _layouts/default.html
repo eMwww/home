@@ -1,0 +1,43 @@
+---
+title: Home page of Emilio Tuosto
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="{{ site.title }}" />
+    <meta name="description" content="{{ site.description }}" />
+    <meta property="og:description" content="{{ site.description }}" />
+	 
+	 <nav>
+	   <ul>
+	     <li><a href="/">Home</a></li>
+	     <li><a href="research">Research</a></li>
+	     <li><a href="/papers">Publications</a></li>
+		  <li><a href="/about">About</a></li>
+	     <li><a href="/cv">CV</a></li>
+	     <!-- <li><a href="/blog">Blog</a></li> -->
+	   </ul>
+	 </nav>
+	 
+	 <title>{{ site.title }}</title>
+	 <!-- link to main stylesheet -->
+	 <link href="{{ 'css/main.css' | relative_url }}" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+		
+	 <div class="container">
+
+		{{ content }}
+
+	 </div><!-- /.container -->
+	 <footer>
+	   <ul>
+	     <li><a href="mailto:emiliodottuosto@gssi.it">email</a> (replace 'dot' with '.')</li>
+	     <li><a href="https://github.com/emwww">github.com/emwww</a></li>
+		</ul>
+	 </footer>
+  </body>
+</html>

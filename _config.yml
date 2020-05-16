@@ -1,5 +1,12 @@
 theme: jekyll-theme-minimal
 title: Emilio's web page
 logo: me.jpg
+
+collections:
+  - courses
+  - phd
+  - papers
+  - editor
+
 email: emilio.tuosto@gssi.it
-# markdown: kramdown
+markdown: kramdown

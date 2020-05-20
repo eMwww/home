@@ -72,7 +72,7 @@ alphabetic order)
 ## Other research-related activities
 <ul>
 	    <li>
-	      I'm member of the following research themes of the department
+	      I'm member of the following research themes of the school of informatics in Leicester
 	      <a href="http://www2.le.ac.uk/departments/computer-science/research/rthemes/valve">VALVE</a>,
 	      <a href="http://www2.le.ac.uk/departments/computer-science/research/rthemes/foco">FoCo</a>,
 	      and <a href="http://www2.le.ac.uk/departments/computer-science/research/rthemes/some">SOME</a>

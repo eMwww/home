@@ -10,7 +10,7 @@ Here is a list of recent topics I have been recently playing with:
 - Choregraphy-driven testing (joint work with Alex Coto and Roberto Guanciale)
 - Refinement of choreographies (joint work with Ugo de'Liguoro and Hernan Melgratti)
 - Probabilistic session types (joint work with Omar Inverso, Hernan Melgratti, Luca Padovani, and Catia Trubiani)
-- Data-driven behavioural specifications (joing work with Hernan Melgratti)
+- Data-driven behavioural specifications (joint work with Hernan Melgratti)
 
 Of course, I always try to advance
 [ChorGram](https://bitbucket.org/emlio_tuosto/chorgram/wiki/Home)...with
@@ -33,10 +33,10 @@ started in March 2018; I am WP and UoL site leader
 ## Recent past projects
 Recently a few projects ended
 
-- RCADE (EU MSCA Fellowship, co-PI) Claudio Mezzina will join in
+- RCADE (EU MSCA Fellowship, co-PI) Claudio Mezzina joined in
 September 2018 our department as MSCA fellow collaborating with [Irek
 Ulidowski](http://www.cs.le.ac.uk/people/iu3) and me on causal
-consistency reversible debuggers
+consistency reversible debuggers; shortly after Claudio got a permanent job in Italy
 - [Reversible Computation](http://www.revcomp.eu) (EU Cost Action)
 - [BETTY](http://www.behavioural-types.eu) EU COST Action (RTD Framework Programme).
 

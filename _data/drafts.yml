@@ -1,0 +1,37 @@
+- title: Towards Refinable Choreographies
+  author: Ugo de'Liguoro  and Hernan Melgratti
+  descr: The title says it all
+  url: 
+
+- title: Abstractions for Collective Adaptive Systems
+  author: Omar Inverso and Catia Trubiani
+  descr: Mumbling about what behavioural types suit Collective Adaptive Systems
+  url: 
+
+- title: Probabilistic Analysis of Binary Sessions
+  author: Omar Inverso, Hernan Melgratti, Luca Padovani, and Catia Trubiani
+  descr: The title says it all
+  url: https://arxiv.org/abs/2007.11832
+
+- title: An Abstract Framework for Choreographic Testing
+  author: Alex Coto and Roberto Guanciale
+  descr: Model-driven testing based on choreographies...a first step
+  url:
+
+- title: On Component Testing Message-Passing Applications
+  author: Alex Coto and Roberto Guanciale
+  descr: An instance of the abstract framework for testing
+  url:
+
+- title: Composition and Decomposition of Multiparty Sessions
+  author: Franco Barbanera, Mariangiola Dezani-Ciancaglini, and Ivan Lanese
+  descr: A compositional framework of global types
+  url:
+
+- title: Composing Communicating Systems, Synchronously
+  author: Franco Barbanera and Ivan Lanese
+  desc: As in the previous draft, but in a setting based on automata
+  url: 
+
+
+

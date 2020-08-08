@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
 title: Emilio's web page
 logo: me.jpg
-baseurl: /home
-url: https://emwww.github.io
+baseurl: home
+url: https://emwww.github.io/
 email: emilio.tuosto@gssi.it
 markdown: kramdown

@@ -12,7 +12,15 @@ Here is a list of recent topics I have been recently playing with:
 - Probabilistic session types (joint work with Omar Inverso, Hernan Melgratti, Luca Padovani, and Catia Trubiani)
 - Data-driven behavioural specifications (joing work with Hernan Melgratti)
 
-Of course, I always try to advance [ChorGram](https://bitbucket.org/emlio_tuosto/chorgram/wiki/Home)...with the help of Alex Coto this we should speed up on this.
+Of course, I always try to advance
+[ChorGram](https://bitbucket.org/emlio_tuosto/chorgram/wiki/Home)...with
+the help of Alex Coto this we should speed up on this.
+
+
+## Some tools
+* [ChorGram](https://bitbucket.org/emlio_tuosto/chorgram/wiki/Home): tool-chain for choreographic development
+* [MIHDA](./mihda.tgz): partition refinement for history-dependent automata
+* [ASPASYA](aspasya/aspasya.html) and [H-ASPASYA](aspasya/h-aspasya.html): an ad-hoc model checker for security protolols
 
 
 ## Projects
@@ -41,3 +49,15 @@ I have contributed several the Leverhulme project
 - [PAIS](http://www.cs.le.ac.uk/projects.html#pais) Process Algebras for Interaction and Spatiality. British-Italian Partnership Programme for Young Researchers [British Council](http://www.britishcouncil.org) and [CRUI](http://www.crui.it). Co-PI
 - Several EU-funded projects (PROFUNDIS, AGILE, and DEGAS)
 - Italian projects (COMETA, SP4 and NAPI)
+
+
+## My PhD students
+
+### In reverse time order
+
+{% assign items = site.data.phd %}
+{% for n in items %} - {{ n.name }} {% if n.viva %} _(viva held in {{ n.viva }})_{: style="font-size:12pt" } {% else %} _(current student)_{: style="font-size:10pt" } {% endif %}
+{% endfor %}
+
+
+

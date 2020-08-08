@@ -4,6 +4,12 @@ content: true
 ---
 # Publications
 
+## Papers
+My papers can be found on 
+[DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd/t/Tuosto:Emilio.html).
+I will soon add here my papers...bear with me.
+{% assign items = site.editor | sort: 'date' | reverse %}
+
 
 ## Edited volumes
 
@@ -17,11 +23,4 @@ content: true
   </ul>
 </div>
 
-
-## Papers
-
-My papers can be found on 
-[DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd/t/Tuosto:Emilio.html).
-
-I will soon add here my papers...bear with me.
 

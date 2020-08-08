@@ -4,16 +4,11 @@ content: true
 docs_list_title: Advanced Courses
 use-site-title: false
 ---
+## Taught advanced courses
 
-<h2> Taught advanced courses </h2>
+{% assign items = site.data.courses | sort: 'date' | reverse %}
 
-{% assign items = site.courses | sort: 'date' | reverse %}
+{% for n in items %}
+- {% if n.url %} <a href="{{ n.url }}">{{ n.title }}</a> {% else %} {{ n.title }} {% endif %} {{ n.descr }} :  {{ n.where }} {{ n.when }}
+{% endfor %}
 
-<div>
-<ul>
-  {% for n in items %}
-    <li> {% if n.url %} <a href="{{ n.url }}">{{ n.title }}</a> {% else %} {{ n.title }} {% endif %} {{ n.descr }} :  {{ n.where }} {{ n.when }}
- </li>
-  {% endfor %}
-</ul>
-</div>

@@ -8,13 +8,13 @@ content: true
 ## Papers
 My papers can be found on 
 [DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd/t/Tuosto:Emilio.html).
-Some recent drafts are listed below
+Some recent drafts are listed below (in no particular order)
 
 {% assign items = site.data.drafts %}
 {% for n in items %}
 - *{{ n.title }}*{: style="color:  #117a65; opacity: 0.80;" }
   (with {{ n.author }}).  
-  {{ n.descr }}    {% if n.url %} Available at [{{ n.url }}](here) {% endif %}{% endfor %}
+  <span markdown="1" style="color:#888888">{{ n.descr }} {% if n.url %} Available at [{{ n.url }}](here) {% endif %}{% endfor %}</span>
 
 
 ## Edited volumes

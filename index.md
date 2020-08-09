@@ -9,8 +9,12 @@ home: true
 <table>
   <tr>
     <th style="width:15%"></th>
-    <th style="width:35%; background:#bbbbbb; text-align:left">Details</th>
-    <th style="width:60%; background:#bbbbbb; text-align:center">Quick links</th>
+    <th style="width:35%; background:#dddddd; text-align:left">Details
+    <a href="https://scholar.google.com/citations?user=UsADbUQAAAAJ&hl=en"><img alt="scholar profile" src="avatar_scholar_256.png" width="7%"/></a>
+    <a href="https://orcid.org/0000-0002-7032-3281"><img alt="ORCID" src="orcid.png" width="7%"/></a>
+	<a href="http://www.informatik.uni-trier.de/~ley/pers/hd/t/Tuosto:Emilio.html"><img alt="DBLP" src="dblp.png" width="20%"/></a>
+</th>
+    <th style="width:60%; background:#dddddd; text-align:center">Quick links</th>
   </tr>
   <tr>
   <td valign="top">
@@ -22,9 +26,7 @@ home: true
 	<br/>Viale F. Crispi, 7
 	<br/>67100 L'Aquila (Italy)
 	<br/>Office: Palazzo Mariani (tbf)
-    <br/>My <a href="https://scholar.google.com/citations?user=UsADbUQAAAAJ&hl=en">scholar</a> profile,
-	<a href="https://orcid.org/0000-0002-7032-3281">ORCID</a>, and
-	<a href="http://www.informatik.uni-trier.de/~ley/pers/hd/t/Tuosto:Emilio.html">DBLP</a>
+	<br/>email: <a href="mailto:emiliodottuosto@gssi.it">email</a> (replace 'dot' with '.')
   </td>
   <td class="mkd" valign="top" markdown="1">
 {% assign items = site.data.links %}

@@ -10,6 +10,6 @@ use-site-title: false
 {% assign items = site.data.courses %}
 
 {% for n in items %}
-- {% if n.url %} <a href="{{ n.url }}">{{ n.title }}</a> {% else %} {{ n.title }} {% endif %} {{ n.descr }} :  {{ n.where }} {{ n.when }}
+- {% if n.url %} <a href="{{ n.url }}">{{ n.title }}</a> {% else %} {{ n.title }} {% endif %} {{ n.descr }}:  {{ n.where }} {{ n.when }}
 {% endfor %}
 

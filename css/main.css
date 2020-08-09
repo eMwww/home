@@ -2,36 +2,45 @@ body {
     margin: 60px auto;
     width: 70%;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-	 font-size:.9em;
+	 font-size:.7em;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 4px;
+    padding: 2px;
 	 text-align:center;
     list-style: none;
     font-weight: bold;
-	 overflow: hidden;
-	 background-color: #ccc;
+	 background-color: #bbbbbb;
 }
+
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+	 font-size:1.3em;
+    padding: 4px;
 }
 
 li {
-	 	 font-size:1.3em;
+	 	 font-size:1.5em;
 }
 
-td {
-	 vertical-aling:top;
+td.mkd {
+	 font-size : .7em;
+}
+
+div.mkd {
+	 font-size : .8em;
 }
 
 a {
     text-decoration: none;
     color: #1999;
 }
+
 a:hover {
     text-decoration: underline;
+	 color: #1099;
 }
 
 h1 {

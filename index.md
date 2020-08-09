@@ -4,29 +4,38 @@ content: true
 home: true
 ---
 
-
-<h1>{{ site.title }}<br/>Welcome!</h1>
-  <table>
+# {{ site.title }}. Welcome!
+(under construction...bear with me)
+<table>
   <tr>
-    <th style="width:25%"></th>
-    <th style="width:55%"></th>
-    <th style="width:20%"></th>
+    <th style="width:15%"></th>
+    <th style="width:35%; background:#bbbbbb; text-align:left">Details</th>
+    <th style="width:60%; background:#bbbbbb; text-align:center">Quick links</th>
   </tr>
   <tr>
-  <td valing="top">
-      <img alt="me" src="me.jpg" width="80%" />
+  <td valign="top">
+      <img alt="me" src="/home/me.jpg" width="80%" />
   </td>
-  <td valing="top">
-    Web pages are under construction...<br/>bear with me.
-	<br/>______
-    <br/>My <a href="https://scholar.google.com/citations?user=UsADbUQAAAAJ&hl=en">scholar</a> profile.
-    <br/>My <a href="https://orcid.org/0000-0002-7032-3281">ORCID</a>.
-	<br/>______
+  <td valign="top">
+    Associate Professor in <a href="http://cs.gssi.it">Computer Science</a>
+	<br/><a href="https://www.gssi.it">Gran Sasso Science Institute</a>
+	<br/>Viale F. Crispi, 7
+	<br/>67100 L'Aquila (Italy)
+	<br/>Office: Palazzo Mariani (tbf)
+    <br/>My <a href="https://scholar.google.com/citations?user=UsADbUQAAAAJ&hl=en">scholar</a> profile,
+	<a href="https://orcid.org/0000-0002-7032-3281">ORCID</a>, and
+	<a href="http://www.informatik.uni-trier.de/~ley/pers/hd/t/Tuosto:Emilio.html">DBLP</a>
   </td>
+  <td class="mkd" valign="top" markdown="1">
+{% assign items = site.data.links %}
+{% for n in items %}
+- {{ n.pre }} [{{ n.name }}]({{ n.url }}) {{ n.post }}{% endfor %}
+</td>
   </tr>
-  </table>
+</table>
 
 ### Fun stuff
+<div markdown="1" class="mkd">
 * Globalisation and research...[be careful](http://www.sciencedirect.com/science/article/pii/S0140673614607972)
 * Italian research is [not so bad](https://medium.com/@alfonsofuggetta/b5ab6eb2ecd0) after all
 * This [video](https://www.youtube.com/watch?v=zDZFcDGpL4U) is somehow related to research
@@ -34,4 +43,4 @@ home: true
 * [Frustrated authors](http://eloquentscience.com/wp-content/uploads/2012/02/Frustrated_author.pdf)
 * Another one about [peer reviewing](http://www.sigmod.org/publications/sigmod-record/0812/p100.open.cormode.pdf)...
 * Lectures on Marx's [Capital V. 1](https://goo.gl/TNRzO6) by David Harvey
-
+</div>

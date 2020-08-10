@@ -1,0 +1,13 @@
+- name: BehAPI
+  url: https://www.um.edu.mt/projects/behapi
+
+- name: IT-Matters
+  url: http://itmatters.imtlucca.it"
+
+- name: ChorGram
+  url: https://bitbucket.org/emlio_tuosto/chorgram/wiki/Home
+
+- name: ASYDE
+  url: http://asyde2020.disim.univaq.it/
+  pre: I've been invited at
+  post: (15/9/2020)

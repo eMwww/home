@@ -1,5 +1,5 @@
 - title: Towards Refinable Choreographies
-  author: Ugo de'Liguoro  and Hernan Melgratti
+  author: Ugo de'Liguoro and Hernan Melgratti
   descr: We investigate refinement in the context of choreographies allowing for the underspecification of protocols through _refinable_ interactions. A typing discipline enforces well-formedness.
   url: 
 
@@ -33,5 +33,7 @@
   descr: As in the previous draft, but in a setting based on automata. We discuss how to ensure relevant communication (eg deadlock freedom) in a compositional way. The idea is that communicating systems can be composed by transforming two of their participants andthem into coupled forwarders. The synchronous case is surprisingly intriguing.
   url: 
 
-
-
+- title: Choreography Automata
+  author: Franco Barbanera and Ivan Lanese
+  descr: We introduce choreography automata for the choreographic modelling of communicating systems, project them on communicating finite-state machines, and consider both the standard asynchronous semantics of communicating systems and a synchronous variant of it. For both, the projections of well-formed automata are proved to be live as well as lock- and deadlock-free.
+  url: https://zenodo.org/record/3977335#.Xy-pIxlS-V5

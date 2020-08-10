@@ -1,44 +1,44 @@
-- title: On Resolving Non-determinism in Choreographies <span style="color:red">Just accepted at LMCS.</span> 
+- title: On Resolving Non-determinism in Choreographies
   author: Laura Bocchi and Hernan Melgratti
-  descr: The paper introduce the idea of _whole spectrum realisation_ and a type system to enforce this property.
+  descr: The paper introduce the idea of _whole spectrum realisation_ and a type system to enforce this property. <span style="color:#f98811">Just accepted at LMCS.</span> 
   url:
 
 - title: Towards Refinable Choreographies
   author: Ugo de'Liguoro and Hernan Melgratti
-  descr: We investigate refinement in the context of choreographies allowing for the underspecification of protocols through _refinable_ interactions. A typing discipline enforces well-formedness.
+  descr: We investigate refinement in the context of choreographies allowing for the underspecification of protocols through _refinable_ interactions. A typing discipline enforces well-formedness. <span style="color:#f98811">Accepted at ICE 2020.</span> 
   url: 
 
 - title: Abstractions for Collective Adaptive Systems
   author: Omar Inverso and Catia Trubiani
-  descr: Mumbling about what behavioural types suit Collective Adaptive Systems.
+  descr: Mumbling about what behavioural types suit Collective Adaptive Systems. <span style="color:#f98811">Accepted at ISoLA 2020.</span> 
   url: 
 
 - title: Probabilistic Analysis of Binary Sessions
   author: Omar Inverso, Hernan Melgratti, Luca Padovani, and Catia Trubiani
-  descr:   We introduce a probabilistic variant of binary session types to reason about the probability that a session terminates successfully. A typing discipline is given so that the success probability of well-typed processes agrees with that of their sessions.
+  descr:   We introduce a probabilistic variant of binary session types to reason about the probability that a session terminates successfully. A typing discipline is given so that the success probability of well-typed processes agrees with that of their sessions. <span style="color:#f98811">Accepted at CONCUR 2020.</span>
   url: https://arxiv.org/abs/2007.11832
 
 - title: An Abstract Framework for Choreographic Testing
   author: Alex Coto and Roberto Guanciale
-  descr: Model-driven testing based on choreographies...a first step. We introduce _admissible_ tests and show how to derive them from global specifications.
+  descr: Model-driven testing based on choreographies...a first step. We introduce _admissible_ tests and show how to derive them from global specifications. <span style="color:#f98811">Accepted at ICE 2020.</span> 
   url:
 
 - title: On Component Testing Message-Passing Applications
   author: Alex Coto and Roberto Guanciale
-  descr: An instance of the abstract framework for testing with a non-trivial example.
+  descr: An instance of the abstract framework for testing with a non-trivial example. <span style="color:#f98811">Accepted at ISoLA 2020.</span> 
   url:
 
 - title: Composition and Decomposition of Multiparty Sessions
   author: Franco Barbanera, Mariangiola Dezani-Ciancaglini, and Ivan Lanese
-  descr: A compositional framework of _open_ global types where two participants act as coupled _gateways_ forwarding messages between the two sessions. We show that the session resulting from the composition can be typed starting from global types. Lock-freedom is preserved by composition. We also propose a _decomposition_ operator which is the left inverse of direct composition.
+  descr: A compositional framework of _open_ global types where two participants act as coupled _gateways_ forwarding messages between the two sessions. We show that the session resulting from the composition can be typed starting from global types. Lock-freedom is preserved by composition. We also propose a _decomposition_ operator which is the left inverse of direct composition. <span style="color:#f98811">Submitted at JLAMP.</span> 
   url:
 
 - title: Composing Communicating Systems, Synchronously
   author: Franco Barbanera and Ivan Lanese
-  descr: As in the previous draft, but in a setting based on automata. We discuss how to ensure relevant communication (eg deadlock freedom) in a compositional way. The idea is that communicating systems can be composed by transforming two of their participants andthem into coupled forwarders. The synchronous case is surprisingly intriguing.
+  descr: As in the previous draft, but in a setting based on automata. We discuss how to ensure relevant communication (eg deadlock freedom) in a compositional way. The idea is that communicating systems can be composed by transforming two of their participants andthem into coupled forwarders. The synchronous case is surprisingly intriguing. <span style="color:#f98811">Accepted at ISoLA 2020.</span> 
   url: 
 
 - title: Choreography Automata
   author: Franco Barbanera and Ivan Lanese
-  descr: We introduce choreography automata for the choreographic modelling of communicating systems, project them on communicating finite-state machines, and consider both the standard asynchronous semantics of communicating systems and a synchronous variant of it. For both, the projections of well-formed automata are proved to be live as well as lock- and deadlock-free.
+  descr: We introduce choreography automata for the choreographic modelling of communicating systems, project them on communicating finite-state machines, and consider both the standard asynchronous semantics of communicating systems and a synchronous variant of it. For both, the projections of well-formed automata are proved to be live as well as lock- and deadlock-free. <span style="color:#f98811">Accepted at COORDINATION 2020.</span> 
   url: https://zenodo.org/record/3977335#.Xy-pIxlS-V5

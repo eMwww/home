@@ -5,16 +5,16 @@ content: true
 
 # Recent stuff
 
-Here is a list of recent topics I have been recently playing with:
-- Compositional global views of choreographies (joint work with Franco Barbanera, Mariangiola-Dezani Ciancaglini, and Ivan Lanese)
-- Choregraphy-driven testing (joint work with Alex Coto and Roberto Guanciale)
-- Refinement of choreographies (joint work with Ugo de'Liguoro and Hernan Melgratti)
-- Probabilistic session types (joint work with Omar Inverso, Hernan Melgratti, Luca Padovani, and Catia Trubiani)
-- Data-driven behavioural specifications (joint work with Hernan Melgratti)
+Here is a list of recent topics I am playing with:
+{% assign items = site.data.current %}
+{% for n in items %}
+- *{{ n.topic }}*{: style="color:  #117a65; opacity: 0.80;" }
+  {% if n.authors %}(joint work with {{ n.authors }}){% endif %}  
+  <span markdown="1" style="color:#888888">{{ n.descr }} {% if n.url %} Check out [{{ n.url }}](here) {% endif %}{% endfor %}</span>
 
 Of course, I always try to advance
 [ChorGram](https://bitbucket.org/emlio_tuosto/chorgram/wiki/Home)...with
-the help of Alex Coto this we should speed up on this.
+the help of Alex Coto we should speed up on this.
 
 
 ## Some tools
@@ -27,7 +27,7 @@ the help of Alex Coto this we should speed up on this.
 I'm currently collaborating in the following projects:
 - [BehAPI](https://www.um.edu.mt/projects/behapi) (EU RISE Action, co-PI + site and WP4 leader at UoL)
 started in March 2018; I am WP and UoL site leader
-- [IT-Matters](http://itmatters.imtlucca.it)
+- [IT-Matters](http://itmatters.imtlucca.it) (Italian PRIN project led by Rocco de Nicola)
 
 
 ## Recent past projects
@@ -36,7 +36,7 @@ Recently a few projects ended
 - RCADE (EU MSCA Fellowship, co-PI) Claudio Mezzina joined in
 September 2018 our department as MSCA fellow collaborating with [Irek
 Ulidowski](http://www.cs.le.ac.uk/people/iu3) and me on causal
-consistency reversible debuggers; shortly after Claudio got a permanent job in Italy
+consistency reversible debuggers; shortly after the start Claudio got a permanent job in Italy
 - [Reversible Computation](http://www.revcomp.eu) (EU Cost Action)
 - [BETTY](http://www.behavioural-types.eu) EU COST Action (RTD Framework Programme).
 

@@ -1,3 +1,8 @@
+- title: On Resolving Non-determinism in Choreographies <span style="color:red">Just accepted at LMCS.</span> 
+  author: Laura Bocchi and Hernan Melgratti
+  descr: The paper introduce the idea of _whole spectrum realisation_ and a type system to enforce this property.
+  url:
+
 - title: Towards Refinable Choreographies
   author: Ugo de'Liguoro and Hernan Melgratti
   descr: We investigate refinement in the context of choreographies allowing for the underspecification of protocols through _refinable_ interactions. A typing discipline enforces well-formedness.

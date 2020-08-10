@@ -8,10 +8,13 @@ home: true
 (under construction...bear with me)
 <table>
   <tr>
+    <th style="width:15%;">
+	<!--
     <th style="width:15%; background:#dddddd">
 	<a href="https://scholar.google.com/citations?user=UsADbUQAAAAJ&hl=en"><img alt="scholar profile" src="avatar_scholar_256.png" width="17%"/></a>
     <a href="https://orcid.org/0000-0002-7032-3281"><img alt="ORCID" src="orcid.png" width="17%"/></a>
 	<a href="http://www.informatik.uni-trier.de/~ley/pers/hd/t/Tuosto:Emilio.html"><img alt="DBLP" src="dblp.png" width="40%"/></a>
+	-->
 	</th>
     <th style="width:35%; background:#dddddd; text-align:left">Details</th>
     <th style="width:60%; background:#dddddd; text-align:center">Quick links</th>

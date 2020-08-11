@@ -1,3 +1,17 @@
+- where: GSSI
+  when: 13 - 21 July 2020
+  date: 13/07/2020
+  url: 
+  title: Model Checking and Software Verification
+  descr: Part of the core course on model checking and software verification at GSSI
+
+- where: GSSI
+  when: 25 - 29 November 2019
+  date: 25/11/2019
+  url: 
+  title: Introduction to formal methods
+  descr: Part of the immigration course on formal methods
+
 - where: Padova (IT)
   when: 9 - 12 May 2016
   date: 9/05/2016

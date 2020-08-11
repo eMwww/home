@@ -10,7 +10,8 @@ nav ul, footer ul {
 	 text-align:center;
     list-style: none;
     font-weight: bold;
-	 background-color: #f98811;
+	 background-color: #e5680e;
+	 color:#ffffff;
 }
 
 nav ul li, footer ul li {
@@ -22,7 +23,7 @@ nav ul li, footer ul li {
 }
 
 nav a{
-	 color:#000000;
+	 color:#ffffff;
 }
 
 li {

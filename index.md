@@ -31,19 +31,18 @@ home: true
 </td>
 <td class="mkd" valign="top" markdown="1">
 {% assign items = site.data.news | reverse %}
-<!-- <marquee behavior="scroll" direction="up" width="100%" height="150px" vspace="0px" scrolldelay="180" SCROLLAMOUNT="6"> -->
 {% for n in items %}
 <b>{{ n.date }}</b>: {{ n.descr }} {% if n.url %} see [{{ n.url }}](here) {% endif %}
 <hr>{% endfor %}
-<!-- </marquee> -->
 </td>
 <td class="mkd" valign="top">
     Associate Professor
 	<br/><a href="https://www.gssi.it">Gran Sasso Science Institute</a>
 	<br/>Viale F. Crispi, 7
 	<br/>67100 L'Aquila (Italy)
-	<br/>Office: Palazzo Mariani P1-N
-	<br/><a href="mailto:emiliodottuosto@gssi.it"><img alt="me" src="/home/email.jpg" width="25%" /></a> (replace 'dot' with '.')
+	<br/><img alt="me" src="/home/images/office.jpg" width="10%" />Office: Palazzo Mariani P1-N
+	<br/><a href="mailto:emiliodottuosto@gssi.it"><img alt="me" src="/home/images/email.jpg" width="20%" />email</a> ['.'/'dot']
+	<br/><img alt="me" src="/home/images/phone.png" width="10%" />+39 0862 428 0312
   </td>
   </tr>
 </table>
@@ -51,8 +50,7 @@ home: true
  </tr>
  </table>
 
-<!-- <marquee behavior="scroll" direction="left" width="100%" height="150px" vspace="0px" scrolldelay="200" SCROLLAMOUNT="10"> -->
-### Fun stuff
+## Fun stuff
 <div markdown="1" class="fun">
 * Globalisation and research...[be careful](http://www.sciencedirect.com/science/article/pii/S0140673614607972)
 * Italian research is [not so bad](https://medium.com/@alfonsofuggetta/b5ab6eb2ecd0) after all
@@ -62,4 +60,5 @@ home: true
 * Another one about [peer reviewing](http://www.sigmod.org/publications/sigmod-record/0812/p100.open.cormode.pdf)...
 * Lectures on Marx's [Capital V. 1](https://goo.gl/TNRzO6) by David Harvey
 </div>
-<!-- </marquee> -->
+
+[comment]: <> (Keywords: Formal methods, behavioural specifications, choreographies, models of concurrency and distributions)

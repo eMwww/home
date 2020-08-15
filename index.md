@@ -54,15 +54,18 @@ home: true
     <th style="width:30%; text-align:left"></th>
     <th style="width:70%; text-align:left"></th>
   </tr>
-    <td valign="top" markdown="1">## News about eM
+  <tr>
+    <td valign="top" markdown="1">
+## News about eM
 {% assign items = site.data.news | reverse %}
 {% for n in items %}
-<b>{{ n.date }}</b>: {{ n.descr }} {% if n.url %} see [{{ n.url }}](here) {% endif %}
-<hr>{% endfor %}
+<div markdown="1" class="scroll"><b>{{ n.date }}</b>: {{ n.descr }} {% if n.url %} see [{{ n.url }}](here) {% endif %}
+<hr>
+</div>
+{% endfor %}
 </td>
-<td>
+<td valign="top" markdown="1">## Fun stuff
 <div markdown="1" class="fun">
-## Fun stuff
 * Globalisation and research...[be careful](http://www.sciencedirect.com/science/article/pii/S0140673614607972)
 * Italian research is [not so bad](https://medium.com/@alfonsofuggetta/b5ab6eb2ecd0) after all
 * This [video](https://www.youtube.com/watch?v=zDZFcDGpL4U) is somehow related to research

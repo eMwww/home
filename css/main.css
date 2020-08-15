@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     margin: 60px auto;
     width: 70%;
@@ -115,6 +119,27 @@ a.subsec {
     width: 100%;
   }
 }
+
+@keyframes scroll {
+  from {
+    margin-top: 100%;
+  }
+
+  to {
+    margin-top: 0%;
+  }
+}
+
+div.scroll {
+/*
+  width: 100px;
+  height: 100px;
+  animation-direction: reverse;
+*/
+  animation: scroll 5s infinite;
+  position: relative;
+}
+
 div.fun {
 /*
   width: 100px;

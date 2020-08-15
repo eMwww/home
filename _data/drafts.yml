@@ -1,6 +1,6 @@
 - title: On Resolving Non-determinism in Choreographies
   author: Laura Bocchi and Hernan Melgratti
-  descr: The paper introduce the idea of _whole spectrum realisation_ and a type system to enforce this property.
+  descr: The paper introduces the idea of _whole spectrum realisation_ and a type system to enforce this property.
   venue: LMCS
 
 - title: Towards Refinable Choreographies
@@ -17,7 +17,7 @@
 
 - title: Probabilistic Analysis of Binary Sessions
   author: Omar Inverso, Hernan Melgratti, Luca Padovani, and Catia Trubiani
-  descr:   We introduce a probabilistic variant of binary session types to reason about the probability that a session terminates successfully. A typing discipline is given so that the success probability of well-typed processes agrees with that of their sessions.
+  descr: We introduce a probabilistic variant of binary session types to reason about the probability that a session terminates successfully. A typing discipline is given so that the success probability of well-typed processes agrees with that of their sessions.
   venue: CONCUR 2020
   url: https://arxiv.org/abs/2007.11832
 

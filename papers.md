@@ -14,8 +14,9 @@ Some recent drafts are listed below (in no particular order)
 {% for n in items %}
 - *{{ n.title }}*{: style="color:  #117a65; opacity: 0.80;" }
   (with {{ n.author }}).  
-  <span markdown="1" style="color:#888888">{{ n.descr }} {% if n.url %} Available at [{{ n.url }}](here) {% endif %}{% endfor %}</span>
-
+  <span markdown="1" style="color:#888888">{{ n.descr }}</span>  
+  <span style="color:#f98811"> {% if n.venue %}Accepted at {{ n.venue }}.{% endif %}
+  {% if n.draft %}Submitted at {{ n.draft }}.{% endif %}</span> {% if n.url %} Available at [{{ n.url }}](here) {% endif %}{% endfor %}
 
 ## Edited volumes
 

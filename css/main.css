@@ -120,24 +120,12 @@ a.subsec {
   }
 }
 
-@keyframes scroll {
-  from {
-    margin-top: 100%;
-  }
-
-  to {
-    margin-top: 0%;
-  }
-}
-
-div.scroll {
-/*
-  width: 100px;
-  height: 100px;
-  animation-direction: reverse;
-*/
-  animation: scroll 5s infinite;
-  position: relative;
+td.box {
+	margin:0;
+	padding:0;
+	border:0;
+	height: 3em;
+	border: 1px solid #000;	 
 }
 
 div.fun {
@@ -203,3 +191,48 @@ div.fun {
   visibility: visible;
   opacity: 1;
 } 
+
+.scroll {
+ height: 100px;	
+ overflow: hidden;
+ position: relative;
+}
+
+.scroll li {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 1em;
+ text-align: left;
+ font-size: .75em;
+ /* Starting position */
+ -moz-transform:translateY(-100%);
+ -webkit-transform:translateY(-100%);	
+ transform:translateY(-100%);
+ /* Apply animation to this element */	
+ -moz-animation: scroll 10s linear infinite;
+ -webkit-animation: scroll 10s linear infinite;
+ animation: scroll 10s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll {
+ 0%   { -moz-transform: translateY(100%); }
+ 100% { -moz-transform: translateY(-100%); }
+}
+@-webkit-keyframes scroll {
+ 0%   { -webkit-transform: translateY(100%); }
+ 100% { -webkit-transform: translateY(-100%); }
+}
+@keyframes scroll {
+ 0%   { 
+ -moz-transform: translateY(100%); /* Firefox bug fix */
+ -webkit-transform: translateY(100%); /* Firefox bug fix */
+ transform: translateY(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateY(-100%); /* Firefox bug fix */
+ -webkit-transform: translateY(-100%); /* Firefox bug fix */
+ transform: translateY(-100%); 
+ }
+}

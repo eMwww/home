@@ -51,18 +51,20 @@ home: true
 
 <table>
   <tr>
-    <th style="width:30%; text-align:left"></th>
-    <th style="width:70%; text-align:left"></th>
+    <th style="width:38%; text-align:left"></th>
+    <th style="width:62%; text-align:left"></th>
   </tr>
   <tr>
-    <td valign="top" markdown="1">
+    <td valign="top" markdown="1" style="padding-right: 50px;">
 ## News about eM
-{% assign items = site.data.news | reverse %}
+<div markdown="1" class="scroll">
+<li>{% assign items = site.data.news %}
 {% for n in items %}
-<div markdown="1" class="scroll"><b>{{ n.date }}</b>: {{ n.descr }} {% if n.url %} see [{{ n.url }}](here) {% endif %}
-<hr>
-</div>
+{% if forloop.index <= 10 %}<b>{{ n.date }}</b>: {{ n.descr }} {% if n.url %} see [{{ n.url }}](here) {% endif %}<hr>
+{% else %} {% break %} {% endif%}
 {% endfor %}
+</li>
+</div>
 </td>
 <td valign="top" markdown="1">## Fun stuff
 <div markdown="1" class="fun">

@@ -2,10 +2,8 @@
 layout: default
 content: true
 ---
-# Publications
 
-
-## Papers
+# Papers
 My papers can be found on 
 [DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd/t/Tuosto:Emilio.html).
 Some recent drafts are listed below (in no particular order; mouse-over titles for a short description)
@@ -16,7 +14,7 @@ Some recent drafts are listed below (in no particular order; mouse-over titles f
   <span style="color:#f98811; font-size:.75em;"> {% if n.venue %}Accepted at {{ n.venue }}.{% endif %}
   {% if n.draft %}Submitted at {{ n.draft }}.{% endif %}</span> <span markdown="1" style="font-size:.75em">{% if n.url %} Available [here]({{ n.url }}) {% endif %}</span>{% endfor %}
 
-## Edited volumes
+# Edited volumes
 
 {% assign items = site.data.edited %}
 {% for n in items %}

@@ -1,19 +1,18 @@
-- name: BehAPI
-  url: https://www.um.edu.mt/projects/behapi
+- name: "BehAPI"
+  url: "https://www.um.edu.mt/projects/behapi"
 
-- name: IT-Matters
-  url: http://itmatters.imtlucca.it"
+- name: "IT-Matters"
+  url: "http://itmatters.imtlucca.it"
 
-- name: ChorGram
-  url: https://bitbucket.org/emlio_tuosto/chorgram/wiki/Home
+- name: "ChorGram"
+  url: "https://bitbucket.org/emlio_tuosto/chorgram/wiki/Home"
 
-- name: ASYDE
-  url: http://asyde2020.disim.univaq.it/
+- name: "ASYDE"
+  url: "http://asyde2020.disim.univaq.it/"
   pre: I've been invited at
   post: (15/9/2020)
 
-
-- name: Choreographic development
-  url: https://www.discotec.org/2020/tutorials#choreographic-development-of-message-passing-applications
+- name: "Choreographic development:"
+  url: "https://www.discotec.org/2020/tutorials#choreographic-development-of-message-passing-applications"
   pre: 
-  post: A tutorial at Discotec (15/6/2020)
+  post: "my tutorial at Discotec (15/6/2020)"

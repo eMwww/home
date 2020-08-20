@@ -193,7 +193,7 @@ div.fun {
 } 
 
 .scroll {
- height: 100px;	
+ height: 15em;	
  overflow: hidden;
  position: relative;
 }
@@ -201,7 +201,6 @@ div.fun {
 .scroll li {
  position: absolute;
  width: 100%;
- height: 100%;
  margin: 0;
  line-height: 1em;
  text-align: left;

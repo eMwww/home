@@ -32,7 +32,7 @@ home: true
 <td class="mkd" valign="top" markdown="1">
 {% assign items = site.data.events %}
 {% for n in items %}
-- [{{ n.name }}](n.url){% endfor %}
+- [{{ n.name }}]({{ n.url }}){% endfor %}
 </td>
 <td class="mkd" valign="top">
     <br/>Associate Professor

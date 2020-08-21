@@ -6,7 +6,7 @@ content: true
 # Papers
 My papers can be found on 
 [DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd/t/Tuosto:Emilio.html).
-Some recent drafts are listed below (in no particular order; mouse-over titles for a short description)
+Some <strong>recent drafts</strong> are listed below (in no particular order; mouse-over titles for a short description)
 
 {% assign items = site.data.drafts %}
 {% for n in items %}

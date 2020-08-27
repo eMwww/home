@@ -24,7 +24,7 @@
   author: "Omar Inverso, Hernan Melgratti, Luca Padovani, and Catia Trubiani"
   descr: "We introduce a probabilistic variant of binary session types to reason about the probability that a session terminates successfully. A typing discipline is given so that the success probability of well-typed processes agrees with that of their sessions."
   venue: "CONCUR 2020"
-  url: "https://arxiv.org/abs/2007.11832"
+  url: "https://doi.org/10.4230/LIPIcs.CONCUR.2020.14"
 
 - title: "An Abstract Framework for Choreographic Testing"
   author: "Alex Coto and Roberto Guanciale"

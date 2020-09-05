@@ -11,7 +11,7 @@ Some <strong>recent drafts</strong> are listed below (in no particular order; mo
 {% assign items = site.data.drafts %}
 {% for n in items %}
 - <span class="tooltip">{{ n.title }}<span class="tooltiptext">with {{ n.author }}.{{ n.descr }}</span></span>
-  <span style="color:#f98811; font-size:.75em;"> {% if n.venue %}Accepted at {{ n.venue }}.{% endif %}
+  <span style="color:#f98811; font-size:.75em;"> {% if n.venue %}Accepted at {{ n.venue }}.{% endif %}{% if n.printed %}{{ n.printed }}.{% endif %}
   {% if n.draft %}Submitted at {{ n.draft }}.{% endif %}</span> <span markdown="1" style="font-size:.75em">{% if n.url %} Available [here]({{ n.url }}) {% endif %}</span>{% endfor %}
 
 # Edited volumes

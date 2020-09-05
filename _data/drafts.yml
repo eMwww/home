@@ -24,7 +24,7 @@
 - title: "Probabilistic Analysis of Binary Sessions"
   author: "Omar Inverso, Hernan Melgratti, Luca Padovani, and Catia Trubiani"
   descr: "We introduce a probabilistic variant of binary session types to reason about the probability that a session terminates successfully. A typing discipline is given so that the success probability of well-typed processes agrees with that of their sessions."
-  venue: "CONCUR 2020"
+  printed: "CONCUR 2020"
   url: "https://doi.org/10.4230/LIPIcs.CONCUR.2020.14"
 
 - title: "An Abstract Framework for Choreographic Testing"
@@ -54,5 +54,17 @@
 - title: "Choreography Automata"
   author: "Franco Barbanera and Ivan Lanese"
   descr: "We introduce choreography automata for the choreographic modelling of communicating systems, project them on communicating finite-state machines, and consider both the standard asynchronous semantics of communicating systems and a synchronous variant of it. For both, the projections of well-formed automata are proved to be live as well as lock- and deadlock-free."
-  venue: "COORDINATION 2020"
+  printed: "COORDINATION 2020"
   url: "https://zenodo.org/record/3977335#.Xy-pIxlS-V5"
+
+- title: "A Choreography-Driven Approach to APIs: the OpenDXL Case Study"
+  author: "Leonardo Frittelli, Facundo Maldonado, Hernán Melgratti, and Emilio Tuosto"
+  descr: "We propose a model-driven approach based on choreographies. The paper reports on the application of our approach to the threat intelligence exchange (TIE) services provided by McAfee through the OpenDXL industrial platform."
+  printed: "COORDINATION 2020"
+  url: "https://doi.org/10.1007/978-3-030-50029-0_7"
+
+- title: "Choreographic Development of Message-Passing Applications - A Tutorial"
+  author: "Alex Coto, Roberto Guanciale, Emilio Tuosto"
+  descr: "A tutorial on some recent ideas to harness choreographic development of message-passing software supported by the ChorGram toolchain."
+  printed: "COORDINATION 2020"
+  url: "https://doi.org/10.1007/978-3-030-50029-0_2"

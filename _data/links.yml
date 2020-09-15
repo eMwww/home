@@ -8,7 +8,7 @@
   url: "https://bitbucket.org/emlio_tuosto/chorgram/wiki/Home"
 
 - name: "here"
-  url: "talks/asyde20.pdf"
+  url: "./talks/asyde20.pdf"
   pre: "Slides of my invited talk at ASYDE 2020 are"
 
 - name: "Choreographic development:"

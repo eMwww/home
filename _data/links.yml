@@ -7,10 +7,9 @@
 - name: "ChorGram"
   url: "https://bitbucket.org/emlio_tuosto/chorgram/wiki/Home"
 
-- name: "ASYDE"
-  url: "http://asyde2020.disim.univaq.it/"
-  pre: "I've been invited at"
-  post: (15/9/2020)
+- name: "here"
+  url: "talks/asyde20.pdf"
+  pre: "Slides of my invited talk at ASYDE 2020 are"
 
 - name: "Choreographic development:"
   url: "https://www.discotec.org/2020/tutorials#choreographic-development-of-message-passing-applications"

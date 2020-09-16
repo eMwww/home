@@ -7,10 +7,6 @@
 - name: "ChorGram"
   url: "https://bitbucket.org/emlio_tuosto/chorgram/wiki/Home"
 
-- name: "here"
-  url: "talks/asyde20.pdf"
-  pre: "Slides of my invited talk at ASYDE 2020 are"
-
 - name: "Choreographic development:"
   url: "https://www.discotec.org/2020/tutorials#choreographic-development-of-message-passing-applications"
   pre: 

@@ -13,7 +13,7 @@ home: true
  <tr>
  <td>
  <div>
-     <img alt="me" src="/home/me.jpg" width="85%" />
+     <img alt="me" src="/home/images/me.jpg" width="85%" />
  </div>
  </td>
  <td>

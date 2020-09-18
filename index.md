@@ -66,8 +66,9 @@ home: true
 </li>
 </div>
 </td>
-<td valign="top" markdown="1">## Fun stuff
+<td valign="top" markdown="1">## Fun \& not so fun stuff
 <div markdown="1" class="fun">
+* Phil's Rogaway insightful lament about [CS & societies](nugae/rogaway.pdf) 
 * Globalisation and research...[be careful](http://www.sciencedirect.com/science/article/pii/S0140673614607972)
 * Italian research is [not so bad](https://medium.com/@alfonsofuggetta/b5ab6eb2ecd0) after all
 * This [video](https://www.youtube.com/watch?v=zDZFcDGpL4U) is somehow related to research

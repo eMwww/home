@@ -12,7 +12,7 @@
 - title: "Towards Refinable Choreographies"
   author: "Ugo de'Liguoro and Hernan Melgratti"
   descr: "We investigate refinement in the context of choreographies allowing for the underspecification of protocols through _refinable_ interactions. A typing discipline enforces well-formedness."
-  venue: "ICE 2020"
+  printed: "ICE 2020"
   url: "https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?ICE2020:2"
 
 - title: "Abstractions for Collective Adaptive Systems"
@@ -30,7 +30,7 @@
 - title: "An Abstract Framework for Choreographic Testing"
   author: "Alex Coto and Roberto Guanciale"
   descr: "Model-driven testing based on choreographies...a first step. We introduce _admissible_ tests and show how to derive them from global specifications."
-  venue: "ICE 2020"
+  printed: "ICE 2020"
   url: "http://eptcs.web.cse.unsw.edu.au/paper.cgi?ICE2020:695"
 
 - title: "On Component Testing Message-Passing Applications"

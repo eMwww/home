@@ -66,7 +66,7 @@ home: true
 </li>
 </div>
 </td>
-<td valign="top" markdown="1">## Fun \& not so fun stuff
+<td valign="top" markdown="1">## Fun & not so fun stuff
 <div markdown="1" class="fun">
 * Phil's Rogaway insightful lament about [CS & societies](nugae/rogaway.pdf) 
 * Globalisation and research...[be careful](http://www.sciencedirect.com/science/article/pii/S0140673614607972)

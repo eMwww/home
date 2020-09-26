@@ -52,7 +52,8 @@ home: true
 <table>
   <tr>
     <th style="width:38%; text-align:left"></th>
-    <th style="width:62%; text-align:left"></th>
+    <th style="width:42%; text-align:left"></th>
+    <th style="width:20%; text-align:left"></th>
   </tr>
   <tr>
     <td valign="top" markdown="1" style="padding-right: 50px;">
@@ -76,6 +77,14 @@ home: true
 * [Frustrated authors](http://eloquentscience.com/wp-content/uploads/2012/02/Frustrated_author.pdf)
 * Another one about [peer reviewing](http://www.sigmod.org/publications/sigmod-record/0812/p100.open.cormode.pdf)...
 * Lectures on Marx's [Capital V. 1](https://goo.gl/TNRzO6) by David Harvey
+</div>
+</td>
+<td valign="top" markdown="1">## Events
+<div markdown="1" class="fun">
+* [ecoop](https://2021.ecoop.org/) deadline: 11/01/21
+* [icalp](http://easyconferences.eu/icalp2021/) deadline: 12/02/21
+* [discotec](http://www.discotec.org/) deadline: ??/??/21
+* [concur](https://concur2020.forsyte.at/)  deadline: ??/??/21
 </div>
 </td>
 </tr>

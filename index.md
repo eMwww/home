@@ -83,6 +83,7 @@ home: true
 <div markdown="1" class="fun">
 * [ecoop](https://2021.ecoop.org/) deadline: 11/01/21
 * [icalp](http://easyconferences.eu/icalp2021/) deadline: 12/02/21
+* [lics](http://easyconferences.eu/lics2021/) deadline: 25/01/21
 * [discotec](http://www.discotec.org/) deadline: ??/??/21
 * [concur](https://concur2020.forsyte.at/)  deadline: ??/??/21
 </div>

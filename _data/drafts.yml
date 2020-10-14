@@ -33,7 +33,7 @@
   printed: "ICE 2020"
   url: "http://eptcs.web.cse.unsw.edu.au/paper.cgi?ICE2020:695"
 
-- title: "On Component Testing Message-Passing Applications"
+- title: "On Testing Message-Passing Components"
   author: "Alex Coto and Roberto Guanciale"
   descr: "An instance of the abstract framework for testing with a non-trivial example."
   venue: "ISoLA 2020"

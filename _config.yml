@@ -3,4 +3,5 @@ title: Emilio's web page
 logo: me.jpg
 baseurl: /home
 email: emilio.tuosto@gssi.it
+show-downloads: true
 markdown: kramdown

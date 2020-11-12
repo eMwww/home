@@ -1,0 +1,29 @@
+- name: "Amala Vijaya Selvi Rajan"
+  title: "Formal Semantics for LIPS (Language for Implementing Parallel/distributed Systems)"
+  institution: "Middlesex University"
+  date: "May 2009"
+  
+- name: "Massimiliano Masi"
+  title: "On Authentication and Authorisation Issues in E-Health Systems"
+  institution: "Universita' degli Studi di Firenze"
+  date: "May 2012"
+  
+- name: "Vitaly Buralev"
+  title: "Improving the efficiency of tuple spaces"
+  institution: "IMT Lucca"
+  date: "June 2018"
+  
+- name: "Ashley McNeil"
+  title: "Protocol Modelling - Synchronous Composition of Data and Behaviour"
+  institution: "Birkberk University"
+  date: "June 2016"
+  
+- name: "Joseph Richard Harrison"
+  title: "Robust Communications in Erlang"
+  institution: "University of Kent"
+  date: "May 2020"
+  
+- name: "Ignacio Vissani"
+  title: "Formal aspects of a service oriented execution model"
+  institution: "Universidad de Buenos Aires"
+  date: "July 2018"

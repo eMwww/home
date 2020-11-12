@@ -1,0 +1,34 @@
+- event: "PhD admission (XXXV cicle)"
+  institution: "Gran Sasso Science Institute (L'Aquila, Italy)"
+  role: "Member"
+  date: "5/7/2019"
+
+- event: "PhD admission (XXXVI cicle)"
+  institution: "Universita' di Camerino (Italy)"
+  role: "Member"
+  date: "7-9/9/2020"
+
+- institution: "Gran Sasso Science Institute (L'Aquila, Italy)"
+  role: "Chair"
+  viva: "Teerath Das"
+  date: "11/5/2020"
+
+- institution: "Gran Sasso Science Institute (L'Aquila, Italy)"
+  role: "Chair"
+  viva: "Luca Di Stefano"
+  date: "13/10/2020"
+
+- institution: "Gran Sasso Science Institute (L'Aquila, Italy)"
+  role: "Chair"
+  viva: "Lorenzo Pagliari"
+  date: "16/11/2020"
+
+- institution: "Gran Sasso Science Institute (L'Aquila, Italy)"
+  role: "chair"
+  viva: "Ahmed Abdelsalam"
+  date: "22/9/2020"
+
+- event: "2 postdoc"
+  institution: "Gran Sasso Science Institute (L'Aquila, Italy)"
+  role: "Member of the evaluation committee"
+  date: "27/7/2020"

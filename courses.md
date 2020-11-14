@@ -16,3 +16,9 @@ use-site-title: false
 
 {% for n in items %}
 - {{ n.when }}: *{{ n.title }}* {{ n.where }}{% endfor %}
+
+# Membership of scientific committees 
+{% assign items = site.data.pc %}
+
+{% for n in items %}
+- Member of the {% if n.pc %} program committee of {% if n.url %} <a href="{{ n.url }}">{{ n.acr }}</a>{% endif %} {{ n.pc }}{% endif %} {% if n.sc %} steering committee of {{ n.sc }} ({{ n.from }} --- {{ n.to }}){% endif %} {% if n.oc %} organising committee of {{ n.oc }}{% endif %}{% endfor %}

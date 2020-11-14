@@ -1,35 +1,49 @@
+- where: "NOVA LINCS  FCT-UNL (Lisbon, Portugal)"
+  when: "26/2/2020"
+  date: "26/2/2020"
+  title: "Behavioural APIs & choreographic development"
+
+- where: "FCUL (Lisbon, Portugal)"
+  when: "14/2/2020"
+  date: "14/2/2020"
+  title: "Behavioural APIs & choreographic development"
+
 - where: "McAfee Cordoba (Argentina)"
   when: "22/2/2019"
   date: "22/2/2019"
   title: "A choreographic approach to the design of (message-passing) software"
 
+- where: "International Symposium on the Mathematical Foundations of Software Engineering (Rio Cuarto, Argentina)"
+  when: 16-02-2019 al 17-02-2019
+  date: 17-02-2019
+  title: Message-passing, choreographically
 
-- where: "Bologna (Italy)"
+- where: "Department of Computer Science (Bologna, Italy)"
   when: "19/9/2018"
   date: "19/9/2018"
   title: "On pomsets as models of asynchronous message-passing languages"
 
-- where: "Leicester"
+- where: "Department of Arcaeology, University of Leicester"
   when: "17/6/2017"
   date: "17/6/2017"
   title: "A tutorial day: Think ontologically: An Introduction to the use of Ontologies in Archaeology and Digital Humanities"
   
-- where: "GSSI"
+- where: "GSSI (L'Aquila, Italy)"
   when: "21/04/2017"
   date: "21/04/2017"
   title: "Choreographies for Communicating Systems"
   
-- where: "University of Kent"
+- where: "University of Kent (UK)"
   when: "28/11/2016"
   date: "28/11/2016"
   title: "Think global, Act local. Semantics and application of a choregraphy-based approach"
   
-- where: "Royal Holloway"
+- where: "Royal Holloway (UK)"
   when: "21/10/2014"
   date: "21/10/2014"
   title: "Think global, act local! or the other way around? A (gentle?) introduction to distributed choreographies"
   
-- where: "Faculty of Archaeology of Leiden"
+- where: "Faculty of Archaeology of Leiden (The Netherlands)"
   when: "11/5/2014"
   date: "11/5/2014"
   title: "Tutorial day: Think Ontologically. A Crash Course on Ontology Modelling for Archaeologists"

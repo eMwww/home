@@ -27,8 +27,17 @@ at the Dipartimento di Informatica (University of Pisa).
 I graduated (1998) and got my PhD degree in Computer Science (2003) at
 the department of Computer Science, University of Pisa.  
 
-# Recruiting and hiring service
+## Membership of scientific committees 
+{% assign items = site.data.pc %}
+<div markdown="1" style="font-size:6pt">
+{% for n in items %}
+- Member of the {% if n.pc %} program committee of {% if n.url %} <a href="{{ n.url }}">{{ n.acr }}</a>{% endif %} {{ n.pc }}{% endif %} {% if n.sc %} steering committee of {{ n.sc }} ({{ n.from }} --- {{ n.to }}){% endif %} {% if n.oc %} organising committee of {{ n.oc }}{% endif %}{% endfor %}
+</div>
+
+## Recruiting and hiring service
 I have served on the following panels for recruiting staff and students:
 {% assign items = site.data.recruitment %}
+<div markdown="1" style="font-size:6pt">
 {% for n in items %}
  - {{ n.date }}: {{ n.role }} of the committee for {% if n.viva %} PhD viva defense of {{ n.viva }} - {{ n.institution }} {% else %} {{ n.event }} at the {{ n.institution }} {% endif %} {% endfor %}
+</div>

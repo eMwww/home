@@ -1,14 +1,28 @@
-- name: "CONCUR 2020"
-  url: "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi-heKv2JzrAhVHi6QKHUbND-cQFjABegQIARAC&url=https%3A%2F%2Fconcur2020.forsyte.at%2F&usg=AOvVaw3Z-Bvez5wHLL-xLPIVr9Ug"
+- name: "DisCoTec 2021"
+  url: "https://www.discotec.org/2021"
+  deadline: "Abstract 3/2/21 & paper 23/4/21"
+  
+- name: "CONCUR 2021"
+  url: ""
+
+- name: "ECOOP"
+  url: https://2021.ecoop.org
+  deadline: "11/01/21"
+  
+- name: ICALP
+  url: "http://easyconferences.eu/icalp2021"
+  deadline: "12/02/21"
+
+- name: "LICS"
+  url: "http://easyconferences.eu/lics2021"
+  deadline: "25/01/21"
+
+- name: "ICE 2021"
+  url: "http://discotec.org/2021/ice"
 
 - name: "ISoLA"
   url: "http://isola-conference.org/isola2020/"
   
 - name: "ASYDE 2020"
   url: "http://asyde2020.disim.univaq.it/"
-
-- name: "DisCoTec 2020"
-  url: "https://www.discotec.org/2020"
-
-- name: "ICE 2020"
-  url: "https://www.discotec.org/2020/ice"
+  

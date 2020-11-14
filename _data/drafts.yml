@@ -21,12 +21,6 @@
   printed: "ISoLA 2020"
   url: "https://doi.org/10.1007/978-3-030-61470-6_15"
 
-- title: "Probabilistic Analysis of Binary Sessions"
-  author: "Omar Inverso, Hernan Melgratti, Luca Padovani, and Catia Trubiani"
-  descr: "We introduce a probabilistic variant of binary session types to reason about the probability that a session terminates successfully. A typing discipline is given so that the success probability of well-typed processes agrees with that of their sessions."
-  printed: "CONCUR 2020"
-  url: "https://doi.org/10.4230/LIPIcs.CONCUR.2020.14"
-
 - title: "An Abstract Framework for Choreographic Testing"
   author: "Alex Coto and Roberto Guanciale"
   descr: "Model-driven testing based on choreographies...a first step. We introduce _admissible_ tests and show how to derive them from global specifications."

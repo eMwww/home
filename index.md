@@ -19,8 +19,8 @@ home: true
  <td>
  <table>
   <tr>
-    <th style="width:50%; background:#dddddd; text-align:center">Quick links</th>
-    <th style="width:30%; background:#dddddd; text-align:center">Events</th>
+    <th style="width:20%; background:#dddddd; text-align:center">Quick links</th>
+    <th style="width:50%; background:#dddddd; text-align:center">Recent talks</th>
     <th style="width:20%; background:#dddddd; text-align:left">Details</th>
   </tr>
   <tr>
@@ -30,9 +30,10 @@ home: true
 - {{ n.pre }} [{{ n.name }}]({{ n.url }}) {{ n.post }}{% endfor %}
 </td>
 <td class="mkd" valign="top" markdown="1">
-{% assign items = site.data.events %}
+{% assign items = site.data.talks %}
 {% for n in items %}
-- [{{ n.name }}]({{ n.url }}){% endfor %}
+- <span class="tooltip">[{{ n.venue }}]({{ n.slides }}) {{ n.date  | date: '%B %d, %Y' }}
+  <span class="tooltiptext">{% if n.descr %}{{ n.descr }}.{% endif %}</span></span>{% endfor %}
 </td>
 <td class="mkd" valign="top">
     <br/>Associate Professor
@@ -51,41 +52,34 @@ home: true
 
 <table>
   <tr>
-    <th style="width:38%; text-align:left"></th>
-    <th style="width:42%; text-align:left"></th>
     <th style="width:20%; text-align:left"></th>
+    <th style="width:35%; text-align:left"></th>
+    <th style="width:45%; text-align:left"></th>
   </tr>
   <tr>
     <td valign="top" markdown="1" style="padding-right: 50px;">
-## News about eM
+### News about eM
 <div markdown="1" class="scroll">
 <li>{% assign items = site.data.news %}
 {% for n in items %}
-{% if forloop.index <= 10 %}<b>{{ n.date  | date: '%B %d, %Y' }}</b>: {{ n.descr }} {% if n.url %} see [{{ n.url }}](here) {% endif %}<hr>
+{% if forloop.index <= 10 %}<b>{{ n.date | date: '%B %d, %Y' }}</b>: {{ n.descr }} {% if n.url %} see [{{ n.url }}](here) {% endif %}<hr>
 {% else %} {% break %} {% endif%}
 {% endfor %}
 </li>
 </div>
 </td>
-<td valign="top" markdown="1">## Fun & not so fun stuff
+<td valign="top" markdown="1">### Events
 <div markdown="1" class="fun">
-* Phil's Rogaway insightful lament about [CS & societies](nugae/rogaway.pdf) 
-* Globalisation and research...[be careful](http://www.sciencedirect.com/science/article/pii/S0140673614607972)
-* Italian research is [not so bad](https://medium.com/@alfonsofuggetta/b5ab6eb2ecd0) after all
-* This [video](https://www.youtube.com/watch?v=zDZFcDGpL4U) is somehow related to research
-* Having [fun with regex](http://regexcrossword.com)
-* [Frustrated authors](http://eloquentscience.com/wp-content/uploads/2012/02/Frustrated_author.pdf)
-* Another one about [peer reviewing](http://www.sigmod.org/publications/sigmod-record/0812/p100.open.cormode.pdf)...
-* Lectures on Marx's [Capital V. 1](https://goo.gl/TNRzO6) by David Harvey
+{% assign items = site.data.events %}
+{% for n in items %} * [`{{ n.name }}`{: style="font-size:8pt" }]({{ n.url }}) {% if n.deadline %}`(deadline: {{ n.deadline }})`{: style="font-size:4pt"} {% endif %}
+{% endfor %}
 </div>
 </td>
-<td valign="top" markdown="1">## Events
+<td valign="top" markdown="1">### Fun & not so fun stuff
 <div markdown="1" class="fun">
-* [ecoop](https://2021.ecoop.org/) deadline: 11/01/21
-* [icalp](http://easyconferences.eu/icalp2021/) deadline: 12/02/21
-* [lics](http://easyconferences.eu/lics2021/) deadline: 25/01/21
-* [discotec](http://www.discotec.org/) deadline: ??/??/21
-* [concur](https://concur2020.forsyte.at/)  deadline: ??/??/21
+{% assign items = site.data.fun %}
+{% for n in items %} * <span style="font-size:8pt">{{ n.item }}</span>
+{% endfor %}
 </div>
 </td>
 </tr>

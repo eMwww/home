@@ -148,6 +148,10 @@ div.fun {
   animation-duration: 2s;
 }
 
+div.fun li{
+	 margin-left:-25px;
+}
+
  /* Tooltip container */
 .tooltip {
   position: relative;
@@ -218,9 +222,9 @@ div.fun {
  -webkit-transform:translateY(-100%);	
  transform:translateY(-100%);
  /* Apply animation to this element */	
- -moz-animation: scroll 10s linear infinite;
- -webkit-animation: scroll 10s linear infinite;
- animation: scroll 15s linear infinite;
+ /* -moz-animation: scroll 0s linear infinite; */
+ /* -webkit-animation: scroll 0s linear infinite; */
+ animation: scroll 18s linear infinite;
 }
 /* Move it (define the animation) */
 @-moz-keyframes scroll {

@@ -14,6 +14,9 @@ Some <strong>recent drafts</strong> are listed below (in no particular order; mo
   <span style="color:#f98811; font-size:.75em;"> {% if n.venue %}Accepted at {{ n.venue }}.{% endif %}{% if n.printed %}{{ n.printed }}.{% endif %}
   {% if n.draft %}Submitted at {{ n.draft }}.{% endif %}</span> <span markdown="1" style="font-size:.75em">{% if n.url %} Available [here]({{ n.url }}) {% endif %}</span>{% endfor %}
 
+**Get in touch if you cannot find one of the papers.**
+
+
 # Edited volumes
 
 {% assign items = site.data.edited %}

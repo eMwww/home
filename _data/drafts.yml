@@ -18,8 +18,8 @@
 - title: "Abstractions for Collective Adaptive Systems"
   author: "Omar Inverso and Catia Trubiani"
   descr: "Mumbling about what behavioural types suit Collective Adaptive Systems."
-  venue: "ISoLA 2020"
-  url: 
+  printed: "ISoLA 2020"
+  url: "https://doi.org/10.1007/978-3-030-61470-6_15"
 
 - title: "Probabilistic Analysis of Binary Sessions"
   author: "Omar Inverso, Hernan Melgratti, Luca Padovani, and Catia Trubiani"
@@ -36,20 +36,20 @@
 - title: "On Testing Message-Passing Components"
   author: "Alex Coto and Roberto Guanciale"
   descr: "An instance of the abstract framework for testing with a non-trivial example."
-  venue: "ISoLA 2020"
-  url:
+  printed: "ISoLA 2020"
+  url: "https://doi.org/10.1007/978-3-030-61362-4_2"
 
 - title: "Composition and Decomposition of Multiparty Sessions"
   author: "Franco Barbanera, Mariangiola Dezani-Ciancaglini, and Ivan Lanese"
   descr: "A compositional framework of _open_ global types where two participants act as coupled _gateways_ forwarding messages between the two sessions. We show that the session resulting from the composition can be typed starting from global types. Lock-freedom is preserved by composition. We also propose a _decomposition_ operator which is the left inverse of direct composition."
-  venue: "JLAMP"
-  url:
+  printed: "JLAMP"
+  url: "https://authors.elsevier.com/a/1c3jJ_rUxef8eP"
 
 - title: "Composing Communicating Systems, Synchronously"
   author: "Franco Barbanera and Ivan Lanese"
   descr: "As in the previous draft, but in a setting based on automata. We discuss how to ensure relevant communication (eg deadlock freedom) in a compositional way. The idea is that communicating systems can be composed by transforming two of their participants andthem into coupled forwarders. The synchronous case is surprisingly intriguing."
-  venue: "ISoLA 2020"
-  url: 
+  printed: "ISoLA 2020"
+  url: "https://doi.org/10.1007/978-3-030-61362-4_3"
 
 - title: "Choreography Automata"
   author: "Franco Barbanera and Ivan Lanese"

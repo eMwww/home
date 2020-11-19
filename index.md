@@ -5,7 +5,11 @@ home: true
 ---
 
 # {{ site.title }}. Welcome!
- <table>
+
+## ![news](images/news.jpeg){:height="36px" width="36px"} Hiring: 2-years Post-doc position at GSSI
+Soon available on the [It-Matters](itmatters.imtlucca.it) project. If interested, get in touch with me, or [Luca Aceto](mailto:luca.aceto@gssi.it), or with [Omar Inverso](mailto:omar.inverso@gssi.it).
+
+<table>
   <tr>
     <th style="width:15; text-align:left"></th>
     <th style="width:85%; text-align:center"></th>
@@ -19,8 +23,8 @@ home: true
  <td>
  <table>
   <tr>
-    <th style="width:20%; background:#dddddd; text-align:center">Quick links</th>
-    <th style="width:50%; background:#dddddd; text-align:center">Recent talks</th>
+    <th style="width:40%; background:#dddddd; text-align:center">Highlights</th>
+    <th style="width:40%; background:#dddddd; text-align:center">Recent talks</th>
     <th style="width:20%; background:#dddddd; text-align:left">Details</th>
   </tr>
   <tr>
@@ -28,6 +32,7 @@ home: true
 {% assign items = site.data.links %}
 {% for n in items %}
 - {{ n.pre }} [{{ n.name }}]({{ n.url }}) {{ n.post }}{% endfor %}
+- [Hiring](): 2-years Post-doc position at GSSI soon available on the [It-Matters](itmatters.imtlucca.it) project. If interested, get in touch with me, or [Luca Aceto](mailto:luca.aceto@gssi.it), or with [Omar Inverso](mailto:omar.inverso@gssi.it).
 </td>
 <td class="mkd" valign="top" markdown="1">
 {% assign items = site.data.talks %}

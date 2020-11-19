@@ -41,3 +41,14 @@ I have served on the following panels for recruiting staff and students:
 {% for n in items %}
  - {{ n.date }}: {{ n.role }} of the committee for {% if n.viva %} PhD viva defense of {{ n.viva }} - {{ n.institution }} {% else %} {{ n.event }} at the {{ n.institution }} {% endif %} {% endfor %}
 </div>
+
+## PhD examination
+<div markdown="1" style="font-size:6pt">
+I have been the internal examiner of more than 5 PhD students at the University of Leicester
+and I have been the external examiner or chair of the following viva:
+{% assign items = site.data.examiner %}
+{% for n in items %}- {{ n.date }}: {% if n.viva %}{{ n.role }} of the committee for the PhD viva defense of **{{ n.viva }}** {% else %} external examiner of **{{ n.name }}** {% endif %} *{{ n.title }}*, {{ n.institution }}
+{% endfor %}
+</div>
+
+

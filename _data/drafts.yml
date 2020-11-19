@@ -1,12 +1,13 @@
 - title: "PomCho: a tool chain for choreographic design"
   author: "Roberto Guanciale"
+  printed: "SCICO"
   descr: "The paper describes a tool chain for model-driven development of asynchronous message-passing applications."
-  venue: "SCICO"
+  url: "https://www.sciencedirect.com/science/article/pii/S016764232030143X"
 
 - title: "On Resolving Non-determinism in Choreographies"
   author: "Laura Bocchi and Hernan Melgratti"
   descr: "The paper introduces the idea of _whole spectrum realisation_ and a type system to enforce this property."
-  venue: "LMCS"
+  printed: "LMCS"
   url: "https://arxiv.org/abs/1904.08337"
 
 - title: "Towards Refinable Choreographies"

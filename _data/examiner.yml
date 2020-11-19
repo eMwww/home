@@ -1,3 +1,27 @@
+- institution: "Gran Sasso Science Institute (L'Aquila, Italy)"
+  role: "chair"
+  viva: "Lorenzo Pagliari"
+  title: "Performance Engineering of Cyber-Physical Systems"
+  date: "16/11/2020"
+
+- institution: "Gran Sasso Science Institute (L'Aquila, Italy)"
+  role: "chair"
+  viva: "Luca Di Stefano"
+  title: "Modelling and Analysis of Multi-Agent Systems via Sequential Emulation"
+  date: "13/10/2020"
+
+- institution: "Gran Sasso Science Institute (L'Aquila, Italy)"
+  role: "chair"
+  viva: "Ahmed Abdelsalam"
+  title: "Service Function Chaining with Segment Routing"
+  date: "22/9/2020"
+
+- institution: "Gran Sasso Science Institute (L'Aquila, Italy)"
+  role: "chair"
+  viva: "Teerath Das"
+  title: "Investigating Performance Issues in Mobile Apps"
+  date: "11/5/2020"
+
 - name: "Joseph Richard Harrison"
   title: "Robust Communications in Erlang"
   institution: "University of Kent"

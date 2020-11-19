@@ -34,6 +34,18 @@ li {
 	 	 font-size:1.5em;
 }
 
+h1 {
+	 color:#556b2f;
+}
+
+h2 {
+	 color:#6b8e23;
+}
+
+h3 {
+	 color:#bc8f8f;
+}
+
 td.quicklinks li {
 	 font-size : 1em;
     margin-left: -2.5em;

@@ -7,14 +7,14 @@ use-site-title: false
 
 # Advanced courses / tutorials
 {% assign items = site.data.courses %}
-<div markdown="1" style="font-size:8pt">
+<div markdown="1" style="font-size:6pt">
 {% for n in items %}
 - {% if n.url %} <a href="{{ n.url }}">{{ n.title }}</a>{% else %} {{ n.title }}{% endif %}. {{ n.descr }}:  {{ n.where }} {{ n.when }}{% endfor %}
 </div>
 
 # Invited lectures / tutorials
 {% assign items = site.data.invited %}
-<div markdown="1" style="font-size:8pt">
+<div markdown="1" style="font-size:6pt">
 {% for n in items %}
 - {{ n.when }}: *{{ n.title }}* {{ n.where }}{% endfor %}
 </div>

@@ -6,8 +6,7 @@ home: true
 
 # {{ site.title }}. Welcome!
 
-## ![news](images/news.jpeg){:height="36px" width="36px"} Hiring: 2-years Post-doc position at GSSI
-Soon available on the [It-Matters](itmatters.imtlucca.it) project. If interested, get in touch with me, or [Luca Aceto](mailto:luca.aceto@gssi.it), or with [Omar Inverso](mailto:omar.inverso@gssi.it).
+## ![news](images/news.jpeg){:height="36px" width="36px"} Hiring: 2-years Post-doc position at GSSI - Soon available on the [It-Matters](itmatters.imtlucca.it) project. If interested, get in touch with me, or [Luca Aceto](mailto:luca.aceto@gssi.it), or with [Omar Inverso](mailto:omar.inverso@gssi.it).
 
 <table>
   <tr>
@@ -32,7 +31,6 @@ Soon available on the [It-Matters](itmatters.imtlucca.it) project. If interested
 {% assign items = site.data.links %}
 {% for n in items %}
 - {{ n.pre }} [{{ n.name }}]({{ n.url }}) {{ n.post }}{% endfor %}
-- [Hiring](): 2-years Post-doc position at GSSI soon available on the [It-Matters](itmatters.imtlucca.it) project. If interested, get in touch with me, or [Luca Aceto](mailto:luca.aceto@gssi.it), or with [Omar Inverso](mailto:omar.inverso@gssi.it).
 </td>
 <td class="mkd" valign="top" markdown="1">
 {% assign items = site.data.talks %}
@@ -73,14 +71,16 @@ Soon available on the [It-Matters](itmatters.imtlucca.it) project. If interested
 </li>
 </div>
 </td>
-<td valign="top" markdown="1">### Events
+<td valign="top" markdown="1">
+### Events
 <div markdown="1" class="fun">
 {% assign items = site.data.events %}
 {% for n in items %} * [`{{ n.name }}`{: style="font-size:8pt" }]({{ n.url }}) {% if n.deadline %}`(deadline: {{ n.deadline }})`{: style="font-size:4pt"} {% endif %}
 {% endfor %}
 </div>
 </td>
-<td valign="top" markdown="1">### Fun & not so fun stuff
+<td valign="top" markdown="1">
+### Fun & not so fun stuff
 <div markdown="1" class="fun">
 {% assign items = site.data.fun %}
 {% for n in items %} * <span style="font-size:8pt">{{ n.item }}</span>

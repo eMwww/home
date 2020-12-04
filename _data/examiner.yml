@@ -1,4 +1,10 @@
 - institution: "Gran Sasso Science Institute (L'Aquila, Italy)"
+  role: "member"
+  viva: "Lorenzo Pagliari"
+  title: "TBA"
+  date: "18/12/2020"
+
+- institution: "Gran Sasso Science Institute (L'Aquila, Italy)"
   role: "chair"
   viva: "Lorenzo Pagliari"
   title: "Performance Engineering of Cyber-Physical Systems"

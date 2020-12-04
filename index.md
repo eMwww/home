@@ -6,7 +6,9 @@ home: true
 
 # {{ site.title }}. Welcome!
 
-## ![news](images/news.jpeg){:height="36px" width="36px"} Hiring: 2-years Post-doc position at GSSI - Soon available on the [It-Matters](itmatters.imtlucca.it) project. If interested, get in touch with me, or [Luca Aceto](mailto:luca.aceto@gssi.it), or with [Omar Inverso](mailto:omar.inverso@gssi.it).
+## ![news](images/news.jpeg){:height="36px" width="36px"} Hiring: 2-years Post-doc position at [GSSI](www.gssi.it)
+We're scouting for a postdoc funded by the [It-Matters](itmatters.imtlucca.it) project and will soon be advertised.
+If interested, get in touch with [Luca Aceto](mailto:luca.aceto@gssi.it), or with [Omar Inverso](mailto:omar.inverso@gssi.it), or else with me.
 
 <table>
   <tr>
@@ -52,6 +54,11 @@ home: true
  </td>
  </tr>
  </table>
+
+
+## Ongoing teaching
+- Immigration course on FM: the material is on 'classroom'
+- Office hours: Tuesday 24 November at 11am and Wednesday 25 November at 5pm
 
 <table>
   <tr>

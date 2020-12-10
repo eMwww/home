@@ -1,3 +1,7 @@
+- topic: Choregraphic languages
+  authors: Franco Barbanera and Ivan Lanese
+  descr: We are setting an abstract framework for choreographies based on formal languages.
+
 - topic: Choregraphy-driven testing
   authors: Alex Coto and Roberto Guanciale
   descr: Model-driven testing based on choreographies...a first step. We introduce _admissible_ tests and show how to derive them from global specifications.
@@ -9,4 +13,8 @@
 - topic: Data-driven behavioural specifications
   authors: Hernan Melgratti
   descr: We advocate a different _nature_ of behavioural specifications that concern more data- than control-flow of protocols.
+
+- topic: Logical relations
+  authors: Roy Crole
+  descr: We are studying the connection between session types and logical relations.
 

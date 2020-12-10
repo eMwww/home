@@ -46,6 +46,7 @@ If interested, get in touch with [Luca Aceto](mailto:luca.aceto@gssi.it), or wit
 	<br/>Viale F. Crispi, 7
 	<br/>67100 L'Aquila (Italy)
 	<br/><img alt="me" src="/home/images/office.jpg" width="10%" />Office: Palazzo Mariani P1-N
+	<br/><b>Office Hours</b>: always keen to meet; just drop me an email to fix a meeting.
 	<br/><a href="mailto:emiliodottuosto@gssi.it"><img alt="me" src="/home/images/email.jpg" width="20%" />email</a> ['.'/'dot']
 	<br/><img alt="me" src="/home/images/phone.png" width="10%" />+39 0862 428 0312
   </td>
@@ -57,8 +58,8 @@ If interested, get in touch with [Luca Aceto](mailto:luca.aceto@gssi.it), or wit
 
 
 ## Ongoing teaching
+- About to introduce a few core modules for next term
 - Immigration course on FM: the material is on 'classroom'
-- Office hours: Tuesday 24 November at 11am and Wednesday 25 November at 5pm
 
 <table>
   <tr>

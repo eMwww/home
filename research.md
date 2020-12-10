@@ -16,9 +16,9 @@ Here is a list of recent topics I am playing with:
 
 # Readings
 Some material I find both entertaining and useful
-- Alfred Tarski *Introduction to logic and to the methodology of deductive sciences*. OUP.
-- Graham Priest *Logic: A Very Short Introduction*. OUP.
-- Douglas R Hofstadter *Gödel, Escher, Bach: An Eternal Golden Braid*.
+- Alfred Tarski. *Introduction to logic and to the methodology of deductive sciences*. OUP.
+- Graham Priest. *Logic: A Very Short Introduction*. OUP.
+- Douglas R. Hofstadter. *Gödel, Escher, Bach: An Eternal Golden Braid*. Basic Books 1999 (First published in 1979).
 
 
 # Research Projects

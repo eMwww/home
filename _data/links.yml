@@ -9,7 +9,11 @@
 
 - name: "ICE-TCS / GSSI seminars"
   url: "https://sites.google.com/gssi.it/csgssi/seminars-and-events/joint-ice-tcs-csgssi-virtual-seminar?authuser=0"
-  
+
+- name: "Supporting Frontiers"
+  url: "https://www.frontiersin.org/"
+  post: Take also a look at this [TEDx talk](https://blog.frontiersin.org/2017/04/19/open-science-can-save-the-planet/)
+
 # - name: "here"
 #   url: "https://emwww.github.io/home/slides/asyde20.pdf"
 #   pre: "Slides of my invited talk at ASYDE 2020 are"

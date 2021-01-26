@@ -10,7 +10,7 @@ home: true
 We're scouting for a postdoc funded by the [It-Matters](itmatters.imtlucca.it) project and will soon be advertised.
 If interested, get in touch with [Luca Aceto](mailto:luca.aceto@gssi.it), or with [Omar Inverso](mailto:omar.inverso@gssi.it), or else with me.
 
-## [Please Sign this petition](https://noprofitonpandemic.eu/)...it's almost certainly in your own interest
+## ![news](images/news.jpeg){:height="36px" width="36px"} Please sign this [petition](https://noprofitonpandemic.eu/)...it's almost certainly in your own interest
 
 <table>
   <tr>

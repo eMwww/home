@@ -6,20 +6,6 @@ home: true
 
 # {{ site.title }}. Welcome!
 
-## ![news](images/news.jpeg){:height="36px" width="36px"} Supporting FoCo@UoL
-Please sign this [petition](https://www.ipetitions.com/petition/foco-is-not-redundant/) to support the group of foundation of computing
-of the University of Leicester: the management of the University is trying to invest in AI at the expenses
-of research in the foundation of computer science.
-
-Former members of the school (including me) have signed this <a
-href="https://emwww.github.io/home/slides/Supporting_FoCo.pdf">public letter</a>.
-
-
-## ![news](images/news.jpeg){:height="36px" width="36px"} Hiring: 2-years Post-doc position at [GSSI](www.gssi.it)
-The call is <a href="https://www.gssi.it/communication/announcements/item/12047-postdoctoral-research-fellowship-2021">here</a>.
-We're looking for a postdoc funded by the [It-Matters](itmatters.imtlucca.it) project.
-If interested, get in touch with [Luca Aceto](mailto:luca.aceto@gssi.it), or with [Omar Inverso](mailto:omar.inverso@gssi.it), or else with me.
-
 ## ![news](images/news.jpeg){:height="36px" width="36px"} Please sign this [petition](https://noprofitonpandemic.eu/)...it's almost certainly in your own interest
 
 
@@ -69,10 +55,9 @@ If interested, get in touch with [Luca Aceto](mailto:luca.aceto@gssi.it), or wit
  </tr>
  </table>
 
-
 ## Ongoing teaching
-- About to introduce a few core modules for next term
-- Immigration course on FM: the material is on 'classroom'
+- Delivering a course on Modelling and Verification of Reactive Systems
+- About to start a course on Formal Behavioural Specifications
 
 <table>
   <tr>

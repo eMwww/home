@@ -14,9 +14,10 @@
   title: "A choreographic approach to the design of (message-passing) software"
 
 - where: "International Symposium on the Mathematical Foundations of Software Engineering (Rio Cuarto, Argentina)"
-  when: 16-02-2019 al 17-02-2019
-  date: 17-02-2019
-  title: Message-passing, choreographically
+  when: "16-02-2019 al 17-02-2019"
+  date: "17-02-2019"
+  title: "Message-passing, choreographically"
+  url: "https://dc.exa.unrc.edu.ar/rio/es/InternationalSymposium"
 
 - where: "Department of Computer Science (Bologna, Italy)"
   when: "19/9/2018"

@@ -1,8 +1,8 @@
-- name: "Supporing FoCo@UoL: petition"
-  url: "https://www.ipetitions.com/petition/foco-is-not-redundant/"
+# - name: "Supporing FoCo@UoL: petition"
+#  url: "https://www.ipetitions.com/petition/foco-is-not-redundant/"
 
-- name: "Supporing FoCo@UoL: public letter"
-  url: "https://emwww.github.io/home/slides/Supporting_FoCo.pdf"
+# - name: "Supporing FoCo@UoL: public letter"
+#  url: "https://emwww.github.io/home/slides/Supporting_FoCo.pdf"
 
 - name: "BehAPI"
   url: "https://www.um.edu.mt/projects/behapi"
@@ -16,6 +16,8 @@
 - name: "ICE-TCS / GSSI seminars"
   url: "https://sites.google.com/gssi.it/csgssi/seminars-and-events/joint-ice-tcs-csgssi-virtual-seminar?authuser=0"
 
+- name: "BETTY's book on tools available"
+  url: "https://www.riverpublishers.com/research_details.php?book_id=439"
 # - name: "Supporting Frontiers"
 #   url: "https://www.frontiersin.org/"
 #   post: Take also a look at this [TEDx talk](https://blog.frontiersin.org/2017/04/19/open-science-can-save-the-planet/)

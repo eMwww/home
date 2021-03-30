@@ -56,8 +56,9 @@ home: true
  </table>
 
 ## Ongoing teaching
-- Delivering a course on Modelling and Verification of Reactive Systems
-- About to start a course on Formal Behavioural Specifications
+Delivering the following courses
+- Modelling and Verification of Reactive Systems
+- Formal Behavioural Specifications
 
 <table>
   <tr>

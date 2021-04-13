@@ -16,8 +16,11 @@
 - name: "ICE-TCS / GSSI seminars"
   url: "https://sites.google.com/gssi.it/csgssi/seminars-and-events/joint-ice-tcs-csgssi-virtual-seminar?authuser=0"
 
-- name: "BETTY's book on tools available"
+- name: "BETTY's book"
   url: "https://www.riverpublishers.com/research_details.php?book_id=439"
+
+- name: "Luca Aceto's blog"
+  url: "http://processalgebra.blogspot.com/"
 # - name: "Supporting Frontiers"
 #   url: "https://www.frontiersin.org/"
 #   post: Take also a look at this [TEDx talk](https://blog.frontiersin.org/2017/04/19/open-science-can-save-the-planet/)

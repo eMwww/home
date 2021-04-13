@@ -4,9 +4,8 @@ content: true
 home: true
 ---
 
-# {{ site.title }}. Welcome!
 
-## ![news](images/news.jpeg){:height="36px" width="36px"} Please sign this [petition](https://noprofitonpandemic.eu/)...it's almost certainly in your own interest
+## ![news](images/news.jpeg){:height="20px" width="20px"} Please sign this [petition](https://noprofitonpandemic.eu/)...it's almost certainly in your own interest
 
 
 <table>
@@ -68,7 +67,7 @@ Delivering the following courses
   </tr>
   <tr>
     <td valign="top" markdown="1" style="padding-right: 50px;">
-### News about eM
+### Latest
 <div markdown="1" class="scroll">
 <li>{% assign items = site.data.news %}
 {% for n in items %}

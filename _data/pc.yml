@@ -1,6 +1,7 @@
-- eb: "MDE4SA2021"
-  url: ""http://mde4sa2021.disim.univaq.it""
-  from: "20/4/2021"
+- pc: "International Workshop on Model-Driven Engineering for Software Architecture"
+  url: "http://mde4sa2021.disim.univaq.it"
+  acr: "MDE4SA2021"
+  from: "15/5/2020"
   to: "17/09/2021"
 
 - eb: "Frontiers of Computer Science: Theoretical Computer Science"
@@ -21,7 +22,7 @@
   from: 01-06-2019
   to: to-date
 
-- pc: WS-FM 2008, 5th International Workshop on Web Services and Formal Methods, September 4-5, Milan (Italy)
+- pc: "WS-FM 2008, 5th International Workshop on Web Services and Formal Methods, September 4-5, Milan (Italy)"
   from: 04-09-2008
   to: 05-09-2008
 

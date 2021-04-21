@@ -55,7 +55,7 @@ home: true
  </table>
 
 ## Ongoing teaching
-Delivering the following courses
+Just finished with the following courses
 - Modelling and Verification of Reactive Systems
 - Formal Behavioural Specifications
 

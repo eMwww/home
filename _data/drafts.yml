@@ -1,3 +1,9 @@
+- title: "Towards Probabilistic Session-Type Monitoring"
+  author: "Christian Bartolo Burlò and Adrian Francalanza and Alceste Scalas and Catia Trubiani"
+  printed: "COORDINATION 2021"
+  descr: "A tool-based approach for the runtime analysis of communicating processes grounded on probabilistic binary session types."
+  url: "https://doi.org/10.1007/978-3-030-78142-2_7"
+
 - title: "PomCho: a tool chain for choreographic design"
   author: "Roberto Guanciale"
   printed: "SCICO"

@@ -1,3 +1,9 @@
+- title: "An Abstract Framework for Choreographic Testing"
+  author: "Alex Coto and Roberto Guanciale"
+  descr: "Model-driven testing based on choreographies...a first step. We introduce _admissible_ tests and show how to derive them from global specifications."
+  printed: "JLAMP"
+  url: "https://www.sciencedirect.com/science/article/pii/S2352220821000754?dgcid=coauthor#br0240"
+
 - title: "Towards Probabilistic Session-Type Monitoring"
   author: "Christian Bartolo Burlò and Adrian Francalanza and Alceste Scalas and Catia Trubiani"
   printed: "COORDINATION 2021"

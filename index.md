@@ -55,8 +55,7 @@ home: true
  </tr>
  </table>
 
-## Ongoing teaching
-Just finished with the following courses
+## Recent teaching
 - Modelling and Verification of Reactive Systems
 - Formal Behavioural Specifications
 

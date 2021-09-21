@@ -1,3 +1,9 @@
+- title: "A model of Asymmetric Replicated State Machines"
+  slides: "https://emwww.github.io/home/slides/dagstuhl21.pdf"
+  date: "September 16, 2021"
+  descr: "Dagstuhl seminar on Behavioural Types: Bridging Theory and Practice"
+  venue: "Dagstuhl seminar 21372"
+
 - title: "Experiments in runtime monitoring via probabilistic session types"
   slides: "https://emwww.github.io/home/slides/itmatters21.pdf"
   date: "April 12, 2021"

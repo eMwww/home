@@ -55,7 +55,8 @@ home: true
  </tr>
  </table>
 
-## Recent teaching
+## Teaching
+I usually teach
 - Modelling and Verification of Reactive Systems
 - Formal Behavioural Specifications
 

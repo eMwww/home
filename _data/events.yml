@@ -1,29 +1,36 @@
+- name: "ISOLA 2021"
+  url: "http://isola-conference.org/isola2021/"
+  deadline: ""	
+  date: "17/10/2020"
+
 - name: "PoPL"
   url: "https://popl22.sigplan.org/"
   deadline: "8/7/2021"	
   date: "25/10/2020"
 
-- name: "trecec21"
-  url: "https://sites.google.com/view/trecec21/"
-  deadline: "18/6/2021"
-  date: "25/10/2020"
+# - name: "trecec21"
+#   url: "https://sites.google.com/view/trecec21/"
+#   deadline: "18/6/2021"
+#   date: "25/10/2020"
  
-- name: "AGERE 2021"
-  url: "https://2021.splashcon.org/home/agere-2021#Call-for-Papers"
-  deadline: "6/8/2021"
+# - name: "AGERE 2021"
+#   url: "https://2021.splashcon.org/home/agere-2021#Call-for-Papers"
+#   deadline: "6/8/2021"
 
-- name: "MDE4SA2021"
-  url: "http://mde4sa2021.disim.univaq.it"
-  deadline: "15/6/2021"
+# - name: "MDE4SA2021"
+#   url: "http://mde4sa2021.disim.univaq.it"
+#   deadline: "15/6/2021"
 
-- name: "DisCoTec 2021"
-  url: "https://www.discotec.org/2021"
+# - name: "DisCoTec 2021"
+#   url: "https://www.discotec.org/2021"
   
-- name: "CONCUR 2021"
-  url: "https://qonfest2021.lacl.fr/concur21.php"
+# - name: "CONCUR 2021"
+#   url: "https://qonfest2021.lacl.fr/concur21.php"
 
-# - name: "ECOOP"
-#   url: "https://2021.ecoop.org"
+- name: "ECOOP"
+  url: "https://2022.ecoop.org"
+  deadline: "1/12/2021"
+  date: "6/6/2022"
   
 # - name: ICALP
 #  url: "http://easyconferences.eu/icalp2021"
@@ -31,8 +38,8 @@
 # - name: "LICS"
 #   url: "http://easyconferences.eu/lics2021"
 
-- name: "ICE 2021"
-  url: "http://discotec.org/2021/ice"
+# - name: "ICE 2021"
+#   url: "http://discotec.org/2021/ice"
 
 # - name: "ISoLA"
 #   url: "http://isola-conference.org/isola2020/"

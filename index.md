@@ -54,10 +54,10 @@ home: true
  </tr>
  </table>
 
-## Teaching
-I usually teach
-- Modelling and Verification of Reactive Systems
-- Formal Behavioural Specifications
+<!-- ## Teaching -->
+<!-- I usually teach -->
+<!-- - Modelling and Verification of Reactive Systems -->
+<!-- - Formal Behavioural Specifications -->
 
 <table>
   <tr>

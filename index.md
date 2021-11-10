@@ -6,8 +6,7 @@ home: true
 
 
 <!-- ## ![postdoc](images/news.jpeg){:height="20px" width="20px"} Post-doc position available; deadline 8 July 2021. See [details](https://www.gssi.it/communication/announcements/item/12549-postdoctoral-research-fellowship-june-2021) and get in touch if interested. -->
-## ![news](images/news.jpeg){:height="20px" width="20px"} Please sign this [petition on no-profit on Covid-19](https://noprofitonpandemic.eu/)...it's almost certainly in your own interest
-
+## ![news](images/news.jpeg){:height="20px" width="20px"} Covid-19: please sign this [petition on no-profit](https://noprofitonpandemic.eu/)
 
 <table>
   <tr>

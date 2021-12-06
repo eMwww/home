@@ -14,6 +14,14 @@ Here is a list of recent topics I am playing with:
 </div>
 
 
+# My PhD students
+{% assign items = site.data.phd %}
+<div markdown="1" style="font-size:8pt">
+{% for n in items %} - {{ n.name }} {% if n.viva %} _(viva held in {{ n.viva }})_{: style="font-size:10pt" } {% else %} _(current student)_{: style="font-size:12pt" } {% endif %}
+{% endfor %}
+</div>
+
+
 # Readings
 Some material I find both entertaining and useful
 - Alfred Tarski. *Introduction to logic and to the methodology of deductive sciences*. OUP.
@@ -49,13 +57,6 @@ Some material I find both entertaining and useful
 - 2001: **COMETA**. Computational Metamodels (MIUR COFIN 2001)
 - 1999-2001: **TOSCA** (COFIN)
 - 1996-1999: [CONFER2](https://cordis.europa.eu/project/id/FP4_21836) "Concurrency and Functions: Evaluation and Reduction" (FP4_21836, 1/11/1996-31/10/1999, 01/01/1999-30/12/2019)
-</div>
-
-# My PhD students
-{% assign items = site.data.phd %}
-<div markdown="1" style="font-size:8pt">
-{% for n in items %} - {{ n.name }} {% if n.viva %} _(viva held in {{ n.viva }})_{: style="font-size:12pt" } {% else %} _(current student)_{: style="font-size:10pt" } {% endif %}
-{% endfor %}
 </div>
 
 # Some tools

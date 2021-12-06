@@ -10,7 +10,7 @@ home: true
 
 <table>
   <tr>
-    <th style="width:15; text-align:left"></th>
+    <th style="width:15%; text-align:left"></th>
     <th style="width:85%; text-align:center"></th>
   </tr>
  <tr>
@@ -22,9 +22,9 @@ home: true
  <td>
  <table>
   <tr>
-    <th style="width:40%; background:#dddddd; text-align:center">Highlights</th>
-    <th style="width:40%; background:#dddddd; text-align:center">Recent talks</th>
-    <th style="width:20%; background:#dddddd; text-align:left">Details</th>
+    <th style="width:20%; background:#dddddd; text-align:left">Highlights</th>
+    <th style="width:65; background:#dddddd; text-align:left">Recent talks</th>
+    <th style="width:15%; background:#dddddd; text-align:left">Contact</th>
   </tr>
   <tr>
 <td class="quicklinks" valign="top" markdown="1">
@@ -32,14 +32,13 @@ home: true
 {% for n in items %}
 - {{ n.pre }} [{{ n.name }}]({{ n.url }}) {{ n.post }}{% endfor %}
 </td>
-<td class="mkd" valign="top" markdown="1">
+<td class="quicklinks" valign="top" markdown="1">
 {% assign items = site.data.talks %}
-{% for n in items %}
-- <span class="tooltip">[{{ n.venue }}]({{ n.slides }}) {{ n.date  | date: '%B %d, %Y' }}
-  <span class="tooltiptext">{% if n.descr %}{{ n.descr }}.{% endif %}</span></span>{% endfor %}
+{% for n in items limit:5 %}
+- [{{ n.venue }}]({{ n.slides }}) {% if n.descr %}{{ n.descr }}. {{ n.date  | date: '%B %d, %Y' }}.{% endif %}{% endfor %}
 </td>
-<td class="mkd" valign="top">
-    <br/>Associate Professor
+<td class="details" valign="top">
+    Associate Professor
 	<br/><a href="https://www.gssi.it">Gran Sasso Science Institute</a>
 	<br/>Viale F. Crispi, 7
 	<br/>67100 L'Aquila (Italy)
@@ -66,9 +65,9 @@ home: true
     <th style="width:45%; text-align:left"></th>
   </tr>
   <tr>
-    <td valign="top" markdown="1" style="padding-right: 50px;">
+    <td valign="top" style="padding-right: 50px;" markdown="1">
 ### Latest
-<div markdown="1" class="scroll">
+<div class="scroll" markdown="1">
 <li>{% assign items = site.data.news %}
 {% for n in items %}
 {% if forloop.index <= 10 %}<b>{{ n.date | date: '%B %d, %Y' }}</b>: {{ n.descr }} {% if n.url %} see [{{ n.url }}](here) {% endif %}<hr>
@@ -79,17 +78,18 @@ home: true
 </td>
 <td valign="top" markdown="1">
 ### Events
-<div markdown="1" class="fun">
+<div class="fun" style="font-size:.8em;" markdown="1">
 {% assign items = site.data.events %}
-{% for n in items %} * [`{{ n.name }}`{: style="font-size:8pt" }]({{ n.url }}) {% if n.deadline %}`(deadline: {{ n.deadline }})`{: style="font-size:4pt"} {% endif %}
-{% endfor %}
+{% for n in items %}
+[{{ n.name }}]({{ n.url }}) {% if n.deadline %}`(deadline: {{ n.deadline }})`{: style="font-size:4pt"}{% endif %}<br/>{% endfor %}
 </div>
 </td>
 <td valign="top" markdown="1">
 ### Fun & not so fun stuff
-<div markdown="1" class="fun">
+<div class="fun" style="font-size:.8em;" markdown="1">
 {% assign items = site.data.fun %}
-{% for n in items %} * <span style="font-size:8pt">{{ n.item }}</span>
+{% for n in items %}
+{{ n.item }}
 {% endfor %}
 </div>
 </td>

@@ -4,9 +4,9 @@ html {
 
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 90%;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-	 font-size:.7em;
+	 font-size:.8em;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -47,16 +47,14 @@ h3 {
 }
 
 td.quicklinks li {
-	 font-size : 1em;
-    margin-left: -2.5em;
+	 font-size : .9em;
+    margin-left: -2.0em;
+	 line-height : 1.5em;
 }
 
-td.mkd {
+td.details {
 	 font-size : .7em;
-}
-
-div.mkd {
-	 font-size : .8em;
+	 /* line-height : .5em; */
 }
 
 a {
@@ -151,17 +149,18 @@ div.fun {
 /*
   width: 100px;
   height: 100px;
-  background-color: red;
   animation-iteration-count: infinite;
   animation-direction: reverse;
+  background-color: red;
 */
   position: relative;
   animation-name: slidein;
   animation-duration: 2s;
+  line-height:5.5em;
 }
 
-div.fun li{
-	 margin-left:-25px;
+div.fun li {
+  margin-left:-25px;
 }
 
  /* Tooltip container */
@@ -228,7 +227,7 @@ div.fun li{
  margin: 0;
  line-height: 1em;
  text-align: left;
- font-size: .75em;
+ font-size: .65em;
  /* Starting position */
  -moz-transform:translateY(-100%);
  -webkit-transform:translateY(-100%);	

@@ -40,6 +40,7 @@ the department of Computer Science, University of Pisa.
   {% if n.acr %}{{ n.acr }}, {% endif %}{% endif %}
   {{ n.from }} --- {{ n.to }}){% endfor %}
 
+
 ## Membership of programme committees
 {% assign items = site.data.pc | sort: 'date' | reverse %}
 {% for n in items %}

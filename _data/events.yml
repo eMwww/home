@@ -25,12 +25,14 @@
   url: "https://www.discotec.org/2022"
   deadline: "28/01/2022"
   
-# - name: "CONCUR 2021"
-#   url: "https://qonfest2021.lacl.fr/concur21.php"
-
+- name: "CONCUR 2022"
+  url: "https://concur2022.mimuw.edu.pl/call-for-papers/"
+  deadline: "18/4/2022"
+  date: "12/09/2022"
+  
 - name: "ECOOP"
   url: "https://2022.ecoop.org"
-  deadline: "1/12/2021"
+#  deadline: "1/12/2021"
   date: "6/6/2022"
   
 # - name: ICALP
@@ -42,8 +44,10 @@
 - name: "ICE"
   url: "http://discotec.org/2022/ice"
 
-# - name: "ISoLA"
-#   url: "http://isola-conference.org/isola2020/"
+- name: "ISoLA"
+  url: "http://isola-conference.org/isola2022/"
+  deadline: "31/3/2022"
+  date: "24/10/2022"
   
 # - name: "ASYDE 2020"
 #   url: "http://asyde2020.disim.univaq.it/"

@@ -73,7 +73,7 @@ I had the privilege to supervise the following students (in year and alphabetic 
 * Hao Zeng (Leicester, graduated 2019)
       
 ## Some tools
-* [ChorGram](https://bitbucket.org/emlio_tuosto/chorgram/wiki/Home): tool-chain for choreographic development
+* [ChorGram](https://bitbucket.org/eMgssi/stable_chorgram/wiki/Home): tool-chain for choreographic development
 * [MIHDA](./mihda.tgz): partition refinement for history-dependent automata
 * [ASPASYA](aspasya/aspasya.html) and [H-ASPASYA](aspasya/h-aspasya.html): an ad-hoc model checker for security protolols
 

@@ -13,6 +13,9 @@
 - name: "ChorGram"
   url: "https://bitbucket.org/eMgssi/chorgram/src/master/"
 
+- name: "Formal Methods Europe"
+  url: "https://www.fmeurope.org/"
+  
 - name: "ICE-TCS / GSSI seminars"
   url: "https://sites.google.com/gssi.it/csgssi/seminars-and-events/joint-ice-tcs-csgssi-virtual-seminar?authuser=0"
 

@@ -61,7 +61,7 @@ Some material I find both entertaining and useful
 
 # Some tools
 <div markdown="1" style="font-size:8pt">
-* [ChorGram](https://bitbucket.org/emlio_tuosto/chorgram/wiki/Home): tool-chain for choreographic development
+* [ChorGram](https://bitbucket.org/eMgssi/stable_chorgram/wiki/Home): tool-chain for choreographic development
 * [MIHDA](./mihda.tgz): partition refinement for history-dependent automata
 * [ASPASYA](aspasya/aspasya.html) and [H-ASPASYA](aspasya/h-aspasya.html): an ad-hoc model checker for security protolols
 </div>

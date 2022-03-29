@@ -1,3 +1,10 @@
+- pc: "FM2023"
+  url: "https://fm2023.isp.uni-luebeck.de/wordpress/"
+  acr: "FM2023"
+  from: "7/09/2022"
+  to: "9/09/2022"
+  date: 2022/09/7
+
 - pc: "AGERE! Workshop on programming systems, languages and applications based on actors"
   url: "https://2021.splashcon.org/home/agere-2021"
   acr: "AGERE 2021"

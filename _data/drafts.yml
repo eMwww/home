@@ -1,3 +1,14 @@
+- title: "A Prototype for Data Race Detection in CSeq 3 - (Competition Contribution)."
+  author: "Alex Coto, Omar Inverso, Emerson Sales"
+  descr: "Chasing data races in C programs"
+  printed: "TACAS 2022"
+  url: "https://doi.org/10.1007/978-3-030-99527-0_23"
+
+- title: "Formal Choreographic Languages"
+  author: "Ivan Lanese, Franco Barbanera"
+  descr: "A model of choreographies based on formal languages."
+  printed: "Coordination 2022"
+
 - title: "An Abstract Framework for Choreographic Testing"
   author: "Alex Coto and Roberto Guanciale"
   descr: "Model-driven testing based on choreographies...a first step. We introduce _admissible_ tests and show how to derive them from global specifications."
@@ -24,9 +35,9 @@
 
 - title: "Towards Refinable Choreographies"
   author: "Ugo de'Liguoro and Hernan Melgratti"
-  descr: "We investigate refinement in the context of choreographies allowing for the underspecification of protocols through _refinable_ interactions. A typing discipline enforces well-formedness."
-  printed: "ICE 2020"
-  url: "https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?ICE2020:2"
+  descr: "We investigate refinement in the context of choreographies allowing for the underspecification of protocols through _refinable_ interactions. A typing discipline enforces well-formedness. (The ICE version is [here](https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?ICE2020:2))"
+  printed: "JLAMP"
+  url: "https://www.sciencedirect.com/science/article/abs/pii/S2352220822000293?CMX_ID=&SIS_ID=&dgcid=STMJ_AUTH_SERV_PUBLISHED"
 
 - title: "Abstractions for Collective Adaptive Systems"
   author: "Omar Inverso and Catia Trubiani"

@@ -3,11 +3,13 @@
   acr: "FM2023"
   from: "6/03/2023"
   to: "10/03/2023"
-  date: 2023/03/6
+  date: "2023/03/6"
 
 - pc: "23rd Italian Conference on Theoretical Computer Science"
   acr: "ICTCS2022"
-  date: 2022/09/7
+  from: "7/09/2022"
+  to: "9/09/2022"
+  date: "2022/09/7"
 
 - pc: "18th International Conference on Formal Aspects of Component Software"
   acr: "FACS2022"
@@ -21,35 +23,35 @@
   acr: "COORDINATION 2022"
   from: "13/06/2022"
   to: "17/06/2022"
-  date: 2022/06/17
+  date: "2022/06/17"
 
 - pc: "AGERE! Workshop on programming systems, languages and applications based on actors"
   url: "https://2021.splashcon.org/home/agere-2021"
   acr: "AGERE 2021"
   from: "22/04/2021"
   to: "22/04/2021"
-  date: 2021/04/22
+  date: "2021/04/22"
 
 - pc: "International Workshop on Model-Driven Engineering for Software Architecture"
   url: "http://mde4sa2021.disim.univaq.it"
   acr: "MDE4SA2021"
   from: "15/5/2020"
   to: "17/09/2021"
-  date: 2021/09/17
+  date: "2021/09/17"
   
 - pc: "doctoral symposium di ESOCC"
   url: "http://esocc2016.eu"
   acr: "DS-ESOCC 2016"
   from: "05/09/2016"
   to: "07/09/2016"
-  date: 2016/09/07
+  date: "2016/09/07"
 
 - pc: "22nd International Conference on Coordination Models and Languages"
   url: "https://www.discotec.org"
   acr: "COORDINATION 2020"
   from: "15/06/2020"
   to: "19/06/2020"
-  date: 2020/06/19
+  date: "2020/06/19"
 
 - pc: "Erlang Workshop, 18th ACM SIGPLAN Erlang Workshop"
   url: "https://erlang.org/workshop/2019"
@@ -100,12 +102,12 @@
   to: "07/03/2017"
   date: 2017/03/07
 
-- pc: "21st International Conference on Coordination Models and Languages"
-  url: "https://www.discotec.org"
+- pc: "19th International Conference on Coordination Models and Languages"
+  url: "https://www.discotec.org/2017/coordination"
   acr: "COORDINATION 2017"
   from: "19/06/2017"
   to: "21/06/2017"
-  date: 2017/06/21
+  date: "2017/06/21"
 
 - pc: "2nd International workshop on Pre- and Post- Deployment Verification Techniques"
   url: "http://staff.um.edu.mt/afra1/prepost17"
@@ -142,9 +144,9 @@
   to: "09/06/2016"
   date: 2016/06/09
 
-- pc: "Interaction and Concurrency Experience"
+- pc: "9th Interaction and Concurrency Experience"
   acr: "ICE 2016"
-  url: "http://www.discotec.org"
+  url: "http://2016.discotec.org/index713e.html"
   from: "21/06/2016"
   to: "21/06/2016"
   date: 2016/06/21
@@ -177,8 +179,8 @@
   to: "05/06/2015"
   date: 2015/06/05
 
-- pc: "Interaction and Concurrency Experience"
-  url: "http://www.discotec.org"
+- pc: "8th Interaction and Concurrency Experience"
+  url: "http://discotec2015.inria.fr/workshops/ice-2015/"
   acr: "ICE 2015"
   from: "04/06/2015"
   to: "05/06/2015"
@@ -191,7 +193,7 @@
   to: "23/06/2015"
   date: 2015/06/23
 
-- pc: "5th International Symposium on Trustworthly Global Computing)"
+- pc: "5th International Symposium on Trustworthly Global Computing"
   url: "http://tgc2015.disia.unifi.it"
   acr: "TGC 2015"
   from: "31/08/2015"
@@ -212,8 +214,8 @@
   to: "06/06/2014"
   date: 2014/06/06
 
-- pc: "Interaction and Concurrency Experience"
-  url: "http://www.discotec.org"
+- pc: "7th Interaction and Concurrency Experience"
+  url: "http://www.discotec2014.tu-berlin.de/workshops/ice-2014"
   acr: "ICE 2014"
   from: "06/06/2014"
   to: "06/06/2014"
@@ -267,8 +269,8 @@
   to: "06/06/2013"
   date: 2013/06/06
 
-- pc: "Interaction and Concurrency Experience"
-  url: "http://www.discotec.org"
+- pc: "6th Interaction and Concurrency Experience"
+  url: "http://2013.discotec.org/workshops/ice2013/"
   acr: "ICE 2013"
   from: "06/06/2013"
   to: "06/06/2013"
@@ -288,8 +290,8 @@
   to: "31/08/2013"
   date: 2013/08/1
 
-- pc: "Interaction and Concurrency Experience"
-  url: "http://www.discotec.org"
+- pc: "5th Interaction and Concurrency Experience"
+  url: "http://www.artist-embedded.org/artist/Overview,2429.html"
   acr: "ICE 2012"
   from: "16/06/2012"
   to: "16/06/2012"
@@ -309,8 +311,8 @@
   to: "03/04/2011"
   date: 2011/04/03
 
-- pc: "Interaction and Concurrency Experience"
-  url: "http://www.discotec.org"
+- pc: "4th Interaction and Concurrency Experience"
+  url: "http://www.artist-embedded.org/artist/-ICE-2011-.html"
   acr: "ICE 2011"
   from: "09/06/2011"
   to: "09/06/2011"
@@ -344,8 +346,8 @@
   to: "26/02/2010"
   date: 2010/02/26
 
-- pc: "Interaction and Concurrency Experience"
-  url: "http://www.discotec.org"
+- pc: "3rd Interaction and Concurrency Experience"
+  url: "http://www.artist-embedded.org/artist/Overview,1948.html"
   acr: "ICE 2010"
   from: "10/06/2010"
   to: "10/06/2010"

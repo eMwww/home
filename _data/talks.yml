@@ -1,3 +1,9 @@
+- title: "Design-by-Contract for Flexible Multiparty Session Protocols"
+  slides: "https://emwww.github.io/home/slides/ecoop22.pdf"
+  date: "June 9, 2022"
+  descr: "Presentation at ECOOP 2022"
+  venue: "ECOOP 2022"
+
 - title: "Abstractions for Collective Adaptive Systems"
   slides: "https://emwww.github.io/home/slides/isola21.pdf"
   date: "October 27, 2021"

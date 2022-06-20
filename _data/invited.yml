@@ -24,15 +24,15 @@
   date: "19/9/2018"
   title: "On pomsets as models of asynchronous message-passing languages"
 
-- where: "Department of Arcaeology, University of Leicester"
-  when: "17/6/2017"
-  date: "17/6/2017"
-  title: "A tutorial day: Think ontologically: An Introduction to the use of Ontologies in Archaeology and Digital Humanities"
-  
 - where: "GSSI (L'Aquila, Italy)"
   when: "21/04/2017"
   date: "21/04/2017"
   title: "Choreographies for Communicating Systems"
+
+- where: "Department of Arcaeology, University of Leicester"
+  when: "17/6/2017"
+  date: "17/6/2017"
+  title: "A tutorial day: Think ontologically: An Introduction to the use of Ontologies in Archaeology and Digital Humanities"
   
 - where: "University of Kent (UK)"
   when: "28/11/2016"
@@ -48,4 +48,4 @@
   when: "11/5/2014"
   date: "11/5/2014"
   title: "Tutorial day: Think Ontologically. A Crash Course on Ontology Modelling for Archaeologists"
-
+  

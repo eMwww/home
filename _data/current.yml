@@ -1,4 +1,4 @@
-- topic: Choregraphic languages
+- topic: Choregraphic automata and formal languages 
   authors: Franco Barbanera and Ivan Lanese
   descr: We are setting an abstract framework for choreographies based on formal languages.
 
@@ -14,7 +14,7 @@
   authors: Hernan Melgratti
   descr: We advocate a different _nature_ of behavioural specifications that concern more data- than control-flow of protocols.
 
-- topic: Logical relations
-  authors: Roy Crole
-  descr: We are studying the connection between session types and logical relations.
+# - topic: Logical relations
+#   authors: Roy Crole
+#   descr: We are studying the connection between session types and logical relations.
 

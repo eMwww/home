@@ -1,3 +1,9 @@
+- title: "Automata for choreographies"
+  slides: "https://emwww.github.io/home/slides/nova22.pdf"
+  date: "July 27, 2022"
+  descr: "Presentation at LINCS NOVA"
+  venue: "NOVA 2022"
+
 - title: "Design-by-Contract for Flexible Multiparty Session Protocols"
   slides: "https://emwww.github.io/home/slides/ecoop22.pdf"
   date: "June 9, 2022"

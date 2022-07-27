@@ -1,4 +1,9 @@
 - where: "NOVA LINCS  FCT-UNL (Lisbon, Portugal)"
+  when: "27/7/2022"
+  date: "27/7/2022"
+  title: "Automata for Choreographies"
+
+- where: "NOVA LINCS  FCT-UNL (Lisbon, Portugal)"
   when: "26/2/2020"
   date: "26/2/2020"
   title: "Behavioural APIs & choreographic development"

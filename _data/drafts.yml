@@ -1,3 +1,21 @@
+- title: "PSTMonitor: Monitor synthesis from probabilistic session"
+  author: "Christian Bartolo Burlò, Adrian Francalanza, Alceste Scalas, CatiaTrubiani, EmilioTuosto"
+  descr: "PSTMonitor, a tool for the run-time verification of quantitative specifications of message-passing applications, based on probabilistic session types"
+  printed: "SCICO 2022"
+  url: "https://www.sciencedirect.com/science/article/abs/pii/S0167642322000806"
+
+- title: "Design-by-Contract for Flexible Multiparty Session Protocols (Artifact)"
+  author: "Lorenzo Gheri, Ivan Lanese, Neil Sayers, Emilio Tuosto, Nobuko Yoshida"
+  descr: "A tool supporting web development via choreography automata"
+  printed: "ECOOP 2022"
+  url: "https://drops.dagstuhl.de/opus/volltexte/2022/16219/"
+ 
+- title: "Design-by-Contract for Flexible Multiparty Session Protocols"
+  author: "Lorenzo Gheri, Ivan Lanese, Neil Sayers, Emilio Tuosto, Nobuko Yoshida"
+  descr: "DbC using choreography automata"
+  printed: "ECOOP 2022"
+  url: "https://drops.dagstuhl.de/opus/volltexte/2022/16236/"
+
 - title: "A Prototype for Data Race Detection in CSeq 3 - (Competition Contribution)."
   author: "Alex Coto, Omar Inverso, Emerson Sales"
   descr: "Chasing data races in C programs"
@@ -36,7 +54,7 @@
 - title: "Towards Refinable Choreographies"
   author: "Ugo de'Liguoro and Hernan Melgratti"
   descr: "We investigate refinement in the context of choreographies allowing for the underspecification of protocols through _refinable_ interactions. A typing discipline enforces well-formedness. (The ICE version is [here](https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?ICE2020:2))"
-  printed: "JLAMP"
+  printed: "JLAMP 2020"
   url: "https://www.sciencedirect.com/science/article/abs/pii/S2352220822000293?CMX_ID=&SIS_ID=&dgcid=STMJ_AUTH_SERV_PUBLISHED"
 
 - title: "Abstractions for Collective Adaptive Systems"

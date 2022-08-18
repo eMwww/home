@@ -1,8 +1,9 @@
 - title: "PSTMonitor: Monitor synthesis from probabilistic session"
   author: "Christian Bartolo Burlò, Adrian Francalanza, Alceste Scalas, CatiaTrubiani, EmilioTuosto"
   descr: "PSTMonitor, a tool for the run-time verification of quantitative specifications of message-passing applications, based on probabilistic session types"
-  printed: "SCICO 2022"
-  url: "https://www.sciencedirect.com/science/article/abs/pii/S0167642322000806"
+  printed: "SCICO 2022 (free access before October 05, 2022)"
+  url: "https://www.sciencedirect.com/science/article/pii/S0167642322000806?dgcid=coauthor"
+  # "https://www.sciencedirect.com/science/article/abs/pii/S0167642322000806"
 
 - title: "Design-by-Contract for Flexible Multiparty Session Protocols (Artifact)"
   author: "Lorenzo Gheri, Ivan Lanese, Neil Sayers, Emilio Tuosto, Nobuko Yoshida"

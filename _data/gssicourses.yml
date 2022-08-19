@@ -1,0 +1,7 @@
+- where: "GSSI"
+  when: "3/11/2021 - 10/11/2021"
+  date: "03/11/2021"
+  title: "Immigration on Formal Methods"
+  material:
+    - 1: 
+  

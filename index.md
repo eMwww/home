@@ -5,7 +5,7 @@ home: true
 ---
 
 
-## ![postdoc](images/news.jpeg){:height="20px" width="20px"} MSCA-PF post-doctoral hosting opportunity available at INRIA (Lille) under the supervision of [Simon Bliudze](http://www.bliudze.me/simon). See [details](https://euraxess.ec.europa.eu/jobs/hosting/inria-msca-pf-2022-hosting-offer-lille-2) and get in touch if interested.
+## ![Ph.D. in Cybersecurity](images/news.jpeg){:height="20px" width="20px"}Contact me if you're interested in a fully funded scholarship on foundational aspects in cybersecurity October 3, 2022. (MSc degree required by November 11, 2022). More details at [https://cysec2022.imtlucca.it/](https://cysec2022.imtlucca.it/). 
 <!-- ## ![news](images/news.jpeg){:height="20px" width="20px"} Covid-19: please sign [this petition](https://noprofitonpandemic.eu/) -->
 
 <table>

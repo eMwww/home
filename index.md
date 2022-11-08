@@ -5,7 +5,10 @@ home: true
 ---
 
 
-## ![Ph.D. in Cybersecurity](images/news.jpeg){:height="20px" width="20px"}Contact me if you're interested in a fully funded scholarship on foundational aspects in cybersecurity October 3, 2022. (MSc degree required by November 11, 2022). More details at [https://cysec2022.imtlucca.it/](https://cysec2022.imtlucca.it/). 
+## ![Fully funded Ph.D. scholarship](images/news.jpeg){:height="20px" width="20px"}
+Contact me if you're interested in doing a PhD in the Italian National school in Blockchain and Distributed Ledger Technology. To be advertised soon.
+(MSc degree required)
+<!-- More details at [https://cysec2022.imtlucca.it/](https://cysec2022.imtlucca.it/).  -->
 <!-- ## ![news](images/news.jpeg){:height="20px" width="20px"} Covid-19: please sign [this petition](https://noprofitonpandemic.eu/) -->
 
 <table>

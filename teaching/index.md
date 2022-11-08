@@ -6,7 +6,7 @@ use-site-title: false
 ---
 
 # GSSI
-## Immigration course on formal methods (ay 21/22)
+## Immigration course on formal methods (ay 22/23)
 
 Plotkin's <a href="https://emwww.github.io/home/teaching/immigration_course/plotkin_a_structural_approach_to_operational_semantics.pdf">notes</a> on SOS
 

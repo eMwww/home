@@ -14,8 +14,8 @@ The notes on SOS for concurrency liberally follow the  first two chapeters of th
 
 ## Lecture notes:
 First class: held on 4/11/22 - [eM's notes](https://emwww.github.io/home/teaching/immigration_course/22_23/l1_notes.pdf) 
-<!-- Second class: held on 4/11/22 - [eM's notes](https://emwww.github.io/home/teaching/immigration_course/22_23/l2_notes.pdf) -->
-<!-- Third class: held on 4/11/22 - [eM's notes](https://emwww.github.io/home/teaching/immigration_course/22_23/l3_notes.pdf) -->
+Second class: held on 4/11/22 - [eM's notes](https://emwww.github.io/home/teaching/immigration_course/22_23/l2_notes.pdf)
+Third class: held on 4/11/22 - [eM's notes](https://emwww.github.io/home/teaching/immigration_course/22_23/l3_notes.pdf)
 <!-- Fourth class: held on 4/11/22 - [eM's notes](https://emwww.github.io/home/teaching/immigration_course/22_23/l4_notes.pdf) -->
 <!-- Fift class: held on 4/11/22 - [eM's notes](https://emwww.github.io/home/teaching/immigration_course/22_23/l5_notes.pdf) -->
 

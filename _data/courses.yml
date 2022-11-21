@@ -1,4 +1,11 @@
 - where: "GSSI"
+  when: "4 November - 15 November 2022"
+  date: "15/11/2022"
+  url: ""
+  title: "Introduction to Formal Methods"
+  descr: "Part of the immigration course on formal methods"
+
+- where: "GSSI"
   when: "25 March - 14 April 2021"
   date: "25/03/2021"
   url: ""

@@ -1,7 +1,13 @@
+- institution: "Gran Sasso Science Institute (L'Aquila, Italy)"
+  role: "chair"
+  viva: "Aline Uwimbabazi"
+  title: "Automated Replication of Tuple Spaces via Static Analysis and Transformation of Go Programs"
+  date: "7/09/2022"
+
 - institution: "University of L'Aquila (Italy)"
   viva: "Tala Najem"
   title: "Emerging Computing Models, Software Architectures and Intelligent Systems"
-  date: "??/4/2021"
+  date: "pending"
 
 - institution: "Gran Sasso Science Institute (L'Aquila, Italy)"
   role: "member"

@@ -5,9 +5,9 @@ home: true
 ---
 
 
-## ![Fully funded Ph.D. scholarship](images/news.jpeg){:height="20px" width="20px"}
-Contact me if you're interested in doing a PhD in the Italian National school in Blockchain and Distributed Ledger Technology. To be advertised soon.
-(MSc degree required)
+<!-- ## ![Fully funded Ph.D. scholarship](images/news.jpeg){:height="20px" width="20px"} -->
+<!-- Contact me if you're interested in doing a PhD in the Italian National school in Blockchain and Distributed Ledger Technology. To be advertised soon. -->
+<!-- (MSc degree required) -->
 <!-- More details at [https://cysec2022.imtlucca.it/](https://cysec2022.imtlucca.it/).  -->
 <!-- ## ![news](images/news.jpeg){:height="20px" width="20px"} Covid-19: please sign [this petition](https://noprofitonpandemic.eu/) -->
 

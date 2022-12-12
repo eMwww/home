@@ -5,17 +5,32 @@ docs_list_title: Teaching
 use-site-title: false
 ---
 
-# GSSI
-## Immigration course on formal methods (ay 22/23)
+{% assign items = site.data.courses %}
 
-Plotkin's <a href="https://emwww.github.io/home/teaching/immigration_course/plotkin_a_structural_approach_to_operational_semantics.pdf">notes</a> on SOS
+# Regular teaching
+<p style="font-size:18pt">Below are the details of the courses I'm regularly teaching</p>
 
-The notes on SOS for concurrency liberally follow the  first two chapeters of the <a href="https://emwww.github.io/home/teaching/immigration_course/bergstra_fokkink_ponse_process_algebra_with_recursive_operations_handbook.pdf">book</a> of Bergstra, Fokkink, and Ponse
+{% assign courses = items | where: "list", "yes" %}
 
-## Lecture notes:
-First class: held on 4/11/22 - [eM's notes](https://emwww.github.io/home/teaching/immigration_course/22_23/l1_notes.pdf)  
-Second class: held on 9/11/22 - [eM's notes](https://emwww.github.io/home/teaching/immigration_course/22_23/l2_notes.pdf)  
-Third class: held on 10/11/22 - [eM's notes](https://emwww.github.io/home/teaching/immigration_course/22_23/l3_notes.pdf)  
-<!-- Fourth class: held on 4/11/22 - [eM's notes](https://emwww.github.io/home/teaching/immigration_course/22_23/l4_notes.pdf) -->
-<!-- Fift class: held on 4/11/22 - [eM's notes](https://emwww.github.io/home/teaching/immigration_course/22_23/l5_notes.pdf) -->
+{% for course in courses %}
+## {{ course.title }}
+Academic year {{ course.ay }}
+<p style="font-size:12pt">{{ course.syllabus }}</p>
+
+{% if course.material %}
+### References and material
+<div markdown="1" style="font-size:8pt">
+{% for m in course.material %}
+- {% if m.url %}[Click here]({{ m.url }}) for {% endif %}{{ m.descr }} {% endfor %}
+</div>
+{% endif %}
+
+{% if course.notes %}
+### Lecture notes:
+<div markdown="1" style="font-size:8pt">
+{% for l in course.notes %}
+- {{ l.date }}: [Notes]({{ l.url }}){% endfor %}
+</div>
+{% endif %}
+{% endfor %}
 

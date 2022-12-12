@@ -1,125 +1,163 @@
-- where: "GSSI"
-  when: "4 November - 15 November 2022"
-  date: "15/11/2022"
-  url: ""
-  title: "Introduction to Formal Methods"
+- title: "Introduction to Formal Methods"
   descr: "Part of the immigration course on formal methods"
+  when:
+  - "4-17 November 2022"
+  - "2-13 November 2020"
+  - "25-29 November 2019"
+  url: ""
+  date: "22/11/2022"
+  where: "GSSI"
+  ay: "2022/23"
+  list: "yes"
+  syllabus: "The course introduces to formal models of computations with a focus on concurrency (both shared-memory and communication-based concurrency). The main topics of the course are operational semantics and (labelled) transition systems, regular expressions, basic process algebras. Preliminary concepts of software verification, typical verification flow, common program analysis techniques, decision procedures. Basic concepts of software modelling and analysis with stochastic processes, discrete-time markov processes, and petri nets.<br/>The topics of the <b>first part</b> are: operational semantics and (labelled) transition systems, regular expressions, basic process algebras."
+  notes:
+  - date: "4/11/22"
+    url: "https://emwww.github.io/home/teaching/immigration_course/22_23/l1_notes.pdf"
+  - date: "9/11/22"
+    url: "https://emwww.github.io/home/teaching/immigration_course/22_23/l2_notes.pdf"
+  - date: "10/11/22"
+    url: "https://emwww.github.io/home/teaching/immigration_course/22_23/l3_notes.pdf"
+  - date: "15/11/22"
+    url: "https://emwww.github.io/home/teaching/immigration_course/22_23/l4_notes.pdf"
+  - date: "17/11/22"
+    url: "https://emwww.github.io/home/teaching/immigration_course/22_23/l5_notes.pdf"
+  material:
+  - descr: "Plotkin's notes on SOS"
+    url: "https://emwww.github.io/home/teaching/immigration_course/plotkin_a_structural_approach_to_operational_semantics.pdf"
+  - descr: "the notes on SOS for concurrency liberally follow the first two chapeters of the book of Bergstra, Fokkink, and Ponse"
+    url: "https://emwww.github.io/home/teaching/immigration_course/bergstra_fokkink_ponse_process_algebra_with_recursive_operations_handbook.pdf"
 
-- where: "GSSI"
-  when: "25 March - 14 April 2021"
+- title: "Model Checking"
+  descr: "Core course"
+  where: "GSSI"
+  when:
+  - "9 May - 16 June 2022"
+  date: "9/03/2023"
+  ay: "2021/22"
+  list: "yes"
+  url: ""
+  syllabus: "This course introduces to the formal modelling and verification through classical model checking approaches of systems. The course poses particular emphasis on the so-called reactive systems, which embrace a wide range of modern distributed and communicating systems. The main topics of the course are temporal logics (specifically LTL, CTL, and CTL*), safety and liveness properties of reactive systems as well as fairness conditions. Some basic model checking algorithms are presented and their application to realistic scenarios is analysed."
+  material:
+  - descr: "Baier, Katoen: Principles of model checking. MIT Press"
+  - descr: "Clarke, Grunberg, Peled: Model checking. MIT Press"
+
+- title: "Formal Behavioural Specifications"
+  descr: "Core course"
+  where: "GSSI"
+  when:
+  - "25 March - 14 April 2021"
   date: "25/03/2021"
   url: ""
-  title: "Formal Behavioural Specifications"
+ 
+- title: "Modelling and Verification of Reactive Systems"
   descr: "Core course"
-
-- where: "GSSI"
-  when: "18 March - 1 April 2021"
+  where: "GSSI"
+  when:
+  - "18 March - 1 April 2021"
   date: "18/03/2021"
   url: ""
-  title: "Modelling and Verification of Reactive Systems"
-  descr: "Core course"
-
-- where: "GSSI"
-  when: "13 - 21 July 2020"
+  
+- title: "Model Checking and Software Verification"
+  descr: "Part of the core course on model checking and software verification"
+  where: "GSSI"
+  when:
+  - "13 - 21 July 2020"
   date: "13/07/2020"
   url: ""
-  title: "Model Checking and Software Verification"
-  descr: "Part of the core course on model checking and software verification"
-
-- where: "GSSI"
-  when: "25-29 November 2019 / 2-13 November 2020"
-  date: "25/11/2019"
-  url: ""
-  title: "Introduction to formal methods"
-  descr: "Part of the immigration course on formal methods"
-
-- where: "Leicester"
-  when: "08-12/07/2019"
+  
+- title: "International summer school on Behavioural Approaches for API-Economy with Applications"
+  descr: "Organiser and scientific director"
+  where: "Leicester"
+  when:
+  - "08-12/07/2019"
   date: "08/07/2019"
   url: "https://www.um.edu.mt/projects/behapi/leicester-summer-school-behavioural-approaches-for-api-economy-with-applications"
-  title: "International summer school on Behavioural Approaches for API-Economy with Applications"
-  descr: "Organiser and scientific director"
-
-- where: "Padova (IT)"
-  when: "9 - 12 May 2016"
+  
+- title: "Introduction to behavioural types"
+  descr: "Guest lecturer for the course on languages and models for Global Computing, Laurea Magistrale in Informatica - Università di Padova Anno Accademico 2015/2016"
+  where: "Padova (IT)"
+  when:
+  - "9 - 12 May 2016"
   date: "9/05/2016"
   url: "http://www.math.unipd.it/~baldan/Global/"
-  title: "Introduction to behavioural types"
-  descr: "Guest lecturer for the course on languages and models for Global Computing, Laurea Magistrale in Informatica - Università di Padova Anno Accademico 2015/2016"
-
-- where: "Birmingham (UK)"
-  when: "11 - 15 April 2016"
+  
+- title: "Introduction to distributed choreographies"
+  descr: "MGS 2016"
+  where: "Birmingham (UK)"
+  when:
+  - "11 - 15 April 2016"
   date: "11/04/2016"
   url: "http://www.cs.bham.ac.uk/~pbl/mgs2016/"
-  title: "Introduction to distributed choreographies"
-  descr: "MGS 2016"
-
-- where: "Cagliari (IT)"
-  when: "30 June 2015 - 16 July 2015"
+  
+- title: "Designing and analysing distributed applications with automata and choreographies"
+  descr: "Visiting Professor 2015"
+  where: "Cagliari (IT)"
+  when:
+  - "30 June 2015 - 16 July 2015"
   date: "30/06/2015"
   url: "http://tcs.unica.it/news/cfsm-tuosto-2015"
-  title: "Designing and analysing distributed applications with automata and choreographies"
-  descr: "Visiting Professor 2015"
-
-- where: "Faculty of Archaeology of Leiden"
-  when: " 01-01-2014 al 30-12-2019"
+  
+- title: "Think Ontologically. A Crash Course on Ontology Modelling for Archaeologists"
+  descr: "Visiting Professor 2014"
+  where: "Faculty of Archaeology of Leiden"
+  when:
+  - " 01-01-2014 al 30-12-2019"
   date: "11/5/2014"
   url: ""
-  title: "Think Ontologically. A Crash Course on Ontology Modelling for Archaeologists"
+  
+- title: "Introduction to security protocols"
   descr: "Visiting Professor 2014"
-
-- where: "Cagliari (IT)"
-  when: "April 2014"
+  where: "Cagliari (IT)"
+  when:
+  - "April 2014"
   date: "1/04/2014"
   url: ""
-  title: "Introduction to security protocols"
-  descr: "Visiting Professor 2014"
-
-- where: "Pisa (IT)"
-  when: "December 2012"
+  
+- title: "Interactions, automata, and names"
+  descr: "Invited lectures"
+  where: "Pisa (IT)"
+  when:
+  - "December 2012"
   date: "1/12/2012"
   url: ""
-  title: "Interactions, automata, and names"
-  descr: "Invited lectures"
-
-- where: "Cagliari (IT)"
-  when: "Aprile / July 2012"
+  
+- title: "Introduction to concurrent systems / Bisimulation, process algebras, and co-induction"
+  descr: "Visiting Professor 2012"
+  where: "Cagliari (IT)"
+  when:
+  - "Aprile / July 2012"
   date: "1/04/2012"
   url: ""
-  title: "Introduction to concurrent systems / Bisimulation, process algebras, and co-induction"
-  descr: "Visiting Professor 2012"
-
-- where: "Sheffield (UK)"
-  when: "28 March - 1 April 2010"
+  
+- title: "Protocol Verification"
+  descr: "MGS 2010"
+  where: "Sheffield (UK)"
+  when:
+  - "28 March - 1 April 2010"
   date: "28/3/2010"
   url: "http://mgs2010.group.shef.ac.uk"
-  title: "Protocol Verification"
-  descr: "MGS 2010"
-
-- where: "Copenhagen (DK)"
-  when: "16-19 October 2007"
+  
+- title: "Synchronised Hyperedge Replacement as a Model for Service Oriented Computing"
+  descr: "BPESO 2007"
+  where: "Copenhagen (DK)"
+  when:
+  - "16-19 October 2007"
   date: "16/10/2007"
   url: ""
-  title: "Synchronised Hyperedge Replacement as a Model for Service Oriented Computing"
-  descr: "BPESO 2007"
-
-- where: "Leicester (UK)"
-  when: "8-12 April 2006"
+  
+- title: "Concurrency and Mobility"
+  descr: "MGS 2006"
+  where: "Leicester (UK)"
+  when:
+  - "8-12 April 2006"
   date: "8/4/2006"
   url: "http://www.cs.le.ac.uk/events/mgs2006"
-  title: "Concurrency and Mobility"
-  descr: "MGS 2006"
-
-- where: "Buenos Aires (AR)"
-  when: "26-31 July 2004"
+  
+- title: "Automata for verification of mobile system"
+  descr: "ECI 2004"
+  where: "Buenos Aires (AR)"
+  when:
+  - "26-31 July 2004"
   date: "26/7/2004"
   url: "http://www-2.dc.uba.ar/eci/2004"
-  title: "Automata for verification of mobile system"
-  descr: "ECI 2004"
-
-
-
-
-
-
-
+  

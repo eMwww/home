@@ -11,8 +11,7 @@ use-site-title: false
 {% for n in items %}
 - {% if n.url %} <a href="{{ n.url }}">{{ n.title }}</a>{% else %} {{ n.title }}{% endif %}. {{ n.descr }}:  {{ n.where }}<br/>
 <ul><ul> {% for date in n.when %} <li>{{ date }}</li> {% endfor %}</ul></ul>
-{% for date in n.when %}
-- {{ date }}<br/>{% endfor %} {% endfor %}
+ {% endfor %}
 </div>
 
 # Invited lectures / tutorials

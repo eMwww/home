@@ -19,7 +19,7 @@ home: true
  <tr>
  <td>
  <div>
-     <img alt="me" src="/home/images/me.jpg" width="85%" />
+     <img alt="me" src="/home/images/me.jpg" width="85%" title="eM"/>
  </div>
  </td>
  <td>
@@ -45,10 +45,10 @@ home: true
 	<br/><a href="https://www.gssi.it">Gran Sasso Science Institute</a>
 	<br/>Viale F. Crispi, 7
 	<br/>67100 L'Aquila (Italy)
-	<br/><img alt="me" src="/home/images/office.jpg" width="10%" />Office: Palazzo Mariani P1-N
+	<br/><img alt="office" src="/home/images/office.jpg" width="10%"  title="office"/>Palazzo Mariani P1-N
 	<br/><b>Office Hours</b>: always keen to meet; just drop me an email to fix a meeting.
-	<br/><a href="mailto:emiliodottuosto@gssi.it"><img alt="me" src="/home/images/email.jpg" width="20%" />email</a> ['.'/'dot']
-	<br/><img alt="me" src="/home/images/phone.png" width="10%" />+39 0862 428 0312
+	<br/><a href="mailto:emiliodottuosto@gssi.it"><img alt="mail" src="/home/images/email.jpg" width="20%"  title="mail"/>email</a> ['.'/'dot']
+	<br/><img alt="phone" src="/home/images/phone.png" width="10%" title="phone"/>+39 0862 428 0312
   </td>
   </tr>
 </table>
@@ -81,19 +81,18 @@ home: true
 </td>
 <td valign="top" markdown="1">
 ### Events
-<div class="fun" style="font-size:.8em;" markdown="1">
+<div class="fun" markdown="1">
 {% assign items = site.data.events %}
 {% for n in items %}
-[{{ n.name }}]({{ n.url }}) {% if n.deadline %}`(deadline: {{ n.deadline }})`{: style="font-size:4pt"}{% endif %}<br/>{% endfor %}
+[{{ n.name }}]({{ n.url }}) {% if n.deadline %}`(deadline: {{ n.deadline }})`{: style="font-size:6pt"}{% endif %}<br/>{% endfor %}
 </div>
 </td>
 <td valign="top" markdown="1">
 ### Fun & not so fun stuff
-<div class="fun" style="font-size:.8em;" markdown="1">
+<div class="fun" markdown="1">
 {% assign items = site.data.fun %}
 {% for n in items %}
-{{ n.item }}
-{% endfor %}
+{{ n.item }}<br/>{% endfor %}
 </div>
 </td>
 </tr>

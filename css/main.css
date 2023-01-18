@@ -6,54 +6,73 @@ body {
     margin: 60px auto;
     width: 90%;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-	 font-size:.8em;
+	 font-size:100%;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 2px;
-	 text-align:center;
-    list-style: none;
-    font-weight: bold;
-	 background-color: #e5680e;
-	 color:#ffffff;
-}
+/* nav ul, footer ul { */
+/*     font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
+/*     padding: 2px; */
+/* 	 text-align:center; */
+/*     list-style: none; */
+/*     font-weight: bold; */
+/* 	 background-color: #e5680e; */
+/* 	 color:#ffffff; */
+/* } */
 
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 5px;
-    margin-left: 5px;
-	 font-size:1.3em;
-    padding: 4px;
-}
+/* nav ul li, footer ul li { */
+/*     display: inline; */
+/*     margin-right: 5px; */
+/*     margin-left: 5px; */
+/* 	 font-size:1.3em; */
+/*     padding: 4px; */
+/* } */
 
 nav a{
 	 color:#ffffff;
 }
 
-li {
-	 	 font-size:1.5em;
+table.nav{
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 4px;
+	 font-size:1.3em;
+	 color:#ffffff;
+	 width:100%;
+    margin-right: 0px;
+    margin-left: 0px;
+	 background-color:#e5680e;
+}
+
+th.nav{
+    display: inline;
+	 text-align:center;
+	 width:20%;	 
 }
 
 h1 {
 	 color:#556b2f;
+    font-size: 200%;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
 h2 {
 	 color:#6b8e23;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 170%;
 }
 
+
 h3 {
+    font-size: 140%;
 	 color:#bc8f8f;
 }
 
 td.quicklinks li {
-	 font-size : .9em;
+	 font-size : 90%;
     margin-left: -2.0em;
 	 line-height : 1.5em;
 }
 
 td.details {
-	 font-size : .7em;
+	 font-size : 65%;
 	 /* line-height : .5em; */
 }
 
@@ -66,16 +85,6 @@ a {
 a:hover {
     text-decoration: underline;
 	 color: #1099;
-}
-
-h1 {
-    font-size: 20pt;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-
-h2 {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-size: 18pt;
 }
 
 p {
@@ -153,10 +162,11 @@ div.fun {
   animation-direction: reverse;
   background-color: red;
 */
-  position: relative;
-  animation-name: slidein;
-  animation-duration: 2s;
-  line-height:5.5em;
+	 font-size:65%;
+	 position: relative;
+	 animation-name: slidein;
+	 animation-duration: 2s;
+	 line-height:5.5em;
 }
 
 div.fun li {
@@ -170,8 +180,8 @@ div.fun li {
   /* border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
   font-weight: bold;
   color: #117a65;
-  font-size:.8em;
-  opacity: 0.80;
+  font-size:80%;
+  opacity: 1;
 }
 
 /* Tooltip text */
@@ -227,7 +237,7 @@ div.fun li {
  margin: 0;
  line-height: 1em;
  text-align: left;
- font-size: .65em;
+ font-size: 65%;
  /* Starting position */
  -moz-transform:translateY(-100%);
  -webkit-transform:translateY(-100%);	

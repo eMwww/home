@@ -6,21 +6,27 @@
 
 - name: "BehAPI"
   url: "https://www.um.edu.mt/projects/behapi"
+  tooltip: "GSSI is almost in :)"
 
 - name: "IT-Matters"
   url: "http://itmatters.imtlucca.it"
+  tooltip: "PRIN project about Methods and Tools for Trustworthy Smart Systems"
 
 - name: "ChorGram"
   url: "https://bitbucket.org/eMgssi/stable_chorgram/wiki/Home"
+  tooltip: "One of my favourtie hobbies"
 
 - name: "Formal Methods Europe"
   url: "https://www.fmeurope.org/"
+  tooltip: "Site about FM in Europe"
   
-- name: "ICE-TCS / GSSI seminars"
-  url: "https://sites.google.com/gssi.it/csgssi/seminars-and-events/joint-ice-tcs-csgssi-virtual-seminar?authuser=0"
+- name: "GSSI seminars"
+  url: "https://sites.google.com/gssi.it/csgssi/seminars-and-events/2023-csgssi-seminars?authuser=0"
+  tooltip: "I'm organising the seminars at GSSI: contact me if you are interested to give a talk"
 
 - name: "BETTY's book"
   url: "https://www.riverpublishers.com/research_details.php?book_id=439"
+  tooltip: "One of the outputs of the BETTY Cost Action"
 
 # - name: "Supporting Frontiers"
 #   url: "https://www.frontiersin.org/"

@@ -33,7 +33,7 @@ home: true
 <td class="quicklinks" valign="top" markdown="1">
 {% assign items = site.data.links %}
 {% for n in items %}
-- {{ n.pre }} [{{ n.name }}]({{ n.url }}) {{ n.post }}{% endfor %}
+- <span class="tooltip"><span class="tooltiptext">{{ n.tooltip }}</span>{{ n.pre }} [{{ n.name }}]({{ n.url }}) {{ n.post }}</span>{% endfor %}
 </td>
 <td class="quicklinks" valign="top" markdown="1">
 {% assign items = site.data.talks %}

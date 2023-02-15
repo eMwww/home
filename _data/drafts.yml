@@ -1,3 +1,9 @@
+- title: "Formal Choreographic Languages"
+  author: "Ivan Lanese, Franco Barbanera"
+  descr: "A model of choreographies based on formal languages."
+  printed: "Coordination 2022. Now under review at LMCS"
+  url: "https://arxiv.org/abs/2210.08223v1"
+
 - title: "PSTMonitor: Monitor synthesis from probabilistic session"
   author: "Christian Bartolo Burlò, Adrian Francalanza, Alceste Scalas, CatiaTrubiani, EmilioTuosto"
   descr: "PSTMonitor, a tool for the run-time verification of quantitative specifications of message-passing applications, based on probabilistic session types"
@@ -22,11 +28,6 @@
   descr: "Chasing data races in C programs"
   printed: "TACAS 2022"
   url: "https://doi.org/10.1007/978-3-030-99527-0_23"
-
-- title: "Formal Choreographic Languages"
-  author: "Ivan Lanese, Franco Barbanera"
-  descr: "A model of choreographies based on formal languages."
-  printed: "Coordination 2022"
 
 - title: "An Abstract Framework for Choreographic Testing"
   author: "Alex Coto and Roberto Guanciale"

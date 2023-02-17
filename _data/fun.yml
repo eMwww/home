@@ -1,19 +1,35 @@
-- item: "Conferences vs. Journals in CS [The Story of a Journal Proposal](http://tagide.com/blog/academia/the-story-of-a-journal-proposal)"
+- tooltip: "Conferences vs. Journals in CS"
+  name: "The Story of a Journal Proposal"
+  url: "http://tagide.com/blog/academia/the-story-of-a-journal-proposal"
+  
+- tooltip: "Publication pressure"
+  name: "Vardi's view on publication pressure"
+  url: "http://www.changingacademiclife.com/blog/2019/3/31/moshe-vardi"
 
-- item: "Vardi's view on [publication pressure](http://www.changingacademiclife.com/blog/2019/3/31/moshe-vardi)"
+- tooltip: "CS & societies"
+  name: "Phil's Rogaway insightful lament about"
+  url: "nugae/rogaway.pdf"
 
-- item: "Phil's Rogaway insightful lament about [CS & societies](nugae/rogaway.pdf)"
+- tooltip: "be careful"
+  name: "Globalisation and research..."
+  url: "http://www.sciencedirect.com/science/article/pii/S0140673614607972"
 
-- item: "Globalisation and research...[be careful](http://www.sciencedirect.com/science/article/pii/S0140673614607972)"
+- tooltip: "Not so bad after all"
+  name: "Italian research is not so bad after all"
+  url: "https://medium.com/@alfonsofuggetta/b5ab6eb2ecd0"
 
-- item: "Italian research is [not so bad](https://medium.com/@alfonsofuggetta/b5ab6eb2ecd0) after all"
+- tooltip: "This video is somehow related to research"
+  name: "Ken Robinson's view on education"
+  url: "https://www.youtube.com/watch?v=zDZFcDGpL4U"
+  
+- tooltip: "Playing with regular expressions"
+  name: "Puzzles & regex"
+  url: "http://regexcrossword.com"
 
-- item: "This [video](https://www.youtube.com/watch?v=zDZFcDGpL4U) is somehow related to research"
+- tooltip: "Enclosed is our latest version of Ms. #1996-02-22-RRRRR, that is the re-re-re-revised revision of our paper :))"
+  name: "Frustrated authors"
+  url: "http://eloquentscience.com/wp-content/uploads/2012/02/Frustrated_author.pdf"
 
-- item: "Having [fun with regex](http://regexcrossword.com)"
-
-- item: "[Frustrated authors](http://eloquentscience.com/wp-content/uploads/2012/02/Frustrated_author.pdf)"
-
-- item: "Another one about [peer reviewing](http://www.sigmod.org/publications/sigmod-record/0812/p100.open.cormode.pdf)..."
-
-- item: "Lectures on Marx's [Capital V. 1](https://goo.gl/TNRzO6) by David Harvey"
+- tooltip: "Das Kapital"
+  name: "Lectures on Marx's [Capital V. 1] by David Harvey"
+  url: "https://goo.gl/TNRzO6"

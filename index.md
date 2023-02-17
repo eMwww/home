@@ -92,7 +92,7 @@ home: true
 <div class="fun" markdown="1">
 {% assign items = site.data.fun %}
 {% for n in items %}
-{{ n.item }}<br/>{% endfor %}
+<span class="tooltip"><span class="tooltiptext">{{ n.tooltip }}</span>[{{ n.name }}]({{ n.url }})</span><br/>{% endfor %}
 </div>
 </td>
 </tr>

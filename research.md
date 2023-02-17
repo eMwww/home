@@ -4,41 +4,40 @@ content: true
 ---
 
 # Recent stuff
-<div markdown="1">
+<div markdown="1" style="font-size:.9em;">
 Here is a list of recent topics I am playing with:
 {% assign items = site.data.current %}
 {% for n in items %}
-- *{{ n.topic }}*{: style="color:  #117a65; opacity: 0.80;" }
-  {% if n.authors %}(joint work with {{ n.authors }}){% endif %}  
-  <span markdown="1" style="color:#888888">{{ n.descr }} {% if n.url %} Check out [{{ n.url }}](here) {% endif %}{% endfor %}</span>
+- <span class="tooltip"><span class="tooltiptext">{{ n.descr }} {% if n.authors %} Working on this with {{ n.authors }} {% endif %}</span>{{ n.topic }}</span>{% endfor %}
 </div>
 
 
 # My PhD students
 {% assign items = site.data.phd %}
-<div markdown="1">
+<div markdown="1" style="font-size:.9em;">
 {% for n in items %} - {{ n.name }} {% if n.viva %} _(viva held in {{ n.viva }})_{: style="font-size:10pt" } {% else %} _(current student)_{: style="font-size:12pt" } {% endif %}
 {% endfor %}
 </div>
 
 
 # Readings
+<div markdown="1" style="font-size:.9em;">
 Some material I find both entertaining and useful
 - Alfred Tarski. *Introduction to logic and to the methodology of deductive sciences*. OUP.
 - Graham Priest. *Logic: A Very Short Introduction*. OUP.
 - Douglas R. Hofstadter. *Gödel, Escher, Bach: An Eternal Golden Braid*. Basic Books 1999 (First published in 1979).
-
+</div>
 
 # Research Projects
 
 ## Ongoing Projects
-<div markdown="1">
+<div markdown="1" style="font-size:.9em;">
 - 2018: Site leader and Work package leader of [BehAPI](https://www.um.edu.mt/projects/behapi) "Behavioural Application Program Interfaces". (Marie Skłodowska-Curie Actions RISE, agreement No 778233, €742,500.00, 1/3/2018 to-date)
 - 2019: Member of [IT-Matters](http://itmatters.imtlucca.it) (Italian PRIN project led by Rocco de Nicola)
 </div>
 
 ## Old projects
-<div markdown="1">
+<div markdown="1" style="font-size:.9em;">
 - 2018: co-PI **RCADE** (EU MSCA Fellowship) [Claudio Mezzina](https://www.uniurb.it/persone/claudio-mezzina) joined in September 2018 our department as MSCA fellow collaborating with [Irek Ulidowski](http://www.cs.le.ac.uk/people/iu3) and me on causal consistency reversible debuggers; the project is discontinued since, shortly after the start, Claudio got a permanent job in Italy
 - 2017: Scientific mentor of the Daphe Jackson fellowship of Dott. Paula Severi
 - 2015-2019: [RC](http://www.revcomp.eu) "Reversible Computation. Extending Horizons of Computing" (EU Cost Action 1405, 01/07/2015-30/04/2019)
@@ -60,7 +59,7 @@ Some material I find both entertaining and useful
 </div>
 
 # Some tools
-<div markdown="1">
+<div markdown="1" style="font-size:.9em;">
 * [ChorGram](https://bitbucket.org/eMgssi/stable_chorgram/wiki/Home): tool-chain for choreographic development
 * [MIHDA](./mihda.tgz): partition refinement for history-dependent automata
 * [ASPASYA](aspasya/aspasya.html) and [H-ASPASYA](aspasya/h-aspasya.html): an ad-hoc model checker for security protolols

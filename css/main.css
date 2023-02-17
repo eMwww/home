@@ -180,7 +180,7 @@ div.fun li {
   /* border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
   font-weight: bold;
   color: #117a65;
-  font-size:80%;
+  font-size:100%;
   opacity: 1;
 }
 
@@ -193,6 +193,7 @@ div.fun li {
   text-align: left;
   padding: 5px 0;
   border-radius: 6px;
+  font-size:.75em;
 
   /* Position the tooltip text */
   position: absolute;

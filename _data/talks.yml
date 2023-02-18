@@ -38,30 +38,35 @@
   date: "April 12, 2021"
   descr: "IT-Matters Project presentation"
   venue: "IT-Matters 2021"
+  cover: "itmatters21-01.png"
 
 - title: "Open Problems in Choreographic Development of Message-Passing Applications"
   slides: "https://emwww.github.io/home/slides/asyde20.pdf"
   date: "September 15, 2020"
   descr: "Invited talk at ASYDE 2020"
   venue: "ASYDE 2020"
+  cover: "asyde20-01.png"
 
 - title: "Choreographic Development of Message-Passing Applications - A Tutorial"
   slides: "https://emwww.github.io/home/slides/coordination_tutorial20.pdf"
   date: "June 15, 2020"
   descr: "An invited tutorial at DisCoTec 2020"
   venue: "DisCoTec 2020"
+  cover: "coordination_tutorial20-01.png"
 
 - title: "A Choreography-Driven Approach to APIs: the OpenDXL Case Study"
   slides: "https://emwww.github.io/home/slides/coordination20.pdf"
   descr: "A presentation at COORDINATION 2020"
   date: "June 16, 2020"
   venue: "COORDINATION 2020"
+  cover: "coordination20-01.png"
 
 - title: "Behavioural APIs & choreographic development"
   slides: "https://emwww.github.io/home/slides/lisbon20.pdf"
   descr: "I gave this talk at FCUL (14/2) and NOVA (26/2)"
   date: "February 14, 2020 & February 26, 2020"
   venue: "FCUL/NOVA"
+  cover: "lisbon20-01.png"
 
 
 

@@ -39,7 +39,7 @@ home: true
 {% for n in items limit:5 %}
 - <span class="tooltip" style="font-size:90%;"><span class="tooltiptext"><img  alt="" src="/home/slides/{{ n.cover }}" width="120%" title="cover"/></span>
 [{{ n.venue }}]({{ n.slides }}) {% if n.descr %}{{ n.descr }}. {{ n.date  | date: '%B %d, %Y' }}
-</span>{% endif %}{% endfor %}
+{% endif %}</span>{% endfor %}
 </td>
 <td class="details" valign="top">
     Associate Professor

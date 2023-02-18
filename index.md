@@ -4,7 +4,6 @@ content: true
 home: true
 ---
 
-
 <!-- ## ![Fully funded Ph.D. scholarship](images/news.jpeg){:height="20px" width="20px"} -->
 <!-- Contact me if you're interested in doing a PhD in the Italian National school in Blockchain and Distributed Ledger Technology. To be advertised soon. -->
 <!-- (MSc degree required) -->
@@ -38,7 +37,9 @@ home: true
 <td class="quicklinks" valign="top" markdown="1">
 {% assign items = site.data.talks %}
 {% for n in items limit:5 %}
-- [{{ n.venue }}]({{ n.slides }}) {% if n.descr %}{{ n.descr }}. {{ n.date  | date: '%B %d, %Y' }}.{% endif %}{% endfor %}
+- <span class="tooltip" style="font-size:90%;"><span class="tooltiptext"><img  alt="" src="/home/slides/{{ n.cover }}" width="120%" title="cover"/></span>
+[{{ n.venue }}]({{ n.slides }}) {% if n.descr %}{{ n.descr }}. {{ n.date  | date: '%B %d, %Y' }}
+</span>{% endif %}{% endfor %}
 </td>
 <td class="details" valign="top">
     Associate Professor
@@ -55,11 +56,6 @@ home: true
 </td>
 </tr>
 </table>
-
-<!-- ## Teaching -->
-<!-- I usually teach -->
-<!-- - Modelling and Verification of Reactive Systems -->
-<!-- - Formal Behavioural Specifications -->
 
 <table>
   <tr>
@@ -84,7 +80,7 @@ home: true
 <div class="fun" markdown="1">
 {% assign items = site.data.events %}
 {% for n in items %}
-[{{ n.name }}]({{ n.url }}) {% if n.deadline %}`(deadline: {{ n.deadline }})`{: style="font-size:6pt"}{% endif %}<br/>{% endfor %}
+- [{{ n.name }}]({{ n.url }}) {% if n.deadline %}`(deadline: {{ n.deadline }})`{: style="font-size:6pt"}{% endif %}<br/>{% endfor %}
 </div>
 </td>
 <td valign="top" markdown="1">
@@ -92,10 +88,11 @@ home: true
 <div class="fun" markdown="1">
 {% assign items = site.data.fun %}
 {% for n in items %}
-<span class="tooltip" style="font-size:90%;"><span class="tooltiptext">{{ n.tooltip }}</span>[{{ n.name }}]({{ n.url }})</span><br/>{% endfor %}
+- <span class="tooltip" style="font-size:90%;"><span class="tooltiptext">{{ n.tooltip }}</span>[{{ n.name }}]({{ n.url }})</span>{% endfor %}
 </div>
 </td>
 </tr>
 </table>
+
 
 [comment]: <> (Keywords: Formal methods, behavioural specifications, choreographies, models of concurrency and distributions)

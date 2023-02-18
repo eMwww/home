@@ -16,6 +16,10 @@
   url: "https://bitbucket.org/eMgssi/stable_chorgram/wiki/Home"
   tooltip: "One of my favourtie hobbies"
 
+- name: "CIRC"
+  url: "https://spots.augusta.edu/caubert/research/cinrc/"
+  tooltip: "Clément Aubert new project on concurrency in reversible computing"
+  
 - name: "Formal Methods Europe"
   url: "https://www.fmeurope.org/"
   tooltip: "Site about FM in Europe"

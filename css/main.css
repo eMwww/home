@@ -162,11 +162,11 @@ div.fun {
   animation-direction: reverse;
   background-color: red;
 */
-	 font-size:65%;
+	 font-size:90%;
 	 position: relative;
 	 animation-name: slidein;
 	 animation-duration: 2s;
-	 line-height:5.5em;
+	 line-height:1em;
 }
 
 div.fun li {
@@ -223,7 +223,7 @@ div.fun li {
 .tooltip:hover .tooltiptext {
   font-size: .7em;
   visibility: visible;
-  opacity: 1;
+  opacity: .9;
 } 
 
 .scroll {

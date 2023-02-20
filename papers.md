@@ -5,7 +5,7 @@ content: true
 
 # Papers
 <div markdown="1" style="font-size:.8em;">My papers can be found on 
-[DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd/t/Tuosto:Emilio.html).
+[DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd/t/Tuosto:Emilio.html).  
 Some <strong>recent drafts</strong> are listed below (in no particular order; mouse-over titles for a short description)
 </div>
 {% assign items = site.data.drafts %}
@@ -16,11 +16,17 @@ Some <strong>recent drafts</strong> are listed below (in no particular order; mo
 
 **Get in touch if you cannot find one of the papers.**
 
+# Contributed collections
+{% assign items = site.data.books %}
+{% for n in items %}
+- {{ n.title }}.
+<span markdown="1" class="tooltip">
+<span class="tooltiptext">{{ n.tooltip }}</span> Available [Here]({{ n.url }})</span>{% endfor %}
 
 # Edited volumes
 
 {% assign items = site.data.edited %}
 {% for n in items %}
- - *{{ n.title }}*{: style="color:  #117a65; opacity: 0.80;" }
- <a href="{{ n.url }}">{{ n.ref }}</a> {% if n.img %} <img alt="{{ n.title }}" src="/home/images/{{ n.img }}" width="3%" /> {% endif %} {% endfor %}
+- *{{ n.title }}*{: style="color:  #117a65; opacity: 0.80;" }
+ <a href="{{ n.url }}">{{ n.ref }}</a> {% if n.img %} <img alt="{{ n.title }}" src="/home/images/{{ n.img }}" width="3%" /> {% endif %}{% endfor %}
 

@@ -71,8 +71,9 @@ td.quicklinks li {
 	 line-height : 1.5em;
 }
 
-td.details {
-	 font-size : 65%;
+td.latest {
+	 font-size : 120%;
+	 opacity : .5;
 	 /* line-height : .5em; */
 }
 
@@ -227,7 +228,7 @@ div.fun li {
 } 
 
 .scroll {
- height: 15em;	
+ height: 8em;	
  overflow: hidden;
  position: relative;
 }

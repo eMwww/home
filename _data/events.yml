@@ -51,6 +51,8 @@
 
 - name: "ICE"
   url: "http://discotec.org/2023/ice"
+  deadline: "27/3/2023"
+  date: "19/6/2023"
 
 # - name: "ISoLA"
 #   url: "http://isola-conference.org/isola2022/"

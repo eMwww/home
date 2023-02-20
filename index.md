@@ -16,7 +16,7 @@ home: true
     <th style="width:85%; text-align:center"></th>
   </tr>
  <tr>
- <td>
+ <td valign="top">
  <div>
      <img alt="me" src="/home/images/me.jpg" width="85%" title="eM"/>
  </div>
@@ -24,9 +24,9 @@ home: true
  <td>
  <table>
   <tr>
-    <th style="width:20%; background:#dddddd; text-align:left">Highlights</th>
-    <th style="width:65; background:#dddddd; text-align:left">Recent talks</th>
-    <th style="width:15%; background:#dddddd; text-align:left">Contact</th>
+    <th style="width:25%; background:#dddddd; text-align:left">Highlights</th>
+    <th style="width:60; background:#dddddd; text-align:left">Recent talks</th>
+    <th style="width:15%; background:#dddddd; text-align:left">Latest</th>
   </tr>
   <tr>
 <td class="quicklinks" valign="top" markdown="1">
@@ -41,15 +41,15 @@ home: true
 [{{ n.venue }}]({{ n.slides }}) {% if n.descr %}{{ n.descr }}. {{ n.date  | date: '%B %d, %Y' }}
 {% endif %}</span>{% endfor %}
 </td>
-<td class="details" valign="top">
-    Associate Professor
-	<br/><a href="https://www.gssi.it">Gran Sasso Science Institute</a>
-	<br/>Viale F. Crispi, 7
-	<br/>67100 L'Aquila (Italy)
-	<br/><img alt="office" src="/home/images/office.jpg" width="10%"  title="office"/>Palazzo Mariani P1-N
-	<br/><b>Office Hours</b>: always keen to meet; just drop me an email to fix a meeting.
-	<br/><a href="mailto:emiliodottuosto@gssi.it"><img alt="mail" src="/home/images/email.jpg" width="20%"  title="mail"/>email</a> ['.'/'dot']
-	<br/><img alt="phone" src="/home/images/phone.png" width="10%" title="phone"/>+39 0862 428 0312
+<td class="latest" valign="top">
+<div class="scroll" markdown="1">
+<li>{% assign items = site.data.news %}
+{% for n in items %}
+{% if forloop.index <= 10 %}<b>{{ n.date | date: '%B %d, %Y' }}</b>: {{ n.descr }} {% if n.url %} see [{{ n.url }}](here) {% endif %}<hr>
+{% else %} {% break %} {% endif%}
+{% endfor %}
+</li>
+</div>
   </td>
   </tr>
 </table>
@@ -60,19 +60,21 @@ home: true
 <table>
   <tr>
     <th style="width:20%; text-align:left"></th>
-    <th style="width:35%; text-align:left"></th>
-    <th style="width:45%; text-align:left"></th>
+    <th style="width:30%; text-align:left"></th>
+    <th style="width:50%; text-align:left"></th>
   </tr>
   <tr>
     <td valign="top" style="padding-right: 50px;" markdown="1">
-### Latest
-<div class="scroll" markdown="1">
-<li>{% assign items = site.data.news %}
-{% for n in items %}
-{% if forloop.index <= 10 %}<b>{{ n.date | date: '%B %d, %Y' }}</b>: {{ n.descr }} {% if n.url %} see [{{ n.url }}](here) {% endif %}<hr>
-{% else %} {% break %} {% endif%}
-{% endfor %}
-</li>
+### Contact
+<div style="font-size:70%">
+    Associate Professor
+	<br/><a href="https://www.gssi.it">Gran Sasso Science Institute</a>
+	<br/>Viale F. Crispi, 7
+	<br/>67100 L'Aquila (Italy)
+	<br/><img alt="office" src="/home/images/office.jpg" width="10%"  title="office"/>Palazzo Mariani P1-N
+	<br/><b>Office Hours</b>: always keen to meet; just drop me an email to fix a meeting.
+	<br/><a href="mailto:emiliodottuosto@gssi.it"><img alt="mail" src="/home/images/email.jpg" width="20%"  title="mail"/>email</a> ['.'/'dot']
+	<br/><img alt="phone" src="/home/images/phone.png" width="10%" title="phone"/>+39 0862 428 0312
 </div>
 </td>
 <td valign="top" markdown="1">

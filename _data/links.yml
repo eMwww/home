@@ -1,8 +1,6 @@
-# - name: "Supporing FoCo@UoL: petition"
-#  url: "https://www.ipetitions.com/petition/foco-is-not-redundant/"
-
-# - name: "Supporing FoCo@UoL: public letter"
-#  url: "https://emwww.github.io/home/slides/Supporting_FoCo.pdf"
+- name: "<u>EXPRESSIONS of INTEREST</u>"
+  url: "https://cs.gssi.it/emilio.tuosto/slides/eoi.txt"
+  tooltip: "We started to recruit at all levels"
 
 - name: "BehAPI"
   url: "https://www.um.edu.mt/projects/behapi"

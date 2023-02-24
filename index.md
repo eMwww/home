@@ -8,7 +8,6 @@ home: true
 <!-- Contact me if you're interested in doing a PhD in the Italian National school in Blockchain and Distributed Ledger Technology. To be advertised soon. -->
 <!-- (MSc degree required) -->
 <!-- More details at [https://cysec2022.imtlucca.it/](https://cysec2022.imtlucca.it/).  -->
-<!-- ## ![news](images/news.jpeg){:height="20px" width="20px"} Covid-19: please sign [this petition](https://noprofitonpandemic.eu/) -->
 
 <table>
   <tr>
@@ -56,6 +55,8 @@ home: true
 </td>
 </tr>
 </table>
+
+## ![news](images/news.jpeg){:height="20px" width="20px"} [Expression of Interest](https://cs.gssi.it/emilio.tuosto/slides/eoi.txt)
 
 <table>
   <tr>

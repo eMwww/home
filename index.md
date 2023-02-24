@@ -56,7 +56,7 @@ home: true
 </tr>
 </table>
 
-## ![news](images/news.jpeg){:height="20px" width="20px"} [Expression of Interest](https://cs.gssi.it/emilio.tuosto/slides/eoi.txt)
+## ![news](images/news.jpeg){:height="20px" width="20px"} [Expression of Interest](https://cs.gssi.it/emilio.tuosto/slides/eoi.txt) We started to recruit at all levels, if interested send us your expression of interest.
 
 <table>
   <tr>

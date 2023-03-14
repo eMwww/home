@@ -32,6 +32,7 @@ Some material I find both entertaining and useful
 
 ## Ongoing Projects
 <div markdown="1" style="font-size:.9em;">
+- 2022: Task leader of the WP2 of [ASTRA - Advanced Space Technologies and Research Alliance]() SPOKE GSSI of the Innovation, digitalization and sustainability for the diffused economy in Central Italy - VITALITY”, PNRR ECS_00000041 (Missione 4 Componente 2 Investimento 1.5, €~10M of which ~2M for WP2, 11/10/2022 to-date),
 - 2018: Site leader and Work package leader of [BehAPI](https://www.um.edu.mt/projects/behapi) "Behavioural Application Program Interfaces". (Marie Skłodowska-Curie Actions RISE, agreement No 778233, €742,500.00, 1/3/2018 to-date)
 - 2019: Member of [IT-Matters](http://itmatters.imtlucca.it) (Italian PRIN project led by Rocco de Nicola)
 </div>

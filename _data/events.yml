@@ -20,6 +20,10 @@
 # - name: "FACS 2022"
 #   deadline: "24/06 and 4/07/2022"
 #   date: "10-11/11/2022"
+- name: "FM-BPM 2023"
+  url: "https://fm-bpm2023.github.io/"
+  deadline: "30/05/2023"
+  date: "11/09/2023"
 
 - name: "FM2023"
   url: "https://fm2023.isp.uni-luebeck.de/"

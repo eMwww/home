@@ -19,4 +19,15 @@ content: true
 {% endfor %}
 </div>
 
+# Invited talks, tutorials, participations
+
+{% assign items = site.data.invited %}
+<div markdown="1" style="font-size:75%">
+{% for n in items %}
+- **_{{ n.title }}_**.  
+{% if n.descr %}{{ n.descr }}.{% endif %} {{ n.date  | date: '%B %d, %Y' }}.
+{{ n.where }}
+{% endfor %}
+</div>
+
 

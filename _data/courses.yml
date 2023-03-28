@@ -31,15 +31,23 @@
   descr: "Core course"
   where: "GSSI"
   when:
+  - "27 March - 6 April 2023"
   - "9 May - 16 June 2022"
-  date: "9/03/2023"
-  ay: "2021/22"
+  date: "27/03/2023"
+  ay: "2022/23"
   list: "yes"
   url: ""
   syllabus: "This course introduces to the formal modelling and verification through classical model checking approaches of systems. The course poses particular emphasis on the so-called reactive systems, which embrace a wide range of modern distributed and communicating systems. The main topics of the course are temporal logics (specifically LTL, CTL, and CTL*), safety and liveness properties of reactive systems as well as fairness conditions. Some basic model checking algorithms are presented and their application to realistic scenarios is analysed."
   material:
   - descr: "Baier, Katoen: Principles of model checking. MIT Press"
   - descr: "Clarke, Grunberg, Peled: Model checking. MIT Press"
+  notes:
+  - date: "27/03/23"
+    url: "https://emwww.github.io/home/teaching/model_checking/22_23/l1_notes.pdf"
+  - date: "27/03/23"
+    url: "https://emwww.github.io/home/teaching/model_checking/22_23/couter.py"
+  - date: "28/03/23"
+    url: "https://emwww.github.io/home/teaching/model_checking/22_23/l2_notes.pdf"
 
 - title: "Formal Behavioural Specifications"
   descr: "Core course"

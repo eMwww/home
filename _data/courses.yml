@@ -10,6 +10,11 @@
   ay: "2022/23"
   list: "yes"
   syllabus: "The course introduces to formal models of computations with a focus on concurrency (both shared-memory and communication-based concurrency). The main topics of the course are operational semantics and (labelled) transition systems, regular expressions, basic process algebras. Preliminary concepts of software verification, typical verification flow, common program analysis techniques, decision procedures. Basic concepts of software modelling and analysis with stochastic processes, discrete-time markov processes, and petri nets.<br/>The topics of the <b>first part</b> are: operational semantics and (labelled) transition systems, regular expressions, basic process algebras."
+  material:
+  - descr: "Plotkin's notes on SOS"
+    url: "https://emwww.github.io/home/teaching/immigration_course/plotkin_a_structural_approach_to_operational_semantics.pdf"
+  - descr: "the notes on SOS for concurrency liberally follow the first two chapeters of the book of Bergstra, Fokkink, and Ponse"
+    url: "https://emwww.github.io/home/teaching/immigration_course/bergstra_fokkink_ponse_process_algebra_with_recursive_operations_handbook.pdf"
   notes:
   - date: "4/11/22"
     name: "First lecture"
@@ -26,11 +31,6 @@
   - date: "17/11/22"
     name: "Fifht lecture"
     url: "https://emwww.github.io/home/teaching/immigration_course/22_23/l5_notes.pdf"
-  material:
-  - descr: "Plotkin's notes on SOS"
-    url: "https://emwww.github.io/home/teaching/immigration_course/plotkin_a_structural_approach_to_operational_semantics.pdf"
-  - descr: "the notes on SOS for concurrency liberally follow the first two chapeters of the book of Bergstra, Fokkink, and Ponse"
-    url: "https://emwww.github.io/home/teaching/immigration_course/bergstra_fokkink_ponse_process_algebra_with_recursive_operations_handbook.pdf"
 
 - title: "Model Checking"
   descr: "Core course"
@@ -48,11 +48,12 @@
   - descr: "Clarke, Grunberg, Peled: Model checking. MIT Press"
   notes:
   - date: "27/03/23"
-    name: "First lecture"
-    url: "https://emwww.github.io/home/teaching/model_checking/22_23/l1_notes.pdf"
-  - date: "27/03/23"
-    name: "counter.py"
-    url: "https://emwww.github.io/home/teaching/model_checking/22_23/counter.py"
+    items:
+    - name: "First lecture"
+      url: "https://emwww.github.io/home/teaching/model_checking/22_23/l1_notes.pdf"
+    - name: "counter.py"
+      url: "https://emwww.github.io/home/teaching/model_checking/22_23/counter.py"
+      last: ""
   - date: "28/03/23"
     name: "Second lecture"
     url: "https://emwww.github.io/home/teaching/model_checking/22_23/l2_notes.pdf"

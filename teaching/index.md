@@ -35,7 +35,7 @@ Academic year {{ course.ay }}
 ### Lecture notes:
 <div markdown="1">
 {% for l in course.notes %}
-- {{ l.date }}: [{{ l.name }}]({{ l.url }}){% endfor %}
+- {{ l.date }}: {% for i in l.items %}[{{ i.name }}]({{ i.url }}){% if i.last %}{% else %}, {% endif %}{% endfor %}[{{ l.name }}]({{ l.url }}){% endfor %}
 </div>
 {% endif %}
 [Top](#courses)

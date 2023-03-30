@@ -57,6 +57,12 @@
   - date: "28/03/23"
     name: "Second lecture"
     url: "https://emwww.github.io/home/teaching/model_checking/22_23/l2_notes.pdf"
+  - date: "29/03/23"
+    name: "Third lecture"
+    url: "https://emwww.github.io/home/teaching/model_checking/22_23/l3_notes.pdf"
+  - date: "30/03/23"
+    name: "Fourth lecture"
+    url: "https://emwww.github.io/home/teaching/model_checking/22_23/l4_notes.pdf"
 
 - title: "Formal Behavioural Specifications"
   descr: "Core course"

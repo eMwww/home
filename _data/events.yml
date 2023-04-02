@@ -1,8 +1,7 @@
-
-# - name: "PoPL"
-#   url: "https://popl22.sigplan.org/"
-#   deadline: "8/7/2021"	
-#   date: "25/10/2020"
+- name: "ICTAC"
+  url: "https://ictac2023.compsust.utec.edu.pe/"
+  deadline: "16/6/2023"
+  date: "4/12/2023"
 
 # - name: "trecec21"
 #   url: "https://sites.google.com/view/trecec21/"

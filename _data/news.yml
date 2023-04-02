@@ -1,3 +1,12 @@
+- date: "March 31, 2023"
+  descr: "Halfway through the model checking course"
+
+- date: "March 29, 2023"
+  descr: "GSSI joins BehAPI...almost"
+
+- date: "March 28, 2023"
+  descr: "Enjoying the visit of Valentina Castiglione"
+
 - date: "March 26, 2023"
   descr: "Getting ready for the course coure on model checking"
 
@@ -14,7 +23,7 @@
   descr: "Preparing for meeting FBK"
 
 - date: "March 10, 2023"
-  descr: "artefact submitted!"
+  descr: "ECOOP artefact submitted!"
 
 - date: "March 09, 2023"
   descr: "ChorGram speaks even more latex"

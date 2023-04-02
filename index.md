@@ -25,7 +25,7 @@ home: true
   <tr>
     <th style="width:25%; background:#dddddd; text-align:left">Highlights</th>
     <th style="width:60; background:#dddddd; text-align:left">Recent talks</th>
-    <th style="width:15%; background:#dddddd; text-align:left">Latest</th>
+    <th style="width:25%; background:#dddddd; text-align:left">Latest</th>
   </tr>
   <tr>
 <td class="quicklinks" valign="top" markdown="1">

@@ -1,3 +1,10 @@
+- title: "On Formal Choreographic Modelling: a Case Study in EU Business Processes"
+  slides: "https://emwww.github.io/home/slides/isola22.pdf"
+  date: "October 26, 2021"
+  descr: "Presentation at ISoLA 2022"
+  venue: "ISoLA 2022"
+  cover: "isola22-01.png"
+
 - title: "Automata for choreographies"
   slides: "https://emwww.github.io/home/slides/nova22.pdf"
   date: "July 27, 2022"

@@ -1,3 +1,5 @@
+file=""
+
 clean:
 	find . -name "*~" -exec ls -al {} \;
 	find . -name "*~" -exec rm -rf {} \;
@@ -12,3 +14,8 @@ fixgit:
 bundle:
 	bundle exec jekyll build --trace
 	bundle exec jekyll serve
+
+slides:
+	cp ~/emtalks/$(file)/main.pdf slides/$(file).pdf
+	pdftoppm -l 1 -png slides/$(file).pdf slides/$(file)
+	git add slides/$(file)*

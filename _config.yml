@@ -5,3 +5,6 @@ baseurl: /home
 email: emilio.tuosto@gssi.it
 show-downloads: true
 markdown: kramdown
+plugins:
+  - jemoji
+  

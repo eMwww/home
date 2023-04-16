@@ -1,7 +1,3 @@
-- name: "<u>EXPRESSIONS of INTEREST</u>"
-  url: "https://cs.gssi.it/emilio.tuosto/slides/eoi.txt"
-  tooltip: "We started to recruit at all levels"
-
 - name: "BehAPI"
   url: "https://www.um.edu.mt/projects/behapi"
   tooltip: "GSSI is almost in :)"

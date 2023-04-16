@@ -19,3 +19,6 @@ slides:
 	cp ~/emtalks/$(file)/main.pdf slides/$(file).pdf
 	pdftoppm -l 1 -png slides/$(file).pdf slides/$(file)
 	git add slides/$(file)*
+
+update:
+	bundle update

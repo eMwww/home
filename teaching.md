@@ -5,58 +5,37 @@ docs_list_title: Teaching
 use-site-title: false
 ---
 
-{% assign items = site.data.courses %}
-
-# <a id='courses'></a>Regular teaching
-Below are the details of the courses I'm regularly teaching
-
-{% assign courses = items | where: "list", "yes" %}
-{% for course in courses %}
-- [{{ course.title }}](#{{ course.title }}){% endfor %}
-
-Click [here](#other) for advanced lectures or tutorials.
-
+<span style="font-size:.8em;">
 I try to keep this page updated as much as I can. However, for some courses of past academic years the information could be incomplete or outdated.
+</span>
 
-{% for course in courses %}
-## <a id='{{ course.title }}'></a>{{ course.title }}
-Academic year {{ course.ay }}
-<p style="font-size:12pt">{{ course.syllabus }}</p>
-
-{% if course.material %}
-### References and material
-<div markdown="1">
-{% for m in course.material %}
-- {% if m.url %}[Click here]({{ m.url }}) for {% endif %}{{ m.descr }} {% endfor %}
-</div>
-{% endif %}
-
-{% if course.notes %}
-### Lecture notes:
-<div markdown="1">
-{% for l in course.notes %}
-- {{ l.date }}: {% for i in l.items %}[{{ i.name }}]({{ i.url }}){% if i.last %}{% else %}, {% endif %}{% endfor %}[{{ l.name }}]({{ l.url }}){% endfor %}
-</div>
-{% endif %}
-[Top](#courses)
-{% endfor %}
-
-## <a id='other'></a>Other courses / tutorials
 {% assign items = site.data.courses %}
-<div markdown="1">
-{% for n in items %}
-{%  unless n.list == "yes" %}
-- {% if n.url %} <a href="{{ n.url }}">{{ n.title }}</a>{% else %} {{ n.title }}{% endif %}. {{ n.descr }}:  {{ n.where }}<br/>
-<ul><ul> {% for date in n.when %} <li>{{ date }}</li> {% endfor %}</ul></ul>
-{% endunless %}
- {% endfor %}
-</div>
-[Top](#courses)
 
-## <a id='invited'></a>Invited lectures / tutorials
+<table>
+  <tr>
+    <th style="width:20%; background:#dddddd; text-align:left">Regular courses @ GSSI</th>
+    <th style="width:40%; background:#dddddd; text-align:left">Invited Lectures/tutorials</th>
+    <th style="width:40%; background:#dddddd; text-align:left">Other lectures/tutorials</th>
+  </tr>
+  <tr>
+<td class="quicklinks" valign="top" markdown="1">
+{% assign courses = items | where: "where", "GSSI" %}- <span style="font-size:.75em">Current courses</span>
+{% for course in courses %}{% unless course.list == "past" %}
+	- [{{ course.title }}]({{ course.path }}){% endunless %}{% endfor %}
+- <span style="font-size:.75em">Past courses</span>
+{% assign past = courses | where: "list", "past" %}
+{% for course in past %}
+	- [{{ course.title }}]({{ course.path }}){% endfor %}
+</td>
+<td class="quicklinks" valign="top" markdown="1">
 {% assign items = site.data.invited %}
-<div markdown="1">
-{% for n in items %}
-- {{ n.when }}: *{{ n.title }}* {{ n.where }}{% endfor %}
-</div>
-[Top](#courses)
+{% for n in items %}{% unless n.list == "yes" or n.type == "talk" %}
+- {% if n.url %} [{{ n.title }}]({{ n.url }}){% else %}"{{ n.title }}"{% endif %}{% if n.descr %}. {{ n.descr }}.{% else %}.{% endif %} {{ n.where }}; {% for date in n.when %}{{ date }}{% endfor %}{% endunless %}{% endfor %}
+</td>
+<td class="quicklinks" valign="top" markdown="1">
+{% assign items = site.data.courses %}
+{% for n in items %}{%  unless n.list == "yes" or n.where == "GSSI" %}
+- {% if n.url %} <a href="{{ n.url }}">{{ n.title }}</a>{% else %} {{ n.title }}{% endif %}. {{ n.descr }}:  {{ n.where }} ({% for date in n.when %}{{ date }} {% endfor %}){% endunless %}{% endfor %}
+</td>
+</tr>
+</table>

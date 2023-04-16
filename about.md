@@ -11,7 +11,7 @@ contract- and graph-based models of distributed interactions, and on
 nominal automata.
 
 
-## A brief CV
+## Short bio
 
 I am an associate professor at the [Gran Sasso Science
 Institute](http://www.gssi.it).
@@ -26,45 +26,42 @@ the department of Computer Science, University of Pisa.
 ## Editorial boards
 {% assign items = site.data.eb | sort: 'date' | reverse %}
 {% for n in items %}
-- {{ n.eb }}
-  <br/>{{ n.role }}
-  ({% if n.url %}<a href="{{ n.url }}">{% if n.acr %}{{ n.acr }}{% else %}{{ n.url }}{% endif %}</a>, {% else %}
+- <span markdown="1" style="font-size:150%">{{ n.eb }}  
+{{ n.role }}
+  ({% if n.url %}[{% if n.acr %}{{ n.acr }}{% else %}{{ n.url }}{% endif %}]({{ n.url }}), {% else %}
   {% if n.acr %}{{ n.acr }}, {% endif %}{% endif %}
-  {{ n.from }} --- {{ n.to }}){% endfor %}
+  {{ n.from }} --- {{ n.to }})</span>{% endfor %}
 
 ## Steereing Committes
 {% assign items = site.data.sc | sort: 'date' | reverse %}
 {% for n in items %}
-- {{ n.sc }}
-  ({% if n.url %}<a href="{{ n.url }}">{% if n.acr %}{{ n.acr }}{% else %}{{ n.url }}{% endif %}</a>, {% else %}
+- <span markdown="1" style="font-size:150%">{{ n.sc }}
+  ({% if n.url %}[{% if n.acr %}{{ n.acr }}{% else %}{{ n.url }}{% endif %}]({{ n.url }}), {% else %}
   {% if n.acr %}{{ n.acr }}, {% endif %}{% endif %}
-  {{ n.from }} --- {{ n.to }}){% endfor %}
+  {{ n.from }} --- {{ n.to }})</span>{% endfor %}
 
 ## Membership of programme committees
 {% assign items = site.data.pc | sort: 'date' | reverse %}
 {% for n in items %}
-- {% if n.pc %} {{ n.pc }} {% endif %}{% if n.oc %}
+-  <span markdown="1" style="font-size:150%">{% if n.pc %} {{ n.pc }} {% endif %}{% if n.oc %}
   organising committee {{ n.oc }}
-  {% endif %}({% if n.url %}<a href="{{ n.url }}">{% if n.acr %}{{ n.acr }}{% else %}{{ n.url }}{% endif %}</a>, {% else %}
+  {% endif %}({% if n.url %}[{% if n.acr %}{{ n.acr }}{% else %}{{ n.url }}{% endif %}]({{ n.url }}), {% else %}
   {% if n.acr %}{{ n.acr }}, {% endif %}{% endif %}
-  {{ n.from }} --- {{ n.to }}){% endfor %}
+  {{ n.from }} --- {{ n.to }})</span>{% endfor %}
 
 
 ## Recruiting and hiring service
-I have served on the following panels for recruiting staff and students:
 {% assign items = site.data.recruitment %}
-<div markdown="1">
 {% for n in items %}
- - {{ n.date }}: {{ n.role }} of the committee for {% if n.viva %} PhD viva defense of {{ n.viva }} - {{ n.institution }} {% else %} {{ n.event }} at the {{ n.institution }} {% endif %} {% endfor %}
-</div>
+- <span markdown="1" style="font-size:150%">{{ n.date }}: {{ n.role }} of the committee for {% if n.viva %} PhD viva defense of {{ n.viva }} - {{ n.institution }} {% else %} {{ n.event }} at the {{ n.institution }} {% endif %}</span>{% endfor %}
 
 ## PhD examination
-<div markdown="1">
-I have been the internal examiner of more than 5 PhD students at the University of Leicester
-and I have been the external examiner or chair of the following viva:
+I have been the internal examiner of more than 5 PhD students at the University of Leicester and I have been the external examiner or on the evaluation committees of the following viva:
 {% assign items = site.data.examiner %}
-{% for n in items %}- {{ n.date }}: {% if n.viva %}{{ n.role }} of the committee for the PhD viva defense of **{{ n.viva }}** {% else %} external examiner of **{{ n.name }}** {% endif %} *{{ n.title }}*, {{ n.institution }}
-{% endfor %}
-</div>
+{% for n in items %}
+-  <span markdown="1" style="font-size:130%">
+**{% if n.viva %}{{ n.viva }}{% else %}{{ n.name }}{% endif %}** _{{ n.title }}_, {{ n.institution }}
+({{ n.date }}, {% if n.viva %}{{ n.role }} of the committee{% else %} external examiner{% endif %})</span>{% endfor %}
+
 
 

@@ -9,6 +9,12 @@ home: true
 <!-- (MSc degree required) -->
 <!-- More details at [https://cysec2022.imtlucca.it/](https://cysec2022.imtlucca.it/).  -->
 
+<!--
+Emoji stuff at
+https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
+https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#github-custom-emoji 
+-->
+
 <table>
   <tr>
     <th style="width:15%; text-align:left"></th>
@@ -29,7 +35,7 @@ home: true
   </tr>
   <tr>
 <td class="quicklinks" valign="top" markdown="1">
-{% assign items = site.data.links %}
+{% assign items = site.data.highlights %}
 {% for n in items %}
 - <span class="tooltip" style="font-size:90%;"><span class="tooltiptext">{{ n.tooltip }}</span>{{ n.pre }} [{{ n.name }}]({{ n.url }}) {{ n.post }}</span>{% endfor %}
 </td>
@@ -40,7 +46,9 @@ home: true
 [{{ n.venue }}]({{ n.slides }}) {% if n.descr %}{{ n.descr }}. {{ n.date  | date: '%B %d, %Y' }}
 {% endif %}</span>{% endfor %}
 </td>
-<td class="latest" valign="top">
+<td class="latest" valign="top" markdown="1">
+<p class="news" markdown="1">![news](images/news.jpeg)We started to recruit at all levels, if interested send us your [expression of interest](https://cs.gssi.it/emilio.tuosto/slides/eoi.txt)!</p>
+<p class="news" markdown="1">![news](images/news.jpeg)10 (ten!) PhD Scholarships in Computer Science + benefits! [Details here](https://www.gssi.it/albo-ufficiale-online-gssi/item/download/4164_c550280ade939db61570a29ef700f63e)</p>
 <div class="scroll" markdown="1">
 <li>{% assign items = site.data.news %}
 {% for n in items %}
@@ -55,8 +63,6 @@ home: true
 </td>
 </tr>
 </table>
-
-## ![news](images/news.jpeg){:height="20px" width="20px"} We started to recruit at all levels, if interested send us your [expression of interest](https://cs.gssi.it/emilio.tuosto/slides/eoi.txt)!
 
 <table>
   <tr>

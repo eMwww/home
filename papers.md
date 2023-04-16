@@ -4,13 +4,13 @@ content: true
 ---
 
 # Papers
-<div markdown="1" style="font-size:.8em;">My papers can be found on 
+<div markdown="1">My papers can be found on 
 [DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd/t/Tuosto:Emilio.html).  
 Some <strong>recent drafts</strong> are listed below (in no particular order; mouse-over titles for a short description)
 </div>
 {% assign items = site.data.drafts %}
 {% for n in items %}
-- <span class="tooltip" style="font-size:.9em;">{{ n.title }}<span class="tooltiptext">with {{ n.author }}.<br/>{{ n.descr }}</span></span>
+- <span class="tooltip">{{ n.title }}<span class="tooltiptext">with {{ n.author }}.<br/>{{ n.descr }}</span></span>
   <span style="color:#f98811; font-size:.75em;"> {% if n.venue %}Accepted at {{ n.venue }}.{% endif %}{% if n.printed %}{{ n.printed }}.{% endif %}
   {% if n.draft %}Submitted at {{ n.draft }}.{% endif %}</span> <span markdown="1" style="font-size:75%">{% if n.url %} Available [here]({{ n.url }}) {% endif %}</span>{% endfor %}
 

@@ -37,16 +37,16 @@ https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#github-cust
 <td class="quicklinks" valign="top" markdown="1">
 {% assign items = site.data.highlights %}
 {% for n in items %}
-- <span class="tooltip" style="font-size:90%;"><span class="tooltiptext">{{ n.tooltip }}</span>{{ n.pre }} [{{ n.name }}]({{ n.url }}) {{ n.post }}</span>{% endfor %}
+- <span class="tooltip"><span class="tooltiptext">{{ n.tooltip }}</span>{{ n.pre }} [{{ n.name }}]({{ n.url }}) {{ n.post }}</span>{% endfor %}
 </td>
 <td class="quicklinks" valign="top" markdown="1">
 {% assign items = site.data.talks %}
 {% for n in items limit:5 %}
-- <span class="tooltip" style="font-size:90%;"><span class="tooltiptext"><img  alt="" src="/home/slides/{{ n.cover }}" width="120%" title="cover"/></span>
+- <span class="tooltip"><span class="tooltiptext">![](/home/slides/{{ n.cover }})</span>
 [{{ n.venue }}]({{ n.slides }}) {% if n.descr %}{{ n.descr }}. {{ n.date  | date: '%B %d, %Y' }}
 {% endif %}</span>{% endfor %}
 </td>
-<td class="latest" valign="top" markdown="1">
+<td class="latest" valign="top" rowspan="2" markdown="1">
 <p class="news" markdown="1">![news](images/news.jpeg)We started to recruit at all levels, if interested send us your [expression of interest](https://cs.gssi.it/emilio.tuosto/slides/eoi.txt)!</p>
 <p class="news" markdown="1">![news](images/news.jpeg)10 (ten!) PhD Scholarships in Computer Science + benefits! [Details here](https://www.gssi.it/albo-ufficiale-online-gssi/item/download/4164_c550280ade939db61570a29ef700f63e)</p>
 <div class="scroll" markdown="1">
@@ -59,21 +59,17 @@ https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#github-cust
 </div>
   </td>
   </tr>
-</table>
-</td>
-</tr>
-</table>
-
+  <tr>
+  <td colspan="2"> 
 <table>
   <tr>
-    <th style="width:20%; text-align:left"></th>
-    <th style="width:30%; text-align:left"></th>
-    <th style="width:50%; text-align:left"></th>
+    <th style="width:25%; text-align:left; background:#dddddd;">Contact</th>
+    <th style="width:30%; text-align:left; background:#dddddd;">Events</th>
+    <th style="width:45%; text-align:left; background:#dddddd;">Fun & not so fun stuff</th>
   </tr>
   <tr>
     <td valign="top" style="padding-right: 50px;" markdown="1">
-### Contact
-<div style="font-size:70%">
+<div style="font-size:80%">
     Associate Professor
 	<br/><a href="https://www.gssi.it">Gran Sasso Science Institute</a>
 	<br/>Viale F. Crispi, 7
@@ -85,7 +81,6 @@ https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#github-cust
 </div>
 </td>
 <td valign="top" markdown="1">
-### Events
 <div class="fun" markdown="1">
 {% assign items = site.data.events %}
 {% for n in items %}
@@ -93,12 +88,17 @@ https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#github-cust
 </div>
 </td>
 <td valign="top" markdown="1">
-### Fun & not so fun stuff
 <div class="fun" markdown="1">
 {% assign items = site.data.fun %}
 {% for n in items %}
-- <span class="tooltip" style="font-size:90%;"><span class="tooltiptext">{{ n.tooltip }}</span>[{{ n.name }}]({{ n.url }})</span>{% endfor %}
+- <span class="tooltip"><span class="tooltiptext">{{ n.tooltip }}</span>[{{ n.name }}]({{ n.url }})</span>{% endfor %}
 </div>
+</td>
+</tr>
+</table>
+  </td>
+  </tr>
+</table>
 </td>
 </tr>
 </table>

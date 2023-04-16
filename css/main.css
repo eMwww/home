@@ -95,7 +95,7 @@ p {
 }
 
 p.news {
-	 font-size:100%;
+	 font-size:90%;
 	 font-weight: bold;
 	 color:black;
 	 font-style:normal;
@@ -254,6 +254,11 @@ div.fun li {
   visibility: visible;
   opacity: .9;
 } 
+
+.tooltip img {
+	 width:120%;
+	 title:cover
+}
 
 .scroll {
  height: 100pt;	

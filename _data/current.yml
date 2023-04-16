@@ -1,3 +1,11 @@
+- topic: "Behavioural types for local-first principles"
+  authors: "Roland Kuhn and Hernán Melgratti"
+  descr: "We are defining a behavioural typing discipline grounded on local-first principles for P2P networks where peers communicate via event notification"
+
+- topic: "Choregraphic and QoS"
+  authors: "Agustín Martinez Suñé and Carlos Gustavo Pombo"
+  descr: "We are defining a dynamic logic indexed with choreographies for the analysis of non-functional properties of communicating systems"
+
 - topic: "Choregraphic automata and formal languages"
   authors: "Franco Barbanera and Ivan Lanese"
   descr: "We are setting an abstract framework for choreographies based on formal languages"
@@ -7,11 +15,11 @@
   descr: "Model-driven testing based on choreographies...a first step. We introduce _admissible_ tests and show how to derive them from global specifications"
   
 - topic: "Refinement of choreographies"
-  authors: "Ugo de'Liguoro and Hernan Melgratti"
+  authors: "Ugo de'Liguoro and Hernán Melgratti"
   descr: "We want to equip choreographies with refinement mechanisms in order to enhance modular development"
 
 - topic: "Data-driven behavioural specifications"
-  authors: "Hernan Melgratti"
+  authors: "Hernán Melgratti"
   descr: "We advocate a different _nature_ of behavioural specifications that concern more data- than control-flow of protocols"
 
 - topic: "Session-types for testing"

@@ -94,6 +94,25 @@ p {
     color: #333;
 }
 
+p.news {
+	 font-size:100%;
+	 font-weight: bold;
+	 color:black;
+	 font-style:normal;
+    animation: blinker 2s linear infinite;
+	 opacity:1
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+p.news img {
+	 height:20px;
+	 width:20px;	 
+}
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -155,6 +174,16 @@ td.box {
 	border: 1px solid #000;	 
 }
 
+div.research {
+	 font-size:110%;
+	 position: relative;
+}
+
+div.research li {
+	 font-size:125%;
+	 position: relative;
+}
+
 div.fun {
 /*
   width: 100px;
@@ -179,9 +208,8 @@ div.fun li {
   position: relative;
   display: inline-block;
   /* border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-  font-weight: bold;
   color: #117a65;
-  font-size:100%;
+  font-size:110%;
   opacity: 1;
 }
 
@@ -228,7 +256,7 @@ div.fun li {
 } 
 
 .scroll {
- height: 8em;	
+ height: 100pt;	
  overflow: hidden;
  position: relative;
 }

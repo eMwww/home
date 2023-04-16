@@ -1,11 +1,17 @@
+- date: "April 17, 2023"
+  descr: "Headings to Malta for Duncan's viva"
+
 - date: "April 14, 2023"
   descr: "End of the model checking course!"
 
+- date: "April 10, 2023"
+  descr: "Looking after GSSI seminars :mortar_board:"
+
 - date: "April 02, 2023"
-  descr: "Sweating to make cabal work :("
+  descr: "After some sweating :cold_sweat:, cabal works :sunglasses:"
 
 - date: "March 31, 2023"
-  descr: "Halfway through the model checking course"
+  descr: "Halfway through the model checking course :zany_face:"
 
 - date: "March 29, 2023"
   descr: "GSSI joins BehAPI...almost"

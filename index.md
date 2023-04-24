@@ -36,14 +36,12 @@ https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#github-cust
 <td class="quicklinks" valign="top" markdown="1">
 {% assign items = site.data.highlights %}
 {% for n in items %}
-- <span class="tooltip"><span class="tooltiptext">{{ n.tooltip }}</span>{{ n.pre }} [{{ n.name }}]({{ n.url }}) {{ n.post }}</span>{% endfor %}
+- [{{ n.name }}]({{ n.url }}) <span class="tooltip"><span class="tooltiptext">{{ n.tooltip }}</span>{{ n.pre }}</span>{{ n.post }}{% endfor %}
 </td>
 <td class="quicklinks" valign="top" markdown="1">
 {% assign items = site.data.talks %}
 {% for n in items limit:5 %}
-- <span class="tooltip"><span class="tooltiptext">![](/home/slides/{{ n.cover }})</span>
-[{{ n.venue }}]({{ n.slides }}) {% if n.descr %}{{ n.descr }}. {{ n.date  | date: '%B %d, %Y' }}
-{% endif %}</span>{% endfor %}
+- [{{ n.venue }}]({{ n.slides }}) <span class="tooltip"><span class="tooltiptext">![](/home/slides/{{ n.cover }})</span>{% if n.descr %}{{ n.descr }}. {{ n.date  | date: '%B %d, %Y' }}{% endif %}</span>{% endfor %}
 </td>
 <td class="latest" valign="top" rowspan="2" markdown="1">
 <p class="news" markdown="1">![news](images/news.jpeg)We are recruiting at all levels, if interested send us your [expression of interest](https://cs.gssi.it/emilio.tuosto/slides/eoi.txt)!</p>
@@ -68,7 +66,7 @@ https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#github-cust
   </tr>
   <tr>
     <td valign="top" style="padding-right: 50px;" markdown="1">
-<div style="font-size:80%">
+<div style="font-size:70%">
     Associate Professor
 	<br/><a href="https://www.gssi.it">Gran Sasso Science Institute</a>
 	<br/>Viale F. Crispi, 7
@@ -79,17 +77,15 @@ https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#github-cust
 	<br/><img alt="phone" src="/home/images/phone.png" width="10%" title="phone"/>+39 0862 428 0312
 </div>
 </td>
-<td valign="top" markdown="1">
+<td valign="top">
 <div class="fun" markdown="1">
-{% assign items = site.data.events %}
-{% for n in items %}
-- [{{ n.name }}]({{ n.url }}) {% if n.deadline %}`(deadline: {{ n.deadline }})`{: style="font-size:6pt"}{% endif %}<br/>{% endfor %}
+{% for n in site.data.events %}
+- [{{ n.name }}]({{ n.url }}) {% if n.deadline %}`(deadline: {{ n.deadline }})`{: style="font-size:6pt"}{% endif %}{% endfor %}
 </div>
 </td>
-<td valign="top" markdown="1">
+<td valign="top">
 <div class="fun" markdown="1">
-{% assign items = site.data.fun %}
-{% for n in items %}
+{% for n in site.data.fun %}
 - <span class="tooltip"><span class="tooltiptext">{{ n.tooltip }}</span>[{{ n.name }}]({{ n.url }})</span>{% endfor %}
 </div>
 </td>

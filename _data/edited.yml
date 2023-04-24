@@ -31,16 +31,19 @@
 - title: ICE 2009
   url: http://arxiv.org/abs/0910.4053v1
   ref: EPTCS 12
+  img: ice09.png
   date: 01/09/2009
   
 - title: ICE 2008
   url: http://www.sciencedirect.com/science/article/pii/S157106610900214X
   ref: ENTCS 229(3)
+  img: ice08.png
   date: 01/09/2008
   
 - title: Doctoral Symposium International Conference on Graph Transformation 2008
   url: http://www.informatik.uni-trier.de/~ley/db/journals/eceasst/eceasst16.html#CorradiniT08
   ref: ECEASST 16
+  img: ds08.png
   date: 01/01/2008
 
 

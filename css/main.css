@@ -3,10 +3,11 @@ html {
 }
 
 body {
-    margin: 60px auto;
-    width: 90%;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    margin: 20px auto;
+    width: 95%;
+    font-family: 'Sans-Serif', 'Helvetica', 'Arial';
 	 font-size:100%;
+	 list-style: none;
 }
 /* nav ul, footer ul { */
 /*     font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
@@ -192,11 +193,15 @@ div.fun {
   animation-direction: reverse;
   background-color: red;
 */
-	 font-size:90%;
+	 font-size:80%;
 	 position: relative;
 	 animation-name: slidein;
 	 animation-duration: 2s;
-	 line-height:1em;
+	 line-height:1.5em;
+}
+
+td li {
+  margin-left:-25px;
 }
 
 div.fun li {
@@ -217,8 +222,8 @@ div.fun li {
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 25em;
-  background-color: #555;
-  color: #fff;
+  background-color: #000000;
+  color: #ffffff;
   text-align: left;
   padding: 5px 0;
   border-radius: 6px;
@@ -226,26 +231,27 @@ div.fun li {
 
   /* Position the tooltip text */
   position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
+  /* z-index: 1; */
+  /* bottom: 125%; */
+  top: 100%;
+  left: 100%;
   margin-left: -60px;
 
-  /* Fade in tooltip */
-  opacity: 0;
-  transition: opacity 0.3s;
+  /* /\* Fade in tooltip *\/ */
+  /* opacity: 100; */
+  /* transition: opacity 0.3s; */
 }
 
 /* Tooltip arrow */
 .tooltip .tooltiptext::after {
   content: "";
   position: absolute;
-  top: 100%;
-  left: 50%;
+  top: 0%;
+  right: 100%;
   margin-left: -5px;
-  border-width: 5px;
+  border-width: 15px;
   border-style: solid;
-  border-color: #555 transparent transparent transparent;
+  border-color: transparent transparent #555 transparent;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
@@ -253,6 +259,7 @@ div.fun li {
   font-size: .7em;
   visibility: visible;
   opacity: .9;
+  background-color:#000000
 } 
 
 .tooltip img {

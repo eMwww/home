@@ -1,3 +1,7 @@
+- name: "OPCT"
+  url: "http://www.sti.uniurb.it/events/opct2023/programme.html"
+  date: "26-30/6/2023"
+  
 - name: "ICTAC"
   url: "https://ictac2023.compsust.utec.edu.pe/"
   deadline: "16/6/2023"

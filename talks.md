@@ -3,10 +3,9 @@ layout: default
 content: true
 ---
 
-# Some talks
-
+# Recent talks
 {% assign items = site.data.talks %}
-{% for n in items %}
+{% for n in items limit:5 %}
 - **_{{ n.title }}_**.  
 {% if n.descr %}{{ n.descr }}.{% endif %} {{ n.date  | date: '%B %d, %Y' }}. <span class="tooltip"><span class="tooltiptext">![](/home/slides/{{ n.cover }})</span>[Slides]({{ n.slides }})</span>{% endfor %}
 

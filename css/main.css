@@ -82,11 +82,13 @@ a {
     text-decoration: none;
 	 color: #e5680e;
     /* color: #1999; */
+	 opacity: 1;
 }
 
 a:hover {
     text-decoration: underline;
 	 color: #1099;
+	 opacity: 1;
 }
 
 p {
@@ -111,7 +113,8 @@ p.news {
 
 p.news img {
 	 height:20px;
-	 width:20px;	 
+	 width:20px;
+	 animation-name: example;
 }
 
 footer {
@@ -130,6 +133,10 @@ ul.posts {
     font-size: 1.5em;
 }
 
+span {
+	   display: block;
+}
+
 ul.posts li {
     list-style: none;
 }
@@ -146,6 +153,15 @@ a.subsec {
     color: #999;
 }
 
+
+div.test {
+  animation-name: example;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
 
 @keyframes example {
   0%   {background-color:red; left:0px; top:0px;}
@@ -222,7 +238,6 @@ div.fun li {
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 25em;
-  background-color: #000000;
   color: #ffffff;
   text-align: left;
   padding: 5px 0;
@@ -231,35 +246,35 @@ div.fun li {
 
   /* Position the tooltip text */
   position: absolute;
-  /* z-index: 1; */
+  z-index: 1;
   /* bottom: 125%; */
-  top: 100%;
-  left: 100%;
+  top: 95%;
+  left: 50%;
   margin-left: -60px;
 
   /* /\* Fade in tooltip *\/ */
-  /* opacity: 100; */
-  /* transition: opacity 0.3s; */
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 /* Tooltip arrow */
 .tooltip .tooltiptext::after {
   content: "";
   position: absolute;
-  top: 0%;
-  right: 100%;
-  margin-left: -5px;
-  border-width: 15px;
+  bottom: 100%;
+  right: 50%;
+  margin-left: 0px;
+  border-width: 10px;
   border-style: solid;
-  border-color: transparent transparent #555 transparent;
+  border-color: transparent transparent #00688b transparent;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
   font-size: .7em;
   visibility: visible;
-  opacity: .9;
-  background-color:#000000
+  opacity: .97;
+  background-color: #00688b;
 } 
 
 .tooltip img {
@@ -268,45 +283,46 @@ div.fun li {
 }
 
 .scroll {
- height: 100pt;	
+ height: 200pt;	
  overflow: hidden;
  position: relative;
+ width: 100%;
+ text-align: left;
+ font-size: 65%;
+ animation-delay: -1s;
 }
 
 .scroll li {
  position: absolute;
- width: 100%;
- margin: 0;
  line-height: 1em;
- text-align: left;
- font-size: 65%;
+ margin: 0;
  /* Starting position */
- -moz-transform:translateY(-100%);
- -webkit-transform:translateY(-100%);	
+ /* -moz-transform:translateY(-100%); */
+ /* -webkit-transform:translateY(-100%);	 */
  transform:translateY(-100%);
  /* Apply animation to this element */	
  /* -moz-animation: scroll 0s linear infinite; */
  /* -webkit-animation: scroll 0s linear infinite; */
- animation: scroll 18s linear infinite;
+ animation: scroll 8s linear infinite;
 }
 /* Move it (define the animation) */
-@-moz-keyframes scroll {
- 0%   { -moz-transform: translateY(100%); }
- 100% { -moz-transform: translateY(-100%); }
-}
-@-webkit-keyframes scroll {
- 0%   { -webkit-transform: translateY(100%); }
- 100% { -webkit-transform: translateY(-100%); }
-}
+/* @-moz-keyframes scroll { */
+/*  0%   { -moz-transform: translateY(100%); } */
+/*  100% { -moz-transform: translateY(-100%); } */
+/* } */
+/* @-webkit-keyframes scroll { */
+/*  0%   { -webkit-transform: translateY(100%); } */
+/*  100% { -webkit-transform: translateY(-100%); } */
+/* } */
 @keyframes scroll {
  0%   { 
- -moz-transform: translateY(100%); /* Firefox bug fix */
- -webkit-transform: translateY(100%); /* Firefox bug fix */
- transform: translateY(100%); 		
+ /* -moz-transform: translateY(-100%); /\* Firefox bug fix *\/ */
+ /* -webkit-transform: translateY(-100%); /\* Firefox bug fix *\/ */
+ transform: translateY(20%); 		
  }
  100% { 
- -moz-transform: translateY(-100%); /* Firefox bug fix */
- -webkit-transform: translateY(-100%); /* Firefox bug fix */
- transform: translateY(-100%); 
+ /* -moz-transform: translateY(-100%); /\* Firefox bug fix *\/ */
+ /* -webkit-transform: translateY(-100%); /\* Firefox bug fix *\/ */
+ transform: translateY(-70%); 
  }
 }

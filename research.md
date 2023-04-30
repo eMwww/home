@@ -13,20 +13,21 @@ content: true
 <td valign="top"  markdown="1"><!-- Recent stuff -->
 {% assign items = site.data.current %}
 {% for n in items %}
-- <span class="tooltip"><span class="tooltiptext">{{ n.descr }} {% if n.authors %} Working on this with {{ n.authors }} {% endif %}</span>{{ n.topic }}</span>{% endfor %}
+- <span class="tooltip"><span class="tooltiptext">{% if n.authors %} With {{ n.authors }}  
+{% endif %}{{ n.descr }}</span>{{ n.topic }}</span>{% endfor %}
 </td>
 <td valign="top" markdown="1"><!-- Papers -->
 {% assign items = site.data.drafts %}
 {% for n in items limit:5 %}
-- <span class="tooltip">{{ n.title }}<span class="tooltiptext">with {{ n.author }}.<br/>{{ n.descr }}</span></span>
-  <span style="color:#f98811;"> {% if n.venue %}Accepted at {{ n.venue }}.{% endif %}{% if n.printed %}{{ n.printed }}.{% endif %}
-  {% if n.draft %}Submitted at {{ n.draft }}.{% endif %}</span> <span markdown="1" style="color:#117a65">{% if n.url %} Available [here]({{ n.url }}) {% endif %}</span>{% endfor %}
-- more stuff [here](publications) 
+- <span class="tooltip"><span class="tooltiptext">with {{ n.author }}.<br/>{{ n.descr }}</span>{{ n.title }}</span>
+{% if n.venue %}Accepted at {{ n.venue }}.{% endif %}{% if n.printed %}{{ n.printed }}.{% endif %}
+  {% if n.draft %}Submitted at {{ n.draft }}.{% endif %} <span markdown="1">{% if n.url %} Available [here]({{ n.url }}) {% endif %}</span>{% endfor %}
+- More stuff [here](publications)
 </td>
 <td valign="top" markdown="1"><!-- Tools -->
 - <span class="tooltip"><span class="tooltiptext">Tool-chain for choreographic development</span>[ChorGram](https://bitbucket.org/eMgssi/stable_chorgram/wiki/Home)</span>
 - <span class="tooltip"><span class="tooltiptext">Partition refinement for history-dependent automata</span>[MIHDA](./mihda.tgz)</span>
-- <span class="tooltip"><span class="tooltiptext">An ad-hoc model checker for security protolols </span>[ASPASYA](aspasya/aspasya.html) and [H-ASPASYA](aspasya/h-aspasya.html)</span>
+- <span class="tooltip"><span class="tooltiptext">An ad-hoc model checker for security protocols </span>[ASPASYA](aspasya/aspasya.html) and [H-ASPASYA](aspasya/h-aspasya.html)</span>
 </td>
 </tr>
 <tr>

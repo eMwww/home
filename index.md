@@ -47,13 +47,11 @@ https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#github-cust
 <p class="news" markdown="1">![news](images/news.jpeg)We are recruiting at all levels, if interested send us your [expression of interest](https://cs.gssi.it/emilio.tuosto/slides/eoi.txt)!</p>
 <p class="news" markdown="1">![news](images/news.jpeg)10 (ten!) PhD Scholarships in Computer Science + benefits! [Details here](https://www.gssi.it/albo-ufficiale-online-gssi/item/download/4164_c550280ade939db61570a29ef700f63e)</p>
 <div class="scroll" markdown="1">
-<li>{% assign items = site.data.news %}
+<li>
+{% assign items = site.data.news %}
 {% for n in items %}
-{% if forloop.index <= 10 %}<b>{{ n.date | date: '%B %d, %Y' }}</b>: {{ n.descr }} {% if n.url %} see [{{ n.url }}](here) {% endif %}<hr>
-{% else %} {% break %} {% endif%}
-{% endfor %}
-</li>
-</div>
+{% if forloop.index <= 10 %}<b>{{ n.date | date: '%B %d, %Y' }}</b>: {{ n.descr }} {% if n.url %} see [{{ n.url }}](here) {% endif %}
+{% else %} {% break %} {% endif%}<hr>{% endfor %}</li></div>
   </td>
   </tr>
   <tr>
@@ -97,6 +95,5 @@ https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#github-cust
 </td>
 </tr>
 </table>
-
 
 [comment]: <> (Keywords: Formal methods, behavioural specifications, choreographies, models of concurrency and distributions)

@@ -1,3 +1,8 @@
+- title: "Behavioural Types for Local-First Software"
+  author: "Hernán Melgratti and Roland Kuhn"
+  descr: "The title says it all."
+  venue: "ECOOP 2023"
+
 - title: "Formal Choreographic Languages"
   author: "Ivan Lanese, Franco Barbanera"
   descr: "A model of choreographies based on formal languages."
@@ -5,7 +10,7 @@
   url: "https://arxiv.org/abs/2210.08223v1"
 
 - title: "PSTMonitor: Monitor synthesis from probabilistic session"
-  author: "Christian Bartolo Burlò, Adrian Francalanza, Alceste Scalas, CatiaTrubiani, EmilioTuosto"
+  author: "Christian Bartolo Burlò, Adrian Francalanza, Alceste Scalas, Catia Trubiani, Emilio Tuosto"
   descr: "PSTMonitor, a tool for the run-time verification of quantitative specifications of message-passing applications, based on probabilistic session types"
   printed: "SCICO 2022 (free access before October 05, 2022)"
   url: "https://www.sciencedirect.com/science/article/pii/S0167642322000806?dgcid=coauthor"
@@ -48,13 +53,13 @@
   url: "https://www.sciencedirect.com/science/article/pii/S016764232030143X"
 
 - title: "On Resolving Non-determinism in Choreographies"
-  author: "Laura Bocchi and Hernan Melgratti"
+  author: "Laura Bocchi and Hernán Melgratti"
   descr: "The paper introduces the idea of _whole spectrum realisation_ and a type system to enforce this property."
   printed: "LMCS"
   url: "https://arxiv.org/abs/1904.08337"
 
 - title: "Towards Refinable Choreographies"
-  author: "Ugo de'Liguoro and Hernan Melgratti"
+  author: "Ugo de'Liguoro and Hernán Melgratti"
   descr: "We investigate refinement in the context of choreographies allowing for the underspecification of protocols through _refinable_ interactions. A typing discipline enforces well-formedness. (The ICE version is [here](https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?ICE2020:2))"
   printed: "JLAMP 2020"
   url: "https://www.sciencedirect.com/science/article/abs/pii/S2352220822000293?CMX_ID=&SIS_ID=&dgcid=STMJ_AUTH_SERV_PUBLISHED"

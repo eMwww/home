@@ -4,9 +4,9 @@ html {
 
 body {
     margin: 20px auto;
-    width: 95%;
+    width: 100%;
     font-family: 'Sans-Serif', 'Helvetica', 'Arial';
-	 font-size:100%;
+	 font-size: 100%;
 	 list-style: none;
 }
 /* nav ul, footer ul { */
@@ -31,21 +31,20 @@ nav a{
 	 color:#ffffff;
 }
 
-table.nav{
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+nav table {
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     padding: 4px;
-	 font-size:1.3em;
-	 color:#ffffff;
-	 width:100%;
-    margin-right: 0px;
-    margin-left: 0px;
-	 background-color:#e5680e;
+	 font-size: 140%;
+	 color: #ffffff;
+	 width: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+	 background-color: #e5680e;
 }
 
 th.nav{
     display: inline;
 	 text-align:center;
-	 width:20%;	 
 }
 
 h1 {
@@ -60,7 +59,6 @@ h2 {
     font-size: 170%;
 }
 
-
 h3 {
     font-size: 140%;
 	 color:#bc8f8f;
@@ -73,6 +71,7 @@ td.quicklinks li {
 }
 
 td.latest {
+	 valign:top;
 	 font-size : 120%;
 	 opacity : .5;
 	 /* line-height : .5em; */
@@ -86,7 +85,6 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
 	 color: #1099;
 	 opacity: 1;
 }
@@ -105,6 +103,7 @@ p.news {
     animation: blinker 2s linear infinite;
 	 opacity:1
 }
+
 @keyframes blinker {
     50% {
         opacity: 0;
@@ -114,7 +113,6 @@ p.news {
 p.news img {
 	 height:20px;
 	 width:20px;
-	 animation-name: example;
 }
 
 footer {
@@ -218,6 +216,7 @@ div.fun {
 
 td li {
   margin-left:-25px;
+  text-overflow: ellipsis;
 }
 
 div.fun li {

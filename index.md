@@ -29,7 +29,7 @@ https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#github-cust
  <table>
   <tr>
     <th style="width:25%; background:#dddddd; text-align:left">Highlights</th>
-    <th style="width:60; background:#dddddd; text-align:left">Recent talks</th>
+    <th style="width:60; background:#dddddd; text-align:left" markdown="1">Recent talks (full list [here](talks))</th>
     <th style="width:25%; background:#dddddd; text-align:left">Latest</th>
   </tr>
   <tr>
@@ -40,10 +40,10 @@ https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#github-cust
 </td>
 <td class="quicklinks" valign="top" markdown="1">
 {% assign items = site.data.talks %}
-{% for n in items limit:5 %}
-- [{{ n.venue }}]({{ n.slides }}) <span class="tooltip"><span class="tooltiptext">![](/home/slides/{{ n.cover }})</span>{% if n.descr %}{{ n.descr }}. {{ n.date  | date: '%B %d, %Y' }}{% endif %}</span>{% endfor %}
+{% for n in items limit:4 %}
+- [{{ n.venue }}]({{ n.slides }}) <span class="tooltip"><span class="tooltiptext">![](/home/slides/{{ n.cover }})</span>{% if n.descr %}{{ n.descr }}. {{ n.date | date: '%B %d, %Y' }}{% endif %}</span>{% endfor %}
 </td>
-<td class="latest" valign="top" rowspan="2" markdown="1">
+<td class="latest" rowspan="2">
 <p class="news" markdown="1">![news](images/news.jpeg)We are recruiting at all levels, if interested send us your [expression of interest](https://cs.gssi.it/emilio.tuosto/slides/eoi.txt)!</p>
 <p class="news" markdown="1">![news](images/news.jpeg)10 (ten!) PhD Scholarships in Computer Science + benefits! [Details here](https://www.gssi.it/albo-ufficiale-online-gssi/item/download/4164_c550280ade939db61570a29ef700f63e)</p>
 <div class="scroll" markdown="1">

@@ -229,7 +229,7 @@ div.fun li {
   display: inline-block;
   /* border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
   color: #117a65;
-  font-size:110%;
+  font-size:90%;
   opacity: 1;
 }
 

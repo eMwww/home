@@ -3,7 +3,7 @@ layout: default
 content: true
 docs_list_title: Teaching
 use-site-title: false
----git 
+---
 
 {% assign items = site.data.courses %}
 

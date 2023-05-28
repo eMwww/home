@@ -26,8 +26,8 @@ content: true
 </td>
 <td valign="top" markdown="1"><!-- Tools -->
 - <span class="tooltip"><span class="tooltiptext">Tool-chain for choreographic development</span>[ChorGram](https://bitbucket.org/eMgssi/stable_chorgram/wiki/Home)</span>
-- <span class="tooltip"><span class="tooltiptext">Partition refinement for history-dependent automata</span>[MIHDA](./mihda.tgz)</span>
-- <span class="tooltip"><span class="tooltiptext">An ad-hoc model checker for security protocols </span>[ASPASYA](aspasya/aspasya.html) and [H-ASPASYA](aspasya/h-aspasya.html)</span>
+- <span class="tooltip"><span class="tooltiptext">Partition refinement for history-dependent automata</span>[MIHDA](tools/mihda.tgz)</span>
+- <span class="tooltip"><span class="tooltiptext">An ad-hoc model checker for security protocols </span>[ASPASYA](tools/aspasya.html) and [H-ASPASYA](tools/h-aspasya.html)</span>
 </td>
 </tr>
 <tr>

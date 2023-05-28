@@ -1,6 +1,6 @@
 - tooltip: "The Story of a Journal Proposal: quoting Cristina: 'If there’s any lesson to be learned from the ACM Publications Board’s policies on scientific publication is this: pay attention to their policies, then do the exact opposite.'"
-  name: "<a href="https://www.ics.uci.edu/~lopes">Lopes'</a> view on conferences vs. journals in CS"
-  url: "home/nugae/the_story_of_a_journal_proposal.pdf"
+  name: "Lopes' view on conferences vs. journals in CS"
+  url: "nugae/the_story_of_a_journal_proposal.pdf"
 
 - tooltip: "The title says it all, and probably such crimes are also committed outside the 'systems' community"
   name: "Systems Benchmarking Crimes"
@@ -12,7 +12,7 @@
 
 - tooltip: "CS & societies"
   name: "Phil's Rogaway insightful lament about"
-  url: "home/nugae/rogaway.pdf"
+  url: "nugae/rogaway.pdf"
 
 - tooltip: "be careful"
   name: "Globalisation and research..."

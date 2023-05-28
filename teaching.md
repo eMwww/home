@@ -20,7 +20,7 @@ use-site-title: false
 	- [{{ course.title }}](teaching/{{ course.path }}){% endunless %}{% endfor %}
 {% assign past = courses | where: "list", "past" %}
 - Past courses{% for course in past %}
-	- course.title{% endfor %}
+	- {{ course.title }}{% endfor %}
 </td>
 <td class="quicklinks" valign="top" markdown="1">
 {% assign items = site.data.courses %}

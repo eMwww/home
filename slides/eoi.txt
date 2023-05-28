@@ -1,0 +1,67 @@
+Gran Sasso Science Institute (GSSI) - Computer Science Area
+National Department of Excellence in Computer Science and Mathematics
+
+
+Call for expressions of interest for open-rank positions at GSSI
+
+
+
+The Computer Science Group at the GSSI (top ranked computer science department in Italy in 2022 and national department of excellence) invites expressions of interest for open-rank positions in computer science (Open Rank: Tenured Full Professorship, Associate Professorship or Assistant Professorship with Tenure Track). Moreover, it invites expressions of interest for direct calls of researchers. This is a form of direct recruitment that does not include calls from individual universities, but it is a nominative proposal that the university sends directly to the Ministry (Law 230/2005, Art. 1, paragraph 9). A researcher is eligible for a direct call if she/he meets either of the following two criteria: 
+They have been permanently engaged in research or teaching activities outside Italy for at least three years, holding an equivalent academic position in a university or a research institution abroad. The call requires the approval of the National Scientific Qualification Commission (ASN).
+They have been qualified for specific high-qualification research projects, funded by the European Union or by the Italian Ministry of Education, University and Research (MIUR) and identified with a specific decree, after a positive opinion from ANVUR and CUN. For calls made within three years of winning the research project, approval of the National Scientific Qualification Commission (ASN) is not required.
+
+The main research areas of the Computer Science area are Algorithms, Formal Methods, and Software Engineering. Research in Algorithms at GSSI focuses on computational problems arising in networks and multi-agent systems. The research of the Formal Methods group focuses on complex reactive systems and spans a broad range of topics from languages, to semantic models, and to software verification. The research of the Software Engineering group focuses on the systematic application of engineering approaches to the development of software for autonomous and smart systems. More details are available on the website: http://cs.gssi.it.
+
+
+
+
+Gran Sasso Science Institute (GSSI)
+
+Gran Sasso Science Institute (GSSI - http://www.gssi.it) is an International centre of excellence for advanced studies and PhD school established in L'Aquila (Italy). 
+Despite being founded only in 2012 and stabilized in 2016, after a three-year successful experimental period, the institute has already obtained wide recognition at both national and international levels. 
+The PhD program at GSSI is organized in the scientific areas of Astroparticle Physics, Computer Science, Mathematics, Regional Sciences and Economic Geography. Every year, the institute offers PhD scholarships and postdoctoral grants as well as research internship opportunities, thus facilitating the attraction of prestigious scientists in the field of Computer Science.
+
+In 2022, GSSI participated for the first time in the Ministry of University and Research call of ANVUR (Italian National Agency for the Evaluation of Universities and Research Institutes - https://www.anvur.it/en/agency/mission/) to evaluate universities in Italy. 
+
+In this first participation, the computer science area has been evaluated as the first computer science department in Italy. This recognition gave the computer science area the opportunity to participate in a further call for funding, and together with the mathematics area, was recognized as one of the "Departments of Excellence", obtaining more than 7 million Euros in additional funding. Besides its prestige, this recognition will bring additional permanent positions and significant funds (over one million Euros) for building autonomous systems, IoT, and algorithm-engineering laboratories.
+Moreover, the GSSI project was ranked  first in the specific disciplinary sector (https://www.anvur.it/wp-content/uploads/2022/12/ALLEGATO-NOTA-ANVUR_esito-180.pdf) among the 11 departments of excellence in computer science and mathematics, with only three of them (including GSSI) concerning Computer Science. The first place is shared with the Scuola Normale Superiore of Pisa and the University of Pisa, two other prestigious Italian institutions. 
+
+Working at GSSI
+
+GSSI is the perfect place for young researchers that aim to establish and consolidate their group and become principal investigators (PIs). Indeed, these are the main strengths of GSSI as a working environment: 
+
+Freedom in selecting research topics and activities.
+Entry package aiming at helping newcomers to develop their own research;  ideal conditions to perform excellent research; availability of open PhD positions and of funding to buy research resources; access to the three laboratories mentioned above; a collegial environment welcoming newcomers to joint ongoing research projects; space to host a research group; funding for travelling and inviting researchers.
+Low teaching duties: teaching only to our PhD students and supervising PhD students.
+Laboratories: Autonomous Systems (service robots and vehicles), IoT, Algorithm Engineering, High-Performance Computing (HPC).
+Young, friendly, non-hierarchical, vibrant, and International environment.
+Excellent place to perform interdisciplinary research, e.g., with the other areas of GSSI, in the context of existing or new projects.
+Located in a cosy and medium-size city in the centre of Italy, a city of science hosting also the University of L’Aquila (https://www.univaq.it) and the INFN (https://www.lngs.infn.it/en/lngs-overview), Gran Sasso Tech (a joint venture between GSSI and Thales Alenia Space - https://www.thalesgroup.com/en/worldwide/space/press_release/gran-sasso-tech-foundation-born), companies (like Thales Alenia Space, Leonardo, Sanofi, IZS), good food, great nature, mountains, lakes, seaside at around 80 km, Rome at less than 100 Km, etc. The quality of life in L’Aquila is pretty high and there is also an international Lyceum.
+
+
+Call for Expression of Interest
+
+We are looking for candidates with an excellent publication record, an internationally visible research profile, a clear potential to promote and lead research activities, and a specific interest in teaching skilled and internationally recruited students at the postgraduate level.
+
+Applications Applicants should submit their expression of interest by sending:
+a specification of the level in which the candidate is interested (i.e., Tenured Full Professorship, Tenured Associate Professorship, Assistant Professorship with Tenure Track, Direct call)
+a motivation letter,
+a curriculum vitae,
+a list of selected publications (at least 5 and no more than 12 publications), and
+a brief research statement.
+
+Applications (and questions regarding the application process) must be submitted in electronic form, preferably by 28 February 2023, to eoi-cs@gssi.it.
+
+GSSI is committed to gender balance, inclusion and diversity. All expressions of interest will be given proper consideration, independent of ethnicity, religion, age, gender, sexual orientation, or disability.
+
+Disclaimer: Please note that this is not a job advertisement. Based on the received expressions of interest, the Gran Sasso Science Institute will decide whether to open an official call and which selection procedure to follow.
+
+
+Additional information
+
+Duties: Teaching postgraduate courses, leading internal seminars and tutoring PhD students. All activities are in English.
+Salary: The salary will be determined on a personal basis, also taking into account past positions covered abroad. Professors who have held a tenured position outside Italy for more than three years (at the corresponding level) might be eligible for a partial recognition of past services, depending on specific legal constraints.
+Moreover, successful candidates might benefit from important and multiannual tax incentives for attracting human capital to Italy: https://www.agenziaentrate.gov.it/portale/web/english/nse/individuals/tax-incentives-for-attracting-human-capital-in-italy 
+
+
+

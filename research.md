@@ -13,7 +13,7 @@ content: true
 <td valign="top"  markdown="1"><!-- Recent stuff -->
 {% assign items = site.data.current %}
 {% for n in items %}
-- <span class="tooltip"><span class="tooltiptext">{% if n.authors %} With {{ n.authors }}  
+- <span class="tooltip"><span class="tooltiptext" style="margin-left:60%;">{% if n.authors %} With {{ n.authors }}  
 {% endif %}{{ n.descr }}</span>{{ n.topic }}</span>{% endfor %}
 </td>
 <td valign="top" markdown="1"><!-- Papers -->

@@ -1,0 +1,197 @@
+\PassOptionsToPackage{svgnames,dvipsnames,transdissolve}{xcolor}
+\documentclass[aspectratio=169,dvipsnames%,handout%,draft
+]{beamer}
+
+\input{macros_util}
+\input{slides_settings}
+\input{ggmacros}
+\input{macros_arsm}
+
+%%% Handwriting
+\usepackage{frcursive}
+\usepackage{pbsi}
+\usepackage[T1]{fontenc}
+%%%%
+
+\newcommand\dunderline[3][-1pt]{{%
+  \sbox0{#3}%
+  \ooalign{\copy0\cr{\color{OliveGreen}\rule[\dimexpr#1-#2\relax]{\wd0}{#2}}}}
+}
+\renewcommand{\emph}[1]{\dunderline[-1pt]{.5pt}{\textcolor{OliveGreen}{#1}}}
+\renewcommand{\natseg}[1][n]{\{1 \ldots, #1\}}
+\newcommand{\vpause}{\vfill\pause}
+\newcommand{\amachine}{\acmdrel \mdot \left[\areaction[1] \branchsep \cdots \branchsep \areaction[n]\right]}
+\makeatletter
+\newcommand{\logbox}[1]{
+  {\scriptsize
+	 \setlength{\fboxsep}{1pt}
+	 \setlength{\fboxrule}{.25pt}
+	 \def\@txt{\ensuremath{\,#1\,}\strut}
+	 \framebox[\widthof{\@txt}][c]{\@txt}
+  }
+}
+\makeatother
+\newcommand{\fish}[2]{\ensuremath{#1}\logbox{#2}}
+\newcommandx{\postit}[3][1=5cm, 2=2.5cm, usedefault=@]{
+  % 1 : vertical spacing
+  % 2 : horizontal spacing
+
+  \vspace{-#1}\flushright
+  \colorbox{teal!20}{
+	 \begin{minipage}{#2}\raggedright\bsifamily%\\fontfamily{frc}\selectfont
+		\scriptsize #3%
+	 \end{minipage}
+  }%
+}
+
+\newcommandx{\anidea}[3][2=.05, 3=bulb, usedefault=@]{%
+  \begin{tabular}{ll}%
+	 \begin{minipage}{.1\linewidth}%
+		\includegraphics[scale=#2]{#3}%
+	 \end{minipage}%
+	 &\hspace{-1cm}%
+		\begin{minipage}{.9\linewidth}%
+		  #1%
+		\end{minipage}%
+  \end{tabular}%
+}
+
+\newcommand{\fsataxi}[1][]{
+  \begin{align*}
+    \begin{tikzpicture}[gt, node distance = 3.2cm, font=\footnotesize, scale = .5]
+      \node[initial] (1) {$1$};
+      \foreach \n/\p in {2/1,3/2,4/3,5/4,6/5,7/6}{ \node[state,right= of \p] (\n) {$\n$}; }
+		% \node[state, below=of 6] (7) {$7$};
+		\ifempty{#1}{}{
+		  \node<#1->[state, fill=teal!40] at (3) {$3$};
+		  \draw<#1->[line width=.3ex, color=teal!40] (3) -- (4);
+		  \draw<#1->[line width=.3ex, color=teal!40] (3) to [bend left=32] (6);
+		}
+      \path (1) edge node{\gsumprefix[][Request][Requested][P]} (2);
+      \path (2) edge[loop above] node{\gsumprefix[][Offer][{Bid,BidderID}][T]} ();
+      \path (2) edge node[below,yshift=-.2cm]{\gsumprefix[][Select][Selected,PassengerID][P]} (3);
+      \path (3) edge node{\gsumprefix[][Arrive][Arrived][T]} (4);
+      \path (4) edge node{\gsumprefix[][Start][Started][P]} (5);
+      \path (5) edge[loop above] node[left]{\gsumprefix[][Record][Path][T]} ();
+      \path (5) edge node[below, yshift=-.2cm]{\gsumprefix[][Finish][Finished,Rating][P]} (6);
+      \path (3) edge[bend left=32] node[sloped](x){\gsumprefix[][Cancel][Cancelled][P]} (6);
+      \path (6) edge[sloped] node{\gsumprefix[][Receipt][Receipt][O]} (7);
+    \end{tikzpicture}
+  \end{align*}
+}
+
+\date{}
+
+\title{
+  Local-First Principles: a Behavioural Types Approach
+}
+
+\author{
+  \textcolor{orange}{Emilio Tuosto} \textcolor{blue!20}{@ GSSI}
+  \\[2em]
+  joint work with
+  \\
+  Roland Kuhn \textcolor{blue!20}{@ Actyx}
+  \hfill and\hfill
+  Hern\'an Melgratti \textcolor{blue!20}{@ UBA}
+  \\
+  \includegraphics[scale=.25]{roland_kuhn.jpeg}
+  \hfill
+  \includegraphics[scale=.25]{hernan.jpeg}
+  \\[2em]
+  Tutorial at Discotec 2023
+  \\
+  Lisbon 23 June, 2023
+  \\%[3em]
+  \tnxbehapislides
+}
+
+\newcommand{\wfswarm}[1][$\reactsto$]{{#1}-WF}
+\newcommandx{\notation}[3][1=.3\linewidth,3=Notation,usedefault=@]{
+  \fcolorbox{blue!10}{black!10}{%
+	 \begin{minipage}{#1}\scriptsize%
+		\textcolor{orange}{#3}
+		
+		\leftskip 10pt
+		{#2}
+	 \end{minipage}
+  }
+}
+
+\begin{document}
+\sloppy
+
+% \input prelude \end{document}
+
+% \begin{frame}
+%   \begin{tikzpicture}
+% 	 \node(g) {$\gsumprefix[][@][@][R]\gtpref\agt[1] + \gsumprefix[][c'][l'][R]\gtpref\agt[1] + \gsumprefix[][\cdots][l'][X]\gtpref\agt[2]$};
+% 	 \node(g1) [above right = of g] {$\agt[1]$};
+% 	 \node(gi) [right = 2cm of g] {$\agt[i]$};
+% 	 \node(gn) [below right = of g] {$\agt[n]$};
+% 	 \path[->] (g.north east) edge[above,sloped] node{$\afishact[1]$} (g1);
+% 	 \path[->] (g) edge[above,sloped] node{$\afishact[i]$} (gi);
+% 	 \path[->] (g.south east) edge[below,sloped] node{$\afishact[n]$} (gn);
+%   \end{tikzpicture}
+% \end{frame}
+
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\newpart{Prelude}[prelude]
+\newpart{Motivations}[motivations]
+\newpart{A formal model}[swarms]
+\newpart{Behavioural types for swarms}[types]
+\newpart{Tooling}[tooling]
+\newpart{Epilogue}[epilogue]
+\newpart{Solutions}[solutions]
+
+\end{document}
+
+
+Title: Local-First Principles: a Behavioural Typing Approach
+Description:
+Fully distributed systems where components coordinate merely by exchanging messages are notoriously difficult to realise. A source of complexity is that maintaining invariants of the computation is hard: on the one hand, such invariants are properties of the *global* state emerging from the *local* states of the components; on the other hand, design principles suggest avoiding centralisation points in order to reduce bottlenecks and increase scalability and robustness. Therefore, distributed components have to coordinate with each other in order to maintain invariants. This boils down to ensure correct information flows through components.
+A radically new approach is to trade consistency for availability in the design of distributed systems advocating ideas from *local-first software*: components should operate no matter how precisely their “local view reflects the global computational state”...Hence, inconsistent states will obviously emerge! But the local-first philosophy is to embrace the emergence of local inconsistencies provided that global consistency is eventually attained. These ideas are the bread & butter of the [Actyx's platform](https://developer.actyx.com), an industrial middleware to coordinate applications consisting of *local-twins*, that is computational agents that do not rely on any central components such as servers, databases, or cloud.
+This tutorial will discuss the distributed coordination of communicating systems based on local-first principles, present a formal model capturing the semantics of the Actyx platform, and then present an approach based on a new class of behavioural types to specify and analyse systems consisting of distributed components communicating through an event notification mechanism. This formal framework has been implemented in a prototype demonstrated in the tutorial.
+The tutorial is based on joint work with Roland Kuhn (Actyx AG, Germany) and Hernán Melgratti (UBA & CONICET, Argentina)
+
+
+Short Bio:
+Emilio Tuosto is an associate professor at the [Gran Sasso
+Science Institute](http://www.gssi.it). Emilio's main research interests are in theoretical and applied aspects of distributed and mobile systems. Recently he has been working on automata- and type-based models of distributed choreographies, contract- and graph-based models of distributed interactions.
+Before joining the GSSI, Emilio has been associate professor of the [School of Informatics](https://cs.le.ac.uk/) of [University of Leicester](https://www.le.ac.uk), which he joined in October 2005 as a lecturer of the Department of Computer Science. Emilio has been a research associate (2003-2005) at the Dipartimento di Informatica (University of Pisa). He graduated (1998) and got his PhD degree in Computer Science (2003) at the department of Computer Science, University of Pisa.
+
+G = Request@PhRequestedi . G auction
+G auction = Offer@ThBid · BidderIDi . G auction + Select@PhSelected · PassengerIDi . G choose
+G choose = Arrive@ThArrivedi . Start@PhStartedi . G ride + Cancel@PhCancelledi . Receipt@OhReceipti . 0
+G ride = Record@ThPathi . G ride + Finish@PhFinished · Ratingi . Receipt@OhReceipti . 0
+
+lauc = requested · bid B · bidderid B · bid A · bidderid A · selected · bid C · bidderid C · passengerid
+
+T(lauc,G,[])
+= (3)
+Request · T(bid B · bidderid B · bid A · bidderid A · selected · bid C · bidderid C · passengerid, G_auction, [])
+= (3)
+Request · Bid · T(bidderid B · bid A · bidderid A · selected · bid C · bidderid C · passengerid, G_auction, [BidderID])
+= (4)
+Request · Bid · BidderID · Bid · BidderID · Select · T(bid C · bidderid C · passengerid, G_choose, [PassengerID])
+= (5)
+Request · Bid · BidderID · Bid · BidderID · Select · T(bidderid C · passengerid, G_choose, [PassengerID])
+= (5)
+Request · Bid · BidderID · Bid · BidderID · Select · T(passengerid, G_choose, [PassengerID])
+= (4)
+Request · Bid · BidderID · Bid · BidderID · Select · PassengerID · T([] G_choose, [])
+= (2)
+Request · Bid · BidderID · Bid · BidderID · Select · PassengerID
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
+
+
+

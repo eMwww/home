@@ -1,0 +1,24 @@
+- name: "about eM"
+  img: "me.jpg"
+  style: "width:85%; alt:eM; title:eM"
+  url: about
+
+- name: "dblp"
+  img: "dblp.png"
+  style: "width:75%; title:dblp"
+  url: "http://www.informatik.uni-trier.de/~ley/pers/hd/t/Tuosto:Emilio.html"
+
+- name: "orcid"
+  img: "orcid.png"
+  style: "width:25%; title:eM's orcid"
+  url: "https://orcid.org/0000-0002-7032-3281"
+
+- name: "scholar"
+  img: "avatar_scholar_256.png"
+  url: "https://scholar.google.com/citations?user=UsADbUQAAAAJ&hl=en"
+  style: "title:scholar; width:25%;"
+
+- name: "scopus"
+  img: "scopus.png"
+  style: "title:scopus; width:25%;"
+  url: "https://www.scopus.com/authid/detail.uri?authorId=8967981400"

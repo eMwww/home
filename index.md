@@ -23,7 +23,7 @@ https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#github-cust
  <tr>
  <td valign="center" rowspan="2" markdown="1">
    {% for n in site.data.icons %}
-[![](images/{{ n.img }} "eM's {{ n.name }}"){: style="{{ n.style }}" }]({{ n.url }}){% endfor %}
+[![](/home/images/{{ n.img }} "eM's {{ n.name }}"){: style="{{ n.style }}" }]({{ n.url }}){% endfor %}
  </td>
  <td>
  <table>

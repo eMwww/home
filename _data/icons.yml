@@ -1,16 +1,16 @@
 - name: "about eM"
   img: "me.jpg"
-  style: "width:85%; alt:eM; title:eM"
-  url: about
+  style: "width:85%; alt:eM; title:eM;"
+  url: "about"
 
 - name: "dblp"
   img: "dblp.png"
-  style: "width:75%; title:dblp"
+  style: "width:75%; title:dblp;"
   url: "http://www.informatik.uni-trier.de/~ley/pers/hd/t/Tuosto:Emilio.html"
 
 - name: "orcid"
   img: "orcid.png"
-  style: "width:25%; title:eM's orcid"
+  style: "width:25%; title:eM's orcid;"
   url: "https://orcid.org/0000-0002-7032-3281"
 
 - name: "scholar"

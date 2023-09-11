@@ -66,7 +66,7 @@ https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#github-cust
 <div style="font-size:70%">
     Associate Professor
 	<br/><a href="https://www.gssi.it">Gran Sasso Science Institute</a>
-	<br/>Via Rendina
+	<br/>Viale Rendina
 	<br/>67100 L'Aquila (Italy)
 	<br/><img alt="office" src="/home/images/office.jpg" width="10%"  title="office"/>P2-16
 	<br/><b>Office Hours</b>: always keen to meet; just drop me an email to fix a meeting.

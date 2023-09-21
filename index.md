@@ -29,7 +29,7 @@ https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#github-cust
  <table>
   <tr>
     <th style="width:25%; background:#dddddd; text-align:left">Highlights</th>
-    <th style="width:60; background:#dddddd; text-align:left" markdown="1">Recent talks (full list [here](talks))</th>
+    <th style="width:60; background:#dddddd; text-align:left" markdown="1">Recent talks (full list [here](https://emwww.github.io/home/talks))</th>
     <th style="width:25%; background:#dddddd; text-align:left">Latest</th>
   </tr>
   <tr>
@@ -66,7 +66,7 @@ https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#github-cust
 <div style="font-size:70%">
     Associate Professor
 	<br/><a href="https://www.gssi.it">Gran Sasso Science Institute</a>
-	<br/>Viale Rendina
+	<br/>Viale Rendina, 28
 	<br/>67100 L'Aquila (Italy)
 	<br/><img alt="office" src="/home/images/office.jpg" width="10%"  title="office"/>P2-16
 	<br/><b>Office Hours</b>: always keen to meet; just drop me an email to fix a meeting.

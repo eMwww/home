@@ -17,6 +17,21 @@ My key scientific contributions are in the area of formal abstractions for distr
 - Bottom-up approaches
 - Abstract semantics model
 - Choreographic support to local-first software
+<table>
+<tr>
+<th style="background:#dddddd; text-align:left" markdown="1">Some papers (full list at [![dblp](images/dblp.png "DBLP"){: style="width:15%"}](http://www.informatik.uni-trier.de/~ley/pers/hd/t/Tuosto:Emilio.html))</th>
+</tr>
+<tr>
+<td colspan="3" valign="top" markdown="1"><!-- Papers -->
+{% assign items = site.data.drafts %}
+{% for n in items limit:5 %}
+- <span class="tooltip"><span class="tooltiptext">with {{ n.author }}.<br/>{{ n.descr }}</span>{{ n.title }}</span>
+<span style="font-size:75%; markdown=1;">{% if n.venue %}{{ n.venue }}.{% endif %}{% if n.printed %}{{ n.printed }}.{% endif %}
+{% if n.draft %}Submitted at {{ n.draft }}.{% endif %}{% if n.url %} Available [here]({{ n.url }}) {% endif %}</span>{% endfor %}
+- More stuff [here](publications)
+</td>
+</tr>
+</table>
 </td>
 <td valign="top" markdown="1">
 Editorial boards

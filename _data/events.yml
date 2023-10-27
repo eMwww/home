@@ -1,11 +1,26 @@
-- name: "OPCT"
-  url: "http://www.sti.uniurb.it/events/opct2023/programme.html"
-  date: "26-30/6/2023"
+- name: "OOPSLA 2024"
+  url: "https://2024.splashcon.org/track/splash-2024-oopsla"
+  deadline: "05/04/2024"
+  date: "20-25/10/2024"
+
+# - name: "OPCT"
+#   url: "http://www.sti.uniurb.it/events/opct2023/programme.html"
+#   date: "26-30/6/2023"
   
 - name: "ICTAC"
   url: "https://ictac2023.compsust.utec.edu.pe/"
   deadline: "16/6/2023"
   date: "4/12/2023"
+
+- name: "ETAPS 2024"
+  url: "https://etaps.org/"
+  date: "6-11/04/2024"
+
+- name: "Concur"
+  url: "https://concurrency-theory.org/events/concur/"
+  deadline: ""
+  date: ""
+
 
 # - name: "trecec21"
 #   url: "https://sites.google.com/view/trecec21/"
@@ -23,43 +38,44 @@
 # - name: "FACS 2022"
 #   deadline: "24/06 and 4/07/2022"
 #   date: "10-11/11/2022"
-- name: "FM-BPM 2023"
-  url: "https://fm-bpm2023.github.io/"
-  deadline: "30/05/2023"
-  date: "11/09/2023"
 
-- name: "FM2023"
-  url: "https://fm2023.isp.uni-luebeck.de/"
-  deadline: "4 and 9/9/2022"
-  date: "7-9/3/2023"
+# - name: "FM-BPM 2023"
+#   url: "https://fm-bpm2023.github.io/"
+#   deadline: "30/05/2023"
+#   date: "11/09/2023"
+
+# - name: "FM2023"
+#   url: "https://fm2023.isp.uni-luebeck.de/"
+#   deadline: "4 and 9/9/2022"
+#   date: "7-9/3/2023"
   
-- name: "DisCoTec"
-  url: "https://www.discotec.org/2023"
-  deadline: "18/02/2023"
-  date: "19-23/06/2023"
+# - name: "DisCoTec"
+#   url: "https://www.discotec.org/2023"
+#   deadline: "18/02/2023"
+#   date: "19-23/06/2023"
   
 # - name: "CONCUR 2022"
 #   url: "https://concur2022.mimuw.edu.pl/call-for-papers/"
 #   deadline: "18/4/2022"
 #   date: "12/09/2022"
   
-- name: "ECOOP"
-  url: "https://2023.ecoop.org"
-  deadline: "1/3/2023"
-  date: "17/7/2023"
+# - name: "ECOOP"
+#   url: "https://2023.ecoop.org"
+#   deadline: "1/3/2023"
+#   date: "17/7/2023"
   
-- name: PLACES
-  url: "https://places-workshop.github.io/2023/cfp"
-  deadline: "12/2/2023"
-  date: "22/04/2023"
+# - name: PLACES
+#   url: "https://places-workshop.github.io/2023/cfp"
+#   deadline: "12/2/2023"
+#   date: "22/04/2023"
   
 # - name: "LICS"
 #   url: "https://lics.siglog.org/lics22/"
 
-- name: "ICE"
-  url: "https://discotec.org/2023/ice"
-  deadline: "27/3/2023"
-  date: "19/6/2023"
+# - name: "ICE"
+#   url: "https://discotec.org/2023/ice"
+#   deadline: "27/3/2023"
+#   date: "19/6/2023"
 
 # - name: "ISoLA"
 #   url: "http://isola-conference.org/isola2022/"

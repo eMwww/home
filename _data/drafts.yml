@@ -1,28 +1,31 @@
 - title: "Behavioural Types for Local-First Software"
   author: "Hernán Melgratti and Roland Kuhn"
   descr: "The title says it all."
-  venue: "ECOOP 2023 (an extended version is at https://doi.org/10.48550/arXiv.2305.04848)"
- 
+  printed: "ECOOP 2023 (an extended version is at https://doi.org/10.48550/arXiv.2305.04848)"
+  url: "https://doi.org/10.4230/LIPIcs.ECOOP.2023.15"
+  
 - title: "A Theory of Formal Choreographic Languages"
   author: "Ivan Lanese and Franco Barbanera"
   descr: "The extended version of our Coordination 2022 paper"
-  venue: "LMCS (To appear)"
+  printed: "LMCS 19(3) 2023"
+  url: "https://doi.org/10.46298/lmcs-19(3:9)2023"
 
 - title: "Composition of Synchronous Communicating Systems"
   author: "Ivan Lanese and Franco Barbanera"
   descr: "The extended version of our ICE 2022 paper"
-  venue: "JLAMP (To appear)"
- 
+  printed: "JLAMP 135:1000890 2023"
+  url: "https://doi.org/10.1016/j.jlamp.2023.100890"
+  
 - title: "Formal Choreographic Languages"
   author: "Ivan Lanese and Franco Barbanera"
-  descr: "A model of choreographies based on formal languages."
-  printed: "Coordination 2022."
+  descr: "A model of choreographies based on formal languages"
+  printed: "Coordination 2022"
   url: "https://arxiv.org/abs/2210.08223v1"
 
 - title: "PSTMonitor: Monitor synthesis from probabilistic session"
   author: "Christian Bartolo Burlò, Adrian Francalanza, Alceste Scalas, and Catia Trubiani"
   descr: "PSTMonitor, a tool for the run-time verification of quantitative specifications of message-passing applications, based on probabilistic session types"
-  printed: "SCICO 2022 (free access before October 05, 2022)"
+  printed: "SCICO 2022"
   url: "https://www.sciencedirect.com/science/article/pii/S0167642322000806?dgcid=coauthor"
   # "https://www.sciencedirect.com/science/article/abs/pii/S0167642322000806"
 

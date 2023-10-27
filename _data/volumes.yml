@@ -1,0 +1,49 @@
+- vol: "LMCS"
+  year: "2019"
+  url: "https://lmcs.episciences.org/volume/view/id/377"
+  descr: "Selected Papers of the 21st International Conference on Coordination Models and Languages"
+
+- vol: "COORDINATION"
+  url: "http://www.discotec.org/2019/coordination.html"
+  descr: "Proceedings: LNCS 11533. DOI 10.1007/978-3-030-22397-7"
+  year: "2019"
+  
+- vol: "SOCA"
+  year: "2015"
+  url: "https://doi.org/10.1007/s11761-015-0178-x"
+  descr: "Volume 9, Issue 3-4, September 2015. DOI 10.1007/s11761-015-0178-x"
+  
+- vol: "Trustworthy Global Computing"
+  descr: "LNCS 8902. DOI 10.1007/978-3-662-45917-1"
+  url: "https://doi.org/10.1007/978-3-662-45917-1"
+  year: "2014"
+
+- vol: "Formal approaches to Parallel and Distributed systems (4PAD)"
+  year: "2014"
+  descr: "Proceedings: IEEE Computer Society ISSN 1066-6192"
+  url: "http://pdp2014.di.unito.it/specialsessions/formalhpc/"
+  
+- vol: "Web Services and Formal Methods"
+  year: "2013"
+  descr: "LNCS 8379. DOI 10.1007/978-3-319-08260-8"
+  url: "https://doi.org/10.1007/978-3-319-08260-8"
+  
+- vol: "Graph Transformation and Visual Modeling Techniques"
+  url: "https://doi.org/10.14279/tuj.eceasst.29.422.392"
+  year: "2010"
+  descr: "ECEASST 29. ISSN 1863-2122"
+
+- vol: "Interaction and Concurrency Experience: Structured Interactions"
+  url: "http://ice09.dimi.uniud.it/"
+  year: "2009"
+  descr: "EPTCS 12. DOI 10.4204/EPTCS.12"
+
+- vol: "Interaction and Concurrency Experience: Structured Interactions"
+  url: "http://ice09.dimi.uniud.it/"
+  year: "2008"
+  descr: "ENTCS 229 (3). DOI 10.1016/j.entcs.2009.06.035"
+
+- vol: "Doctoral Symposium International Conference on Graph Transformation"
+  url: "http://pages.di.unipi.it/corradini/ICGT08-DS/"
+  year: "2008"
+  descr: "ECEASST 16. DOI 10.14279/tuj.eceasst.16.235.243"

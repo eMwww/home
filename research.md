@@ -3,58 +3,46 @@ layout: default
 content: true
 ---
 
-<table>
+<table style="font-size:80%">
 <tr>
-<th style="width:35%; background:#dddddd; text-align:left">Recent stuff</th>
-<th style="width:45%; background:#dddddd; text-align:left" markdown="1">Papers (full list at [![dblp](images/dblp.png "DBLP"){: style="width:10%"}](http://www.informatik.uni-trier.de/~ley/pers/hd/t/Tuosto:Emilio.html))</th>
-<th style="width:20%; background:#dddddd; text-align:left">Tools</th>
-</tr>
-<tr>
-<td valign="top"  markdown="1"><!-- Recent stuff -->
-{% assign items = site.data.current %}
-{% for n in items %}
-- <span class="tooltip"><span class="tooltiptext" style="margin-left:60%;">{% if n.authors %} With {{ n.authors }}  
-{% endif %}{{ n.descr }}</span>{{ n.topic }}</span>{% endfor %}
-</td>
-<td valign="top" markdown="1"><!-- Papers -->
-{% assign items = site.data.drafts %}
-{% for n in items limit:5 %}
-- <span class="tooltip"><span class="tooltiptext">with {{ n.author }}.<br/>{{ n.descr }}</span>{{ n.title }}</span>
-{% if n.venue %}Accepted at {{ n.venue }}.{% endif %}{% if n.printed %}{{ n.printed }}.{% endif %}
-  {% if n.draft %}Submitted at {{ n.draft }}.{% endif %} <span markdown="1">{% if n.url %} Available [here]({{ n.url }}) {% endif %}</span>{% endfor %}
-- More stuff [here](publications)
-</td>
-<td valign="top" markdown="1"><!-- Tools -->
-- <span class="tooltip"><span class="tooltiptext">Tool-chain for choreographic development</span>[ChorGram](https://bitbucket.org/eMgssi/stable_chorgram/wiki/Home)</span>
-- <span class="tooltip"><span class="tooltiptext">Partition refinement for history-dependent automata</span>[MIHDA](tools/mihda.tgz)</span>
-- <span class="tooltip"><span class="tooltiptext">An ad-hoc model checker for security protocols </span>[ASPASYA](tools/aspasya.html) and [H-ASPASYA](tools/h-aspasya.html)</span>
-</td>
-</tr>
-<tr>
-<th style="background:#dddddd; text-align:left">Projects</th>
-<th colspan="2" style="background:#dddddd; text-align:left" markdown="1">Some recent talks (full list [here](talks))</th>
+<th style="width:20%; background:#dddddd; text-align:left">In brief</th>
+<th style="width:50%; background:#dddddd; text-align:left">Editorial activities</th>
+<th style="width:0%3; background:#dddddd; text-align:left">eM's PhD students</th>
 </tr>
 <tr>
 <td valign="top" markdown="1"><!-- Projects -->
-- [ASTRA - Advanced Space Technologies and Research Alliance]() <span class="tooltip"><span class="tooltiptext">SPOKE GSSI of the Innovation, digitalization and sustainability for the diffused economy in Central Italy - VITALITY. Task leader of the WP2, PNRR ECS_00000041 (Missione 4 Componente 2 Investimento 1.5, €~10M of which ~2M for WP2)</span>(11/10/2022 to-date)</span>
-- [BehAPI - Behavioural Application Program Interfaces](https://www.um.edu.mt/projects/behapi)<span class="tooltip"><span class="tooltiptext">Site leader and Work package leader (Marie Skłodowska-Curie Actions RISE, agreement No 778233, €742,500.00)</span>(1/3/2018 to-date)</span>
-- [IT-Matters](http://itmatters.imtlucca.it) <span class="tooltip"><span class="tooltiptext"> Italian PRIN project led by Rocco de Nicola; member</span>(1/9/2019 - 28/8/2023)</span>
-- Involvement in [past projects](old_projects)
+My key scientific contributions are in the area of formal abstractions for distributed systems where, in the past years, I have developed formal frameworks based on choreographic approaches. In this area, I have contributed fundamental results in the directions listed below:
+
+- Design-by-contract for message passing systems
+- Bottom-up approaches
+- Abstract semantics model
+- Choreographic support to local-first software
 </td>
-<td colspan="2" valign="top" markdown="1"><!-- Talks -->
-{% assign items = site.data.talks %}
-{% for n in items limit:5 %}
-- **_{{ n.title }}_**.  
-{% if n.descr %}{{ n.descr }}.{% endif %} {{ n.date  | date: '%B %d, %Y' }}. <span class="tooltip"><span class="tooltiptext">![](/home/slides/{{ n.cover }})</span>[Slides]({{ n.slides }})</span>{% endfor %}
+<td valign="top" markdown="1">
+Editorial boards
+
+- [Journal of Logical and Algebraic Methods in Computer Science](https://www.journals.elsevier.com/journal-of-logical-and-algebraic-methods-in-programming)  
+  [Special Issue Editor and member of the editorial board](https://www.sciencedirect.com/journal/journal-of-logical-and-algebraic-methods-in-programming/about/editorial-board)
+  from 15/09/2021 to-date
+- [Frontiers in Computer Science](https://www.frontiersin.org/journals/computer-science)  
+  [Associate editor (Theoretical Computer Science)](https://www.frontiersin.org/journals/computer-science/sections/theoretical-computer-science#editorial-board)
+  from 25/11/2020 "to-date"
+
+
+Edited volumes:
+{% assign items = site.data.volumes | sort: 'date' | reverse %}
+{% for n in items %}
+- [{{ n.vol }}{{ n.year }}]({{ n.url }}) {{ n.descr }}
+{% endfor %}
 </td>
-</tr>
-<th style="background:#dddddd; text-align:left">eM's PhD students</th>
-<th colspan="2" style="background:#dddddd; text-align:left">Suggested readings for MSc/PhD students</th>
-<tr>
 <td valign="top" markdown="1"><!-- phd students -->
 {% for n in site.data.phd %}
 - {{ n.name }} {% if n.viva %} _(viva held in {{ n.viva }})_{: style="font-size:10pt" } {% else %} _(current student)_{: style="font-size:10pt" }{% endif %}{% if n.note %}<br/>{{ n.note }}{% endif %}{% endfor %}
-</td>
+<table>
+<tr>
+<th colspan="2" style="background:#dddddd; text-align:left">Suggested readings for MSc/PhD students</th>
+</tr>
+<tr>
 <td colspan="2" valign="top" markdown="1"><!-- Readings -->
 - Alfred Tarski. *Introduction to logic and to the methodology of deductive sciences*. OUP.
 - Graham Priest. *Logic: A Very Short Introduction*. OUP.
@@ -63,7 +51,41 @@ content: true
 </td>
 </tr>
 </table>
+</td>
+</tr>
+</table>
 
 
+
+## Steereing Committes
+{% assign items = site.data.sc | sort: 'date' | reverse %}
+{% for n in items %}
+- <span markdown="1" style="font-size:150%">{{ n.sc }}
+  ({% if n.url %}[{% if n.acr %}{{ n.acr }}{% else %}{{ n.url }}{% endif %}]({{ n.url }}), {% else %}
+  {% if n.acr %}{{ n.acr }}, {% endif %}{% endif %}
+  {{ n.from }} --- {{ n.to }})</span>{% endfor %}
+
+## Membership of programme committees
+{% assign items = site.data.pc | sort: 'date' | reverse %}
+{% for n in items %}
+-  <span markdown="1" style="font-size:150%">{% if n.pc %} {{ n.pc }} {% endif %}{% if n.oc %}
+  organising committee {{ n.oc }}
+  {% endif %}({% if n.url %}[{% if n.acr %}{{ n.acr }}{% else %}{{ n.url }}{% endif %}]({{ n.url }}), {% else %}
+  {% if n.acr %}{{ n.acr }}, {% endif %}{% endif %}
+  {{ n.from }} --- {{ n.to }})</span>{% endfor %}
+
+
+## Recruiting and hiring service
+{% assign items = site.data.recruitment %}
+{% for n in items %}
+- <span markdown="1" style="font-size:150%">{{ n.date }}: {{ n.role }} of the committee for {% if n.viva %} PhD viva defense of {{ n.viva }} - {{ n.institution }} {% else %} {{ n.event }} at the {{ n.institution }} {% endif %}</span>{% endfor %}
+
+## PhD examination
+I have been the internal examiner of more than 5 PhD students at the University of Leicester and I have been the external examiner or on the evaluation committees of the following viva:
+{% assign items = site.data.examiner %}
+{% for n in items %}
+-  <span markdown="1" style="font-size:130%">
+**{% if n.viva %}{{ n.viva }}{% else %}{{ n.name }}{% endif %}** _{{ n.title }}_, {{ n.institution }}
+({{ n.date }}, {% if n.viva %}{{ n.role }} of the committee{% else %} external examiner{% endif %})</span>{% endfor %}
 
 

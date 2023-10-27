@@ -4,7 +4,8 @@ html {
 
 body {
     margin: 20px auto;
-    width: 100%;
+    max-width: 97.5%;
+    /* width: 100%; */
     font-family: 'Sans-Serif', 'Helvetica', 'Arial';
 	 font-size: 100%;
 	 list-style: none;
@@ -37,8 +38,6 @@ nav table {
 	 font-size: 140%;
 	 color: #ffffff;
 	 width: 100%;
-    margin-right: 10px;
-    margin-left: 10px;
 	 background-color: #e5680e;
 }
 
@@ -64,6 +63,11 @@ h3 {
 	 color:#bc8f8f;
 }
 
+th.index {
+	 background:#dddddd;
+	 text-align:left;
+}
+
 td.quicklinks li {
 	 font-size : 90%;
     margin-left: -2.0em;
@@ -73,8 +77,6 @@ td.quicklinks li {
 td.latest {
 	 valign:top;
 	 font-size : 120%;
-	 opacity : .5;
-	 /* line-height : .5em; */
 }
 
 a {
@@ -89,14 +91,14 @@ a:hover {
 	 opacity: 1;
 }
 
-p {
+/* p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
 }
 
 p.news {
-	 font-size:90%;
+	 font-size:190%;
 	 font-weight: bold;
 	 color:black;
 	 font-style:normal;
@@ -104,16 +106,18 @@ p.news {
 	 opacity:1
 }
 
+p.news img {
+	 height:20px;
+	 width:20px;
+}
+*/
+
 @keyframes blinker {
     50% {
         opacity: 0;
     }
 }
 
-p.news img {
-	 height:20px;
-	 width:20px;
-}
 
 footer {
     border-top: 1px solid #d5d5d5;
@@ -189,38 +193,36 @@ td.box {
 	border: 1px solid #000;	 
 }
 
+/*
 div.research {
-	 font-size:110%;
+	 font-size:100%;
 	 position: relative;
+	 color: red;
+	 background-color:blue;
 }
 
 div.research li {
 	 font-size:125%;
 	 position: relative;
 }
+*/
 
 div.fun {
-/*
-  width: 100px;
-  height: 100px;
-  animation-iteration-count: infinite;
-  animation-direction: reverse;
-  background-color: red;
-*/
-	 font-size:80%;
+/*	 font-size:80%; */
 	 position: relative;
+	 white-space: nowrap;
+    overflow: hidden;
 	 animation-name: slidein;
 	 animation-duration: 2s;
 	 line-height:1.5em;
 }
 
-td li {
-  margin-left:-25px;
-  text-overflow: ellipsis;
-}
-
 div.fun li {
   margin-left:-25px;
+}
+
+td li {
+	 margin-left:-25px;
 }
 
  /* Tooltip container */
@@ -304,6 +306,7 @@ div.fun li {
  /* -webkit-animation: scroll 0s linear infinite; */
  animation: scroll 8s linear infinite;
 }
+
 /* Move it (define the animation) */
 /* @-moz-keyframes scroll { */
 /*  0%   { -moz-transform: translateY(100%); } */

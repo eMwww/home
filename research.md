@@ -40,10 +40,10 @@ Edited volumes:
 - {{ n.name }} {% if n.viva %} _(viva held in {{ n.viva }})_{: style="font-size:10pt" } {% else %} _(current student)_{: style="font-size:10pt" }{% endif %}{% if n.note %}<br/>{{ n.note }}{% endif %}{% endfor %}
 <table>
 <tr>
-<th colspan="2" style="background:#dddddd; text-align:left">Suggested readings for MSc/PhD students</th>
+<th style="background:#dddddd; text-align:left">Suggested readings for MSc/PhD students</th>
 </tr>
 <tr>
-<td colspan="2" valign="top" markdown="1"><!-- Readings -->
+<td valign="top" markdown="1"><!-- Readings -->
 - Alfred Tarski. *Introduction to logic and to the methodology of deductive sciences*. OUP.
 - Graham Priest. *Logic: A Very Short Introduction*. OUP.
 - Douglas R. Hofstadter. *Gödel, Escher, Bach: An Eternal Golden Braid*. Basic Books 1999 (First published in 1979).
@@ -53,39 +53,55 @@ Edited volumes:
 </table>
 </td>
 </tr>
+<tr>
+<th style="background:#dddddd; text-align:left">Steereing Committes</th>
+<th style="background:#dddddd; text-align:left" markdown="1">Programme Committees (recent ones; the full list is [here](pc))</th>
+<th style="background:#dddddd; text-align:left">Recruiting and hiring panels</th>
+</tr>
+<tr>
+<td valign="top" span markdown="1">
+{% assign items = site.data.sc | sort: 'date' | reverse %}
+{% for n in items %}
+- {{ n.sc }}
+  ({% if n.url %}[{% if n.acr %}{{ n.acr }}{% else %}{{ n.url }}{% endif %}]({{ n.url }}), {% else %}
+  {% if n.acr %}{{ n.acr }}, {% endif %}{% endif %}
+  {{ n.from }} --- {{ n.to }}){% endfor %}
+</td>
+<td markdown="1">
+{% assign items = site.data.pc | sort: 'date' | reverse %}
+{% for n in items limit:10 %}
+- {% if n.pc %} {{ n.pc }} {% endif %}{% if n.oc %}
+  organising committee {{ n.oc }}
+  {% endif %}({% if n.url %}[{% if n.acr %}{{ n.acr }}{% else %}{{ n.url }}{% endif %}]({{ n.url }}), {% else %}
+  {% if n.acr %}{{ n.acr }}, {% endif %}{% endif %}
+  {{ n.from }} --- {{ n.to }}){% endfor %}
+</td>
+<td valign="top" markdown="1">
+{% assign items = site.data.recruitment %}
+{% for n in items %}
+- {{ n.date }}: {{ n.role }} of the committee for {% if n.viva %} PhD viva defense of {{ n.viva }} - {{ n.institution }} {% else %} {{ n.event }} at the {{ n.institution }} {% endif %}{% endfor %}
+</td>
+</tr>
+<tr>
+<th colspan="3" style="background:#dddddd; text-align:left">PhD examination</th>
+</tr>
+<tr>
+<td colspan="3" valign="top" markdown="1">
+I have been the internal examiner of more than 5 PhD students at the University of Leicester and I have been the external examiner or on the evaluation committees of the following viva:
+{% assign items = site.data.examiner %}
+{% for n in items %}
+- **{% if n.viva %}{{ n.viva }}{% else %}{{ n.name }}{% endif %}** _{{ n.title }}_, {{ n.institution }}
+({{ n.date }}, {% if n.viva %}{{ n.role }} of the committee{% else %} external examiner{% endif %}){% endfor %}
+</td>
+</tr>
 </table>
 
 
 
-## Steereing Committes
-{% assign items = site.data.sc | sort: 'date' | reverse %}
-{% for n in items %}
-- <span markdown="1" style="font-size:150%">{{ n.sc }}
-  ({% if n.url %}[{% if n.acr %}{{ n.acr }}{% else %}{{ n.url }}{% endif %}]({{ n.url }}), {% else %}
-  {% if n.acr %}{{ n.acr }}, {% endif %}{% endif %}
-  {{ n.from }} --- {{ n.to }})</span>{% endfor %}
-
-## Membership of programme committees
-{% assign items = site.data.pc | sort: 'date' | reverse %}
-{% for n in items %}
--  <span markdown="1" style="font-size:150%">{% if n.pc %} {{ n.pc }} {% endif %}{% if n.oc %}
-  organising committee {{ n.oc }}
-  {% endif %}({% if n.url %}[{% if n.acr %}{{ n.acr }}{% else %}{{ n.url }}{% endif %}]({{ n.url }}), {% else %}
-  {% if n.acr %}{{ n.acr }}, {% endif %}{% endif %}
-  {{ n.from }} --- {{ n.to }})</span>{% endfor %}
 
 
-## Recruiting and hiring service
-{% assign items = site.data.recruitment %}
-{% for n in items %}
-- <span markdown="1" style="font-size:150%">{{ n.date }}: {{ n.role }} of the committee for {% if n.viva %} PhD viva defense of {{ n.viva }} - {{ n.institution }} {% else %} {{ n.event }} at the {{ n.institution }} {% endif %}</span>{% endfor %}
 
-## PhD examination
-I have been the internal examiner of more than 5 PhD students at the University of Leicester and I have been the external examiner or on the evaluation committees of the following viva:
-{% assign items = site.data.examiner %}
-{% for n in items %}
--  <span markdown="1" style="font-size:130%">
-**{% if n.viva %}{{ n.viva }}{% else %}{{ n.name }}{% endif %}** _{{ n.title }}_, {{ n.institution }}
-({{ n.date }}, {% if n.viva %}{{ n.role }} of the committee{% else %} external examiner{% endif %})</span>{% endfor %}
+
+
 
 

@@ -69,7 +69,7 @@ th.index {
 }
 
 td.quicklinks li {
-	 font-size : 90%;
+	 font-size : 100%;
     margin-left: -2.0em;
 	 line-height : 1.5em;
 }
@@ -118,6 +118,17 @@ p.news img {
     }
 }
 
+
+th.ctx {
+	 background:#dddddd;
+	 text-align:left;
+}
+
+
+blink{
+    animation: blinker 2s linear infinite;
+	 color: blue;
+}
 
 footer {
     border-top: 1px solid #d5d5d5;
@@ -208,7 +219,7 @@ div.research li {
 */
 
 div.fun {
-/*	 font-size:80%; */
+	 font-size:100%;
 	 position: relative;
 	 white-space: nowrap;
     overflow: hidden;
@@ -223,6 +234,7 @@ div.fun li {
 
 td li {
 	 margin-left:-25px;
+	 font-size:100%;
 }
 
  /* Tooltip container */

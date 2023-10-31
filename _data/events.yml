@@ -1,3 +1,8 @@
+- name: "ECOOP 2024"
+  url: "https://conf.researchr.org/home/ecoop-2024"
+  deadline: "17/01/2024"
+  date: "16-20/09/2024"
+
 - name: "OOPSLA 2024"
   url: "https://2024.splashcon.org/track/splash-2024-oopsla"
   deadline: "05/04/2024"
@@ -20,7 +25,6 @@
   url: "https://concurrency-theory.org/events/concur/"
   deadline: ""
   date: ""
-
 
 # - name: "trecec21"
 #   url: "https://sites.google.com/view/trecec21/"

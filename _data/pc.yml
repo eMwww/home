@@ -1,3 +1,11 @@
+- pc: "ECOOP 2024"
+  url: "https://conf.researchr.org/home/ecoop-2024"
+  acr: "ECOOP24"
+  from: "16/09/2024"
+  to: "20/09/2024"
+  date: "2024/09/16"
+
+
 - pc: "First International Workshop on Formal Methods for Business Process Management"
   url: "https://fm-bpm2023.github.io/"
   acr: "FM-BPM"

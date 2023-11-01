@@ -1,11 +1,11 @@
 - name: "ECOOP 2024"
   url: "https://conf.researchr.org/home/ecoop-2024"
-  deadline: "17/01/2024"
+  deadline: "2024/01/17"
   date: "16-20/09/2024"
 
 - name: "OOPSLA 2024"
   url: "https://2024.splashcon.org/track/splash-2024-oopsla"
-  deadline: "05/04/2024"
+  deadline: "2024/04/05"
   date: "20-25/10/2024"
 
 # - name: "OPCT"
@@ -14,11 +14,12 @@
   
 - name: "ICTAC"
   url: "https://ictac2023.compsust.utec.edu.pe/"
-  deadline: "16/6/2023"
+  deadline: "2023/6/16"
   date: "4/12/2023"
 
 - name: "ETAPS 2024"
   url: "https://etaps.org/"
+  deadline: "2023/10/12"
   date: "6-11/04/2024"
 
 - name: "Concur"
@@ -53,10 +54,10 @@
 #   deadline: "4 and 9/9/2022"
 #   date: "7-9/3/2023"
   
-# - name: "DisCoTec"
-#   url: "https://www.discotec.org/2023"
-#   deadline: "18/02/2023"
-#   date: "19-23/06/2023"
+- name: "DisCoTec"
+  url: "https://www.discotec.org/"
+  deadline: "2024/02/??"
+  date: "18-20/02/2024"
   
 # - name: "CONCUR 2022"
 #   url: "https://concur2022.mimuw.edu.pl/call-for-papers/"

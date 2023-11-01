@@ -97,7 +97,8 @@ https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#github-cust
 <tr>
 <td valign="top">
 <div class="fun" markdown="1">
-{% for n in site.data.events %}
+{% assign sorted = site.data.events | sort: 'deadline' | reverse %}
+{% for n in sorted %}
 - [{{ n.name }}]({{ n.url }}) {% if n.deadline %}`(deadline: {{ n.deadline }})`{: style="font-size:6pt"}{% endif %}{% endfor %}
 </div>
 </td>
@@ -112,24 +113,25 @@ https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#github-cust
 </td>
 <td class="latest" valign="top">
 <table>
-<tr><th class="ctx" style="width:25%;">Latest from eM</th></tr>
-<td><div class="scroll" markdown="1">
-<li  style="opacity : .5;">
+<tr><th class="ctx">Latest from eM</th></tr>
+<tr><td><div class="scroll" markdown="1">
+<li style="opacity:.5;">
 {% assign items = site.data.news %}
 {% for n in items %}
 {% if forloop.index <= 10 %}<b>{{ n.date | date: '%B %d, %Y' }}</b>: {{ n.descr }} {% if n.url %} see [{{ n.url }}](here) {% endif %}
-{% else %} {% break %} {% endif%}<hr>{% endfor %}</li></div></td>
-<tr><th class="ctx" style="width:25%;"><blink>Openings: 2 post-docs</blink></th></tr>
- <tr>
- <td valign="top"  markdown="1">
-If you're interested in doing research on decentralised finance (DeFi) and formal methods, we'll soon advertise two post-doc positions funded by the Italian PNRR PRIN 2022 project DeLICE. 
+{% else %} {% break %} {% endif%}<hr>{% endfor %}
+</li>
+</div></td></tr>
+<tr><th class="ctx"><blink>Openings: 2 post-docs</blink></th></tr>
+<tr>
+<td><div class="news" markdown="1">
+If you're interested in doing research on decentralised finance (DeFi) and formal methods, we'll soon advertise two post-doc positions (up-to 24 months; call expected by end 2023) funded by the Italian PNRR PRIN 2022 project DeLICE. 
 
-- The posts are at the University of Cagliari (Unica) and the Gran Sasso Science Institute (GSSI); the research aims to combine techniques from decentralised finance (DeFi) and formal methods to develop provably correct protocols for decentralised circular economy
-- possibility of interaction among research groups in Cagliari, GSSI, University of Sassari and their international research partners, and mainstream blockchain foundations (e.g., Ethereum Foundation, IOTA Foundation)
+- The posts are at the University of Cagliari (Unica) and the Gran Sasso Science Institute (GSSI); the research will develop formal methods for decentralised finance (DeFi)
+- possibility of interaction among research groups in Cagliari, GSSI, University of Sassari and their international research partners, and with mainstream blockchain foundations (e.g., Ethereum Foundation, IOTA Foundation)
 - expected skills/expertise: blockchain technologies, smart contracts, decentralised finance, formal methods for modelling and verification, logics
-- call expected by end 2023
-- duration: up-to 24 months, starting from early 2024
 - gross salary: 30K EUR/year (University of Cagliari), 45K EUR/year (GSSI)
+</div>
 </td>
 </tr>
 </table>

@@ -166,6 +166,10 @@ a.subsec {
     color: #999;
 }
 
+div.news {
+	 font-size:70%;
+	 background-color:#faf0e6;
+}
 
 div.test {
   animation-name: example;

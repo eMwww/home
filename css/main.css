@@ -70,8 +70,8 @@ th.index {
 
 td.quicklinks li {
 	 font-size : 100%;
-    margin-left: -2.0em;
 	 line-height : 1.5em;
+	 valign : top;
 }
 
 td.latest {
@@ -168,7 +168,7 @@ a.subsec {
 
 div.news {
 	 font-size:70%;
-	 background-color:#faf0e6;
+	 background-color:#fffff0;
 }
 
 div.test {
@@ -207,20 +207,6 @@ td.box {
 	height: 3em;
 	border: 1px solid #000;	 
 }
-
-/*
-div.research {
-	 font-size:100%;
-	 position: relative;
-	 color: red;
-	 background-color:blue;
-}
-
-div.research li {
-	 font-size:125%;
-	 position: relative;
-}
-*/
 
 div.fun {
 	 font-size:100%;

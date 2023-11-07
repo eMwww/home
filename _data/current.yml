@@ -1,3 +1,7 @@
+- topic: "Data Races in C"
+  author: "Omar Inverso and Emerson Sales"
+  descr: "We are using sequentialisation for precise race-detection in C-like programs"
+
 - topic: "Behavioural types for local-first principles"
   authors: "Roland Kuhn and Hernán Melgratti"
   descr: "We are defining a behavioural typing discipline grounded on local-first principles for P2P networks where peers communicate via event notification"

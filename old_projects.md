@@ -3,8 +3,9 @@ layout: default
 content: true
 ---
 <div markdown="1" class="research">
+- 2019: site manager of [IT-Matters](http://itmatters.imtlucca.it)<!-- - (1/9/2019 - 28/8/2023) -->
 - 2018: co-PI **RCADE** (EU MSCA Fellowship) [Claudio Mezzina](https://www.uniurb.it/persone/claudio-mezzina) joined in September 2018 our department as MSCA fellow collaborating with [Irek Ulidowski](http://www.cs.le.ac.uk/people/iu3) and me on causal consistency reversible debuggers; the project is discontinued since, shortly after the start, Claudio got a permanent job in Italy
-- 2017: Scientific mentor of the Daphe Jackson fellowship of Dott. Paula Severi
+- 2017: Scientific mentor of the Daphe Jackson fellowship of Dr. Paula Severi
 - 2015-2019: [RC](http://www.revcomp.eu) "Reversible Computation. Extending Horizons of Computing" (EU Cost Action 1405, 01/07/2015-30/04/2019)
 - 2012-2016: [BETTY](http://www.dcs.gla.ac.uk/research/betty/www.behavioural-types.eu) "Behavioural Types for Reliable Large-Scale Software Systems". Member of the management committee (EU Cost Action IC1201 - RTD Framework Programme, 26-01-2012 al 07-10-2016)
 - 2011-2015: [MEALS](https://meals-project.eu/) "Mobility between Europe and Argentina applying Logics to Systems" (7th Framework programme under Marie Curie's International Research Staff Exchange Scheme)

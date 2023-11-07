@@ -2,10 +2,6 @@
   url: "https://www.um.edu.mt/projects/behapi"
   tooltip: "GSSI is almost in :)"
 
-- name: "IT-Matters"
-  url: "http://itmatters.imtlucca.it"
-  tooltip: "PRIN project about Methods and Tools for Trustworthy Smart Systems"
-
 - name: "ChorGram"
   url: "https://bitbucket.org/eMgssi/stable_chorgram/wiki/Home"
   tooltip: "One of my favourtie hobbies"

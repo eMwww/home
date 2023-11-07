@@ -1,3 +1,15 @@
+- title: "MoCheQoS: Automated Analysis of Quality of Service Properties of Communicating Systems"
+  author: "Carlos G. Lopez Pombo and Agustín E. Martinez Suñé"
+  descr: "A tool implementing the stuff published at ICTAC 2023"
+  printed: "Submitted"
+  url: "https://arxiv.org/abs/2311.01415"
+
+- title: "A Dynamic Temporal Logic for Quality of Service in Choreographic Models"
+  author: "Carlos G. Lopez Pombo and Agustín E. Martinez Suñé"
+  descr: "Using choreographies to analyse QoS of communicating systems"
+  printed: "ICTAC 2023 (in print)"
+  url: "https://arxiv.org/abs/2311.01414"
+
 - title: "Behavioural Types for Local-First Software"
   author: "Hernán Melgratti and Roland Kuhn"
   descr: "The title says it all."

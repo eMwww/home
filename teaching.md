@@ -9,9 +9,8 @@ use-site-title: false
 
 <table>
   <tr>
-    <th style="width:20%; background:#dddddd; text-align:left">Regular courses @ GSSI</th>
-    <th style="width:40%; background:#dddddd; text-align:left">Other lectures/tutorials</th>
-    <th style="width:40%; background:#dddddd; text-align:left">Invited Lectures/tutorials</th>
+    <th style="width:40%; background:#dddddd; text-align:left">Regular courses @ GSSI</th>
+    <th style="width:60%; background:#dddddd; text-align:left">Other lectures/tutorials</th>
   </tr>
   <tr>
 <td class="quicklinks" valign="top" markdown="1">
@@ -27,7 +26,12 @@ use-site-title: false
 {% for n in items %}{%  unless n.list == "yes" or n.where == "GSSI" %}
 - {% if n.url %} <a href="{{ n.url }}">{{ n.title }}</a>{% else %} {{ n.title }}{% endif %}. {{ n.descr }}:  {{ n.where }} ({% for date in n.when %}{{ date }} {% endfor %}){% endunless %}{% endfor %}
 </td>
-<td class="quicklinks" valign="top" markdown="1">
+</tr>
+<tr>
+<th style="width:40%; background:#dddddd; text-align:left" colspan="2">Invited Lectures/tutorials</th>
+</tr>
+<tr>
+<td colspan="2" class="quicklinks" valign="top" markdown="1">
 {% assign items = site.data.invited %}
 {% for n in items %}{% unless n.list == "yes" or n.type == "talk" %}
 - {% if n.url %} [{{ n.title }}]({{ n.url }}){% else %}"{{ n.title }}"{% endif %}{% if n.descr %}. {{ n.descr }}.{% else %}.{% endif %} {{ n.where }}; {% for date in n.when %}{{ date }}{% endfor %}{% endunless %}{% endfor %}

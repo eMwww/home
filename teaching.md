@@ -24,7 +24,7 @@ use-site-title: false
 <td class="quicklinks" valign="top" markdown="1">
 {% assign items = site.data.courses %}
 {% for n in items %}{%  unless n.list == "yes" or n.where == "GSSI" %}
-- {% if n.url %} <a href="{{ n.url }}">{{ n.title }}</a>{% else %} {{ n.title }}{% endif %}. {{ n.descr }}:  {{ n.where }} ({% for date in n.when %}{{ date }} {% endfor %}){% endunless %}{% endfor %}
+- {% if n.url %} <a href="{{ n.url }}">{{ n.title }}</a>{% else %} {{ n.title }}{% endif %}. {{ n.descr }}:  {{ n.where }} ({% for date in n.when %}{{ date }}{% endfor %}){% endunless %}{% endfor %}
 </td>
 </tr>
 <tr>
@@ -32,7 +32,7 @@ use-site-title: false
 </tr>
 <tr>
 <td colspan="2" class="quicklinks" valign="top" markdown="1">
-{% assign items = site.data.invited %}
+{% assign items = site.data.invited | sort: 'date' | reverse %}
 {% for n in items %}{% unless n.list == "yes" or n.type == "talk" %}
 - {% if n.url %} [{{ n.title }}]({{ n.url }}){% else %}"{{ n.title }}"{% endif %}{% if n.descr %}. {{ n.descr }}.{% else %}.{% endif %} {{ n.where }}; {% for date in n.when %}{{ date }}{% endfor %}{% endunless %}{% endfor %}
 </td>

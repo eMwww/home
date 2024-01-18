@@ -17,7 +17,7 @@ https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#github-cust
 <table>
 <tr>
 <th style="width:10%; text-align:left"></th>
-<th style="width:60%; text-align:center"></th>
+<th style="width:65%; text-align:center"></th>
 <th style="width:25%; text-align:center"></th>
 </tr>
 <tr>
@@ -44,19 +44,19 @@ https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#github-cust
  <td valign="top">
  <table>
  <tr>
-    <th class="ctx" width="5%">Highlights</th>
-    <th class="ctx" width="95%" markdown="1">Recent talks (full list [here](https://emwww.github.io/home/talks))</th>
+    <th class="ctx" width="99%" markdown="1">Recent talks (full list [here](https://emwww.github.io/home/talks))</th>
+    <th class="ctx" width="1%">Highlights</th>
  </tr>
   <tr>
-<td class="quicklinks" markdown="1">
-{% assign items = site.data.highlights %}
-{% for n in items %}
-- [{{ n.name }}]({{ n.url }}) <span class="tooltip"><span class="tooltiptext">{{ n.tooltip }}</span>{{ n.pre }}</span>{{ n.post }}{% endfor %}
-</td>
 <td class="quicklinks" markdown="1">
 {% assign items = site.data.talks %}
 {% for n in items limit:4 %}
 - [{{ n.venue }}]({{ n.slides }}) <span class="tooltip"><span class="tooltiptext">![](/home/slides/{{ n.cover }})</span>{% if n.descr %}{{ n.descr }}. {{ n.date | date: '%B %d, %Y' }}{% endif %}</span>{% endfor %}
+</td>
+<td class="quicklinks" markdown="1">
+{% assign items = site.data.highlights %}
+{% for n in items %}
+- [{{ n.name }}]({{ n.url }}) <span class="tooltip"><span class="tooltiptext">{{ n.tooltip }}</span>{{ n.pre }}</span>{{ n.post }}{% endfor %}
 </td>
 </tr>
 <tr>

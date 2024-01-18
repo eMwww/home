@@ -12,10 +12,10 @@
 #   url: "http://www.sti.uniurb.it/events/opct2023/programme.html"
 #   date: "26-30/6/2023"
   
-- name: "ICTAC"
-  url: "https://ictac2023.compsust.utec.edu.pe/"
-  deadline: "2023/6/16"
-  date: "4/12/2023"
+# - name: "ICTAC"
+#   url: "https://ictac2023.compsust.utec.edu.pe/"
+#   deadline: "2023/6/16"
+#   date: "4/12/2023"
 
 - name: "ETAPS 2024"
   url: "https://etaps.org/"
@@ -27,14 +27,15 @@
   deadline: ""
   date: ""
 
-# - name: "trecec21"
-#   url: "https://sites.google.com/view/trecec21/"
-#   deadline: "18/6/2021"
-#   date: "25/10/2020"
+- name: "CAV24"
+  url: "http://i-cav.org/2024/"
+  deadline: "2024/01/19"
+  date: "22-27/07/2024"
  
-# - name: "AGERE 2021"
-#   url: "https://2021.splashcon.org/home/agere-2021#Call-for-Papers"
-#   deadline: "6/8/2021"
+- name: "Dagstuhl Seminar 24051"
+  url: "https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/24051"
+  deadline: "Next Generation Protocols for Heterogeneous Systems"
+  date: "Jan 28-Feb 02/2024"
 
 # - name: "MDE4SA2021"
 #   url: "http://mde4sa2021.disim.univaq.it"
@@ -56,7 +57,7 @@
   
 - name: "DisCoTec"
   url: "https://www.discotec.org/"
-  deadline: "2024/02/??"
+  deadline: "2024/02/09"
   date: "18-20/02/2024"
   
 # - name: "CONCUR 2022"

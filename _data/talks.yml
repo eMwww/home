@@ -1,3 +1,11 @@
+- title: "eM’s intro & some current research"
+  slides: "https://emwww.github.io/home/slides/emintro.pdf"
+  date: "29/1/2024"
+  descr: "A 3-minutes presentation on current work"
+  venue: "Dagstuhl 2024"
+  cover: ""
+
+
 - title: "Behavioural Types for Local-First Software"
   slides: "https://emwww.github.io/home/slides/itmatters23.pdf"
   date: "11/7/2023"

@@ -1,3 +1,10 @@
+- title: "Quantitative Techniques"
+  slides: "https://emwww.github.io/home/slides/qt.pdf"
+  date: "29/1/2024"
+  descr: "An overview of quantitative techniques and behavioural types"
+  venue: "Dagstuhl seminar 24051: Next Generation Protocols for Heterogeneous Systems"
+  cover: "qt-01.png"
+
 - title: "Choreographic Development of Message-Passing Applications - A Tutorial"
   date: "2020/6/15"
   when: "15/6/2020"

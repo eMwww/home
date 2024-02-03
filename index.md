@@ -121,18 +121,6 @@ https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#github-cust
 {% else %} {% break %} {% endif%}<hr>{% endfor %}
 </li>
 </div></td></tr>
-<tr><th class="ctx"><blink>Openings: 2 post-docs</blink></th></tr>
-<tr>
-<td><div class="news" markdown="1">
-If you're interested in doing research on decentralised finance (DeFi) and formal methods, we'll soon advertise two post-doc positions (up-to 24 months; call expected by end 2023) funded by the Italian PNRR PRIN 2022 project DeLICE. 
-
-- The posts are at the University of Cagliari (Unica) and the Gran Sasso Science Institute (GSSI); the research will develop formal methods for decentralised finance (DeFi)
-- possibility of interaction among research groups in Cagliari, GSSI, University of Sassari and their international research partners, and with mainstream blockchain foundations (e.g., Ethereum Foundation, IOTA Foundation)
-- expected skills/expertise: blockchain technologies, smart contracts, decentralised finance, formal methods for modelling and verification, logics
-- gross salary: 30K EUR/year (University of Cagliari), 45K EUR/year (GSSI)
-</div>
-</td>
-</tr>
 </table>
 </td>
 </tr>

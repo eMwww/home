@@ -64,7 +64,7 @@
       url: "https://emwww.github.io/home/teaching/model_checking/23_24/counter.py"
       last: ""
   - date: "13/02/24"
-    name: "Second lecture"
+    name: "Second lecture: transition systems and temporal properties"
     url: "https://emwww.github.io/home/teaching/model_checking/23_24/l2.pdf"
   # - date: "29/03/23"
   #   name: "Third lecture"

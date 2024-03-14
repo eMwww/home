@@ -1,28 +1,41 @@
 - name: "Christian Bartolo Burlo'"
+  note: "Co-supervised with A. Francalanza"
 
 - name: "Alex Coto"
+  note: "Co-supervised with R. Guanciale"
+  title: "A choreographic approach to model-driven testing of message-passing systems"
+  viva: "February 2024"
 
 - name: "Emerson Sales"
   note: "Co-supervised with Omar Inverso"
 
 - name: "Hao Zeng"
+  note: "Co-supervised with A. Kurz"
   viva: "December 2019"
+  title: "Interface Automata for Choreographies"
 
 - name: "Yi Xiao"
+  note: "Co-supervised with A. Kurz"
   viva: "December 2019"
+  title: "Learning Nominal Regular Languages with Binders"
 
 - name: "Julien Lange"
   viva: "October 2013"
+  title: "On the Synthesis of Choreographies"
 
 - name: "Kyriakos Poyias"
   viva: "November 2013"
+  title: "Design-by-contract for software architectures"
 
 - name: "Hyder Ali Nizamani"
   viva: "July 2011"
+  title: "Modelling Architectures of Federated Identity Management Systems"
 
 - name: "Qurat Ul Ain Nizamani"
   viva: "July 2011"
+  title: "Directed Symbolic Model Checking of Security Protocols"
 
 - name: "Daniele Strollo"
   note: "Co-supervised with G. Ferrari"
   viva: "June 2009"
+  title: "Designing and experimenting coordination primitives for service oriented computing"

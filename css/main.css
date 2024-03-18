@@ -68,6 +68,7 @@ th.index {
 	 text-align:left;
 }
 
+
 td.quicklinks {
 	 font-size : 100%;
 	 line-height : 1.5em;
@@ -300,12 +301,12 @@ td li {
  line-height: 1em;
  margin: 0;
  /* Starting position */
- /* -moz-transform:translateY(-100%); */
- /* -webkit-transform:translateY(-100%);	 */
+ /* -moz-transform:translateY(-50%); */
+ /* -webkit-transform:translateY(-50%); */
  transform:translateY(-100%);
  /* Apply animation to this element */	
- /* -moz-animation: scroll 0s linear infinite; */
- /* -webkit-animation: scroll 0s linear infinite; */
+ -moz-animation: scroll 0s linear infinite;
+ -webkit-animation: scroll 0s linear infinite;
  animation: scroll 18s linear infinite;
 }
 

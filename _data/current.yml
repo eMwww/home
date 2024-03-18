@@ -1,3 +1,15 @@
+- topic: "Data-aware coordination"
+  authors: "Elvis Konjoh Selabi, Maurizio Murgia, and Antonio Ravara"
+  descr: "A coordination approach to distributed systems inspired by smart contracts"
+
+- topic: "An new implementation of join patterns"
+  authors: "Philipp Haller, Ayman Hussein, Hernán Melgratti, and Alceste Scalas"
+  descr: "After some discussion at Dagstuhl seminar n. 21372, we came up with promising ideas to implement join patterns"
+
+- topic: "Compositional swarm protocol"
+  authors: "Florian Wayan Aaron Furbach, Roland Kuhn, and Alceste Scalas"
+  descr: "We are definition a compositional mechanism for the swarm protocols defined with Hernán and Roland"
+
 - topic: "Data Races in C"
   author: "Omar Inverso and Emerson Sales"
   descr: "We are using sequentialisation for precise race-detection in C-like programs"
@@ -6,7 +18,7 @@
   authors: "Roland Kuhn and Hernán Melgratti"
   descr: "We are defining a behavioural typing discipline grounded on local-first principles for P2P networks where peers communicate via event notification"
 
-- topic: "Choregraphic and QoS"
+- topic: "Choregraphies and QoS"
   authors: "Agustín Martinez Suñé and Carlos Gustavo Pombo"
   descr: "We are defining a dynamic logic indexed with choreographies for the analysis of non-functional properties of communicating systems"
 
@@ -26,7 +38,7 @@
   authors: "Hernán Melgratti"
   descr: "We advocate a different _nature_ of behavioural specifications that concern more data- than control-flow of protocols"
 
-- topic: "Session-types for testing"
-  authors: "Christian Bartolo Burlo', Adrian Francalanza, and Alceste Scalas"
-  descr: "We are studying model-driven testing based for client-server architecturs based on binary session types"
+# - topic: "Session-types for testing"
+#   authors: "Christian Bartolo Burlo', Adrian Francalanza, and Alceste Scalas"
+#   descr: "We are studying model-driven testing based for client-server architecturs based on binary session types"
 

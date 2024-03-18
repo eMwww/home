@@ -16,8 +16,8 @@ https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#github-cust
 -->
 <table>
 <tr>
-<th style="width:10%; text-align:left"></th>
-<th style="width:65%; text-align:center"></th>
+<th style="width:15%; text-align:left"></th>
+<th style="width:60%; text-align:center"></th>
 <th style="width:25%; text-align:center"></th>
 </tr>
 <tr>
@@ -30,12 +30,12 @@ https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#github-cust
 <td valign="top" markdown="1">
 <div style="font-size:70%; text-align:left;">
     Associate Professor
-	<br/><a href="https://www.gssi.it">Gran Sasso Science Institute</a>
+	<br/><a href="https://www.gssi.it">GSSI</a>
 	<br/>67100 L'Aquila (Italy)
 	<br/><img alt="office" src="/home/images/office.jpg" width="10%"  title="office"/>Viale Rendina, 28 Room P2-16
 	<br/><b>Office Hours</b>: always keen to meet; just drop me an email to fix a meeting.
 	<br/><a href="mailto:emiliodottuosto@gssi.it"><img alt="mail" src="/home/images/email.jpg" width="15%"  title="mail"/>email</a> ['.'/'dot']
-	<br/><img alt="phone" src="/home/images/phone.png" width="10%" title="phone"/>+39 0862 428 0312
+	<br/><img alt="phone" src="images/phone.png" width="10%" title="phone"/>+39 0862 428 0312
 </div>
 </td>
 </tr>
@@ -44,8 +44,8 @@ https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#github-cust
  <td valign="top">
  <table>
  <tr>
-    <th class="ctx" width="99%" markdown="1">Recent talks (full list [here](https://emwww.github.io/home/talks))</th>
-    <th class="ctx" width="1%">Highlights</th>
+    <th class="ctx" width="80%" markdown="1">Recent talks (full list [here](https://emwww.github.io/home/talks))</th>
+    <th class="ctx" width="20%">Highlights</th>
  </tr>
   <tr>
 <td class="quicklinks" markdown="1">
@@ -53,7 +53,7 @@ https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#github-cust
 {% for n in items limit:4 %}
 - [{{ n.venue }}]({{ n.slides }}) <span class="tooltip"><span class="tooltiptext">![](/home/slides/{{ n.cover }})</span>{% if n.descr %}{{ n.descr }}. {{ n.date | date: '%B %d, %Y' }}{% endif %}</span>{% endfor %}
 </td>
-<td class="quicklinks" markdown="1">
+<td class="quicklinks" markdown="1" valign="top">
 {% assign items = site.data.highlights %}
 {% for n in items %}
 - [{{ n.name }}]({{ n.url }}) <span class="tooltip"><span class="tooltiptext">{{ n.tooltip }}</span>{{ n.pre }}</span>{{ n.post }}{% endfor %}

@@ -50,10 +50,10 @@
 #   deadline: "30/05/2023"
 #   date: "11/09/2023"
 
-# - name: "FM2023"
-#   url: "https://fm2023.isp.uni-luebeck.de/"
-#   deadline: "4 and 9/9/2022"
-#   date: "7-9/3/2023"
+- name: "FM2024"
+  url: "https://www.fm24.polimi.it/"
+  deadline: "15 and 19/4/2023"
+  date: "9-13/9/2023"
   
 - name: "DisCoTec"
   url: "https://www.discotec.org/"

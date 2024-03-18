@@ -24,18 +24,18 @@
 
 - name: "Concur"
   url: "https://concurrency-theory.org/events/concur/"
-  deadline: ""
-  date: ""
+  deadline: "26/4/2024"
+  date: "9-13 September 2024"
 
 - name: "CAV24"
   url: "http://i-cav.org/2024/"
   deadline: "2024/01/19"
   date: "22-27/07/2024"
  
-- name: "Dagstuhl Seminar 24051"
-  url: "https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/24051"
-  deadline: "Next Generation Protocols for Heterogeneous Systems"
-  date: "Jan 28-Feb 02/2024"
+# - name: "Dagstuhl Seminar 24051: Next Generation Protocols for Heterogeneous Systems"
+#   url: "https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/24051"
+#   deadline: "28/01/2024"
+#   date: "Jan 28-Feb 02/2024"
 
 # - name: "MDE4SA2021"
 #   url: "http://mde4sa2021.disim.univaq.it"

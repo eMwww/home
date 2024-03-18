@@ -70,8 +70,8 @@ Edited volumes:
 </tr>
 <tr>
 <th style="background:#dddddd; text-align:left">Steereing Committes</th>
-<th style="background:#dddddd; text-align:left" markdown="1">Programme Committees (recent ones; the full list is [here](pc))</th>
-<th style="background:#dddddd; text-align:left">Recruiting and hiring panels</th>
+<th style="background:#dddddd; text-align:left" markdown="1" colspan="2">Programme Committees (recent ones; the full list is [here](pc))</th>
+<!-- <th style="background:#dddddd; text-align:left">Recruiting and hiring panels</th> -->
 </tr>
 <tr>
 <td valign="top" span markdown="1">
@@ -82,7 +82,7 @@ Edited volumes:
   {% if n.acr %}{{ n.acr }}, {% endif %}{% endif %}
   {{ n.from }} --- {{ n.to }}){% endfor %}
 </td>
-<td markdown="1">
+<td valign="top" markdown="1" colspan="2">
 {% assign items = site.data.pc | sort: 'date' | reverse %}
 {% for n in items limit:10 %}
 - {% if n.pc %} {{ n.pc }} {% endif %}{% if n.oc %}
@@ -91,11 +91,11 @@ Edited volumes:
   {% if n.acr %}{{ n.acr }}, {% endif %}{% endif %}
   {{ n.from }} --- {{ n.to }}){% endfor %}
 </td>
-<td valign="top" markdown="1">
-{% assign items = site.data.recruitment %}
-{% for n in items %}
-- {{ n.date }}: {{ n.role }} of the committee for {% if n.viva %} PhD viva defense of {{ n.viva }} - {{ n.institution }} {% else %} {{ n.event }} at the {{ n.institution }} {% endif %}{% endfor %}
-</td>
+<!-- <td valign="top" markdown="1"> -->
+<!-- {% assign items = site.data.recruitment %} -->
+<!-- {% for n in items %} -->
+<!-- - {{ n.date }}: {{ n.role }} of the committee for {% if n.viva %} PhD viva defense of {{ n.viva }} - {{ n.institution }} {% else %} {{ n.event }} at the {{ n.institution }} {% endif %}{% endfor %} -->
+<!-- </td> -->
 </tr>
 <tr>
 <th colspan="3" style="background:#dddddd; text-align:left">PhD examination</th>

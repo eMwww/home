@@ -31,10 +31,10 @@ use-site-title: false
 <th style="width:40%; background:#dddddd; text-align:left" colspan="2">Invited Lectures/tutorials</th>
 </tr>
 <tr>
-<td colspan="2" class="quicklinks" valign="top" markdown="1">
+<td colspan="2" class="quicklinks" markdown="1">
 {% assign items = site.data.invited | sort: 'date' | reverse %}
 {% for n in items %}{% unless n.list == "yes" or n.type == "talk" %}
-- {% if n.url %} [{{ n.title }}]({{ n.url }}){% else %}"{{ n.title }}"{% endif %}{% if n.descr %}. {{ n.descr }}.{% else %}.{% endif %} {{ n.where }}; {% for date in n.when %}{{ date }}{% endfor %}{% endunless %}{% endfor %}
+- {% if n.url %} [{{ n.title }}]({{ n.url }}){% else %}"{{ n.title }}"{% endif %}.{% if n.descr %} {{ n.descr }}{% else %}{% endif %} {{ n.where }}; {% for date in n.when %}{{ date }}{% endfor %}{% endunless %}{% endfor %}
 </td>
 </tr>
 </table>

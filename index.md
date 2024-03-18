@@ -35,7 +35,7 @@ https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#github-cust
 	<br/><img alt="office" src="/home/images/office.jpg" width="10%"  title="office"/>Viale Rendina, 28 Room P2-16
 	<br/><b>Office Hours</b>: always keen to meet; just drop me an email to fix a meeting.
 	<br/><a href="mailto:emiliodottuosto@gssi.it"><img alt="mail" src="/home/images/email.jpg" width="15%"  title="mail"/>email</a> ['.'/'dot']
-	<br/><img alt="phone" src="images/phone.png" width="10%" title="phone"/>+39 0862 428 0312
+	<br/><img alt="phone" src="/home/images/phone.png" width="10%" title="phone"/>+39 0862 428 0312
 </div>
 </td>
 </tr>

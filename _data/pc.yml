@@ -3,91 +3,91 @@
   acr: "ECOOP24"
   from: "16/09/2024"
   to: "20/09/2024"
-  date: "2024/09/16"
+  date: 2024/09/16
 
 - pc: "First International Workshop on Formal Methods for Business Process Management"
   url: "https://fm-bpm2023.github.io/"
   acr: "FM-BPM"
   from: "11/09/2023"
   to: "11/09/2023"
-  date: "2023/09/11"
+  date: 2023/09/11
 
 - pc: "19th International Conference on Formal Aspects of Component Software"
   acr: "FACS2023"
   url: "https://facs-conference.github.io/2023/"
   from: "19/10/2023"
   to: "23/10/2023"
-  date: "2023/06/10"
+  date: 2023/06/10
 
 - pc: "25nd International Conference on Coordination Models and Languages"
   url: "https://www.discotec.org"
   acr: "COORDINATION 2023"
   from: "19/06/2023"
   to: "23/06/2023"
-  date: "2023/06/19"
+  date: 2023/06/19
 
 - pc: "14th Workshop on Programming Language Approaches to Concurrency- & Communication-cEntric Software"
   url: "https://places-workshop.github.io/2023/"
   acr: "PLACES23"
   from: "22/04/2023"
   to: "22/04/2023"
-  date: "2023/04/22"
+  date: 2023/04/22
 
 - pc: "FM2023"
   url: "https://fm2023.isp.uni-luebeck.de/wordpress/"
   acr: "FM2023"
   from: "6/03/2023"
   to: "10/03/2023"
-  date: "2023/03/6"
+  date: 2023/03/6
 
 - pc: "23rd Italian Conference on Theoretical Computer Science"
   acr: "ICTCS2022"
   url: "https://ceur-ws.org/Vol-3284/"
   from: "7/09/2022"
   to: "9/09/2022"
-  date: "2022/09/7"
+  date: 2022/09/7
 
 - pc: "18th International Conference on Formal Aspects of Component Software"
   acr: "FACS2022"
   url: "https://facs-conference.github.io/2022/"
   from: "10/09/2022"
   to: "11/09/2022"
-  date: "2022/09/10"
+  date: 2022/09/10
 
 - pc: "24nd International Conference on Coordination Models and Languages"
   url: "https://www.discotec.org"
   acr: "COORDINATION 2022"
   from: "13/06/2022"
   to: "17/06/2022"
-  date: "2022/06/17"
+  date: 2022/06/17
 
 - pc: "AGERE! Workshop on programming systems, languages and applications based on actors"
   url: "https://2021.splashcon.org/home/agere-2021"
   acr: "AGERE 2021"
   from: "22/04/2021"
   to: "22/04/2021"
-  date: "2021/04/22"
+  date: 2021/04/22
 
 - pc: "International Workshop on Model-Driven Engineering for Software Architecture"
   url: "http://mde4sa2021.disim.univaq.it"
   acr: "MDE4SA2021"
   from: "15/5/2020"
   to: "17/09/2021"
-  date: "2021/09/17"
+  date: 2021/09/17
   
 - pc: "doctoral symposium di ESOCC"
   url: "http://esocc2016.eu"
   acr: "DS-ESOCC 2016"
   from: "05/09/2016"
   to: "07/09/2016"
-  date: "2016/09/07"
+  date: 2016/09/07
 
 - pc: "22nd International Conference on Coordination Models and Languages"
   url: "https://www.discotec.org"
   acr: "COORDINATION 2020"
   from: "15/06/2020"
   to: "19/06/2020"
-  date: "2020/06/19"
+  date: 2020/06/19
 
 - pc: "Erlang Workshop, 18th ACM SIGPLAN Erlang Workshop"
   url: "https://erlang.org/workshop/2019"
@@ -124,7 +124,7 @@
   to: "14/09/2018"
   date: 2018/09/14
 
-- oc: "10th International conferenze on Reversible Computation"
+- pc: "10th International conferenze on Reversible Computation"
   url: "http://www.reversible-computation.org/2018/"
   acr: "RC 2018"
   from: "12/09/2018"
@@ -143,7 +143,7 @@
   acr: "COORDINATION 2017"
   from: "19/06/2017"
   to: "21/06/2017"
-  date: "2017/06/21"
+  date: 2017/06/21
 
 - pc: "2nd International workshop on Pre- and Post- Deployment Verification Techniques"
   url: "http://staff.um.edu.mt/afra1/prepost17"
@@ -273,6 +273,7 @@
 
 - pc: "10th International Workshop on International Workshop on Web Services and Formal Methods: Formal Aspects of Service-Oriented and Cloud Computing"
   acr: "WS-FM 2013"
+  url: ""
   from: "29-08-2013"
   to: "30/08/2013"
   date: 2013/08/29

@@ -1,3 +1,17 @@
+- pc: "ICTCS 2024"
+  url: "https://ictcs2024.di.unito.it/"
+  acr: "ICTCS24"
+  from: "11/09/2024"
+  to: "13/09/2024"
+  date: "2024/09/11"
+
+- pc: "EXPRESS/SOS 2024"
+  url: ""
+  acr: ""
+  from: ""
+  to: ""
+  date: ""
+
 - pc: "ECOOP 2024"
   url: "https://conf.researchr.org/home/ecoop-2024"
   acr: "ECOOP24"

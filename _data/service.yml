@@ -1,22 +1,32 @@
+- name: "PhD Coordinator"
+  type: "phd"
+  role: "Coordinator"
+  descr: "Coordinator of the PhD programme in computer science of the GSSI"
+  date: "May 2024"
+
 - name: "Communication"
   type: "wg"
   role: "CS representative"
   descr: "WG on institutional communication policies"
+  date: "2024"
 
 - name: "CS PhD regulations"
   type: "wg"
   role: "Chair"
   descr: "WG on PhD regulations of the CS area"
+  date: "2023/2024"
 
 - name: "visiting regulation"
   type: "wg"
   role: "Reviewer"
   descr: "visiting regulations"
+  date: "2023"
 
 - name: "seminars"
   type: "wg"
   role: "Organiser"
   descr: "serminars of the CS area"
+  date: "2022, on going"
 
 - name: "a post-doc on the DeLiCE project"
   type: "hire"

@@ -6,11 +6,11 @@
   date: "2024/09/11"
 
 - pc: "EXPRESS/SOS 2024"
-  url: ""
-  acr: ""
-  from: ""
-  to: ""
-  date: ""
+  url: "https://express-sos.github.io/"
+  acr: "EXPRESS/SOS"
+  from: "09/09/2024"
+  to: "09/09/2024"
+  date: "__/__/____"
 
 - pc: "ECOOP 2024"
   url: "https://conf.researchr.org/home/ecoop-2024"

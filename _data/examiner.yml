@@ -1,8 +1,28 @@
+- institution: "University of Pisa (Italy)"
+  role: "member"
+  title: "Evaluation panel of the PhD examination"
+  date: "6/5/2024"
+
 - viva: "Duncan Paul Attard"
   title: "Runtime Monitoring for Asynchronous Reactive Components"
   institution: "University of Malta (Malta)"
   date: "18/04/2023"
 
+- institution: "MSc in Computer Science, Universida NOVA"
+  viva: "João Miguel de Almeida Afonso"
+  role: "External examiner"
+  date: "2023"
+
+- institution: "Tesis de Licenciatura en Ciencias de la Computación, UBA"
+  viva: "Pablo Montepagano"
+  role: "External examiner"
+  date: "2023"
+  
+- institution: "Tesis de Licenciatura en Ciencias de la Computación, UBA"
+  viva: "Diego Senarruzza"
+  role: "External examiner"
+  date: "2023"
+  
 - institution: "Gran Sasso Science Institute (L'Aquila, Italy)"
   role: "chair"
   viva: "Aline Uwimbabazi"
@@ -48,16 +68,31 @@
   title: "Robust Communications in Erlang"
   institution: "University of Kent"
   date: "May 2020"
+
+- institution: "Tesis de Licenciatura en Ciencias de la Computación, UBA"
+  viva: "Damián Ariel Furman"
+  role: "External examiner"
+  date: "2019"
   
-- viva: "Ignacio Vissani"
-  title: "Formal aspects of a service oriented execution model"
-  institution: "Universidad de Buenos Aires"
+- institution: "M.Sc. Computer Science, University of Malta"
+  viva: "Caroline Caruana"
+  role: "External examiner"
+  date: "2019"
+  
+- institution: "Tesis de Licenciatura en Ciencias de la Computación, UBA"
+  viva: "Ignacio Vissani"
+  role: "External examiner"
   date: "July 2018"
   
 - viva: "Vitaly Buralev"
   title: "Improving the efficiency of tuple spaces"
   institution: "IMT Lucca"
   date: "June 2018"
+
+- institution: "Tesis de Licenciatura en Ciencias de la Computación, UBA"
+  viva: "Matia Barbeito"
+  role: "External examiner"
+  date: "2015"
 
 - viva: "Amala Vijaya Selvi Rajan"
   title: "Formal Semantics for LIPS (Language for Implementing Parallel/distributed Systems)"

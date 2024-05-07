@@ -1,3 +1,27 @@
+- title: "Modelling and Validation of Concurrent systems"
+  descr: "Advanced Course held by Prof. Antonio Ravara"
+  when:
+  - "6-9 May 2024"
+  url: ""
+  date: "06/05/2024"
+  where: "GSSI"
+  ay: "2023/24"
+  list: "yes"
+  path: "modelling_and_validation_of_concurrent_systems"
+  syllabus: "Concurrent and distributed software is nowadays pervasive to most computing devices. However, it is particularly difficult to design and validate. Concurrency bugs appear frequently and have a substantial impact, as not only they may affect many people, but also may cause a severe financial damage. There is thus a pressing need of using rigorous approaches and tools to specify and verify such systems. Industrial actors like Amazon, Facebook, Google, IBM, Intel, Microsoft, or NASA, just to name a few, are using tools to formally guarantee that (parts of) their software is bug-free.
+This course covers basic principles, techniques, and some tools to help on the challenging task of developing concurrent software systems. This involves understanding languages to specify systems and their properties. There are various kind of key properties of concurrent systems; we will focus on basic safety and liveness properties, which are enough to express functional requirements of concurrent and distributed algorithms.
+Note - all lectures have a companion list of suggested exercises (and I am available in office hours to help with them and provide feedback about your solutions)."
+  material:
+  - descr: "Lecture 1 (part 1)"
+    url: "https://emwww.github.io/home/teaching/modelling_and_validation_of_concurrent_systems/lect1.1.pdf"
+  - descr: "Lecture 1 (part 2)"
+    url: "https://emwww.github.io/home/teaching/modelling_and_validation_of_concurrent_systems/lect1.2.pdf"
+  - descr: "Lab 1"
+    url: "https://emwww.github.io/home/teaching/modelling_and_validation_of_concurrent_systems/lab1.pdf"
+  - descr: "Solutions to Lab 1"
+    url: "https://emwww.github.io/home/teaching/modelling_and_validation_of_concurrent_systems/lab1sol.pdf"
+
+
 - title: "Introduction to Formal Methods"
   descr: "Part of the immigration course on formal methods"
   when:

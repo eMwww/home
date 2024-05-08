@@ -20,6 +20,12 @@ Note - all lectures have a companion list of suggested exercises (and I am avail
     url: "https://emwww.github.io/home/teaching/modelling_and_validation_of_concurrent_systems/lab1.pdf"
   - descr: "Solutions to Lab 1"
     url: "https://emwww.github.io/home/teaching/modelling_and_validation_of_concurrent_systems/lab1sol.pdf"
+  - descr: "Lecture 2 (part 1)"
+    url: "https://emwww.github.io/home/teaching/modelling_and_validation_of_concurrent_systems/lect2.1.pdf"
+  - descr: "Lecture 2 (part 2)"
+    url: "https://emwww.github.io/home/teaching/modelling_and_validation_of_concurrent_systems/lect2.2.pdf"
+  - descr: "Lab 2"
+    url: "https://emwww.github.io/home/teaching/modelling_and_validation_of_concurrent_systems/lab2.pdf"
 
 
 - title: "Introduction to Formal Methods"

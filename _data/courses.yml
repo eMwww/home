@@ -29,6 +29,15 @@ Note - all lectures have a companion list of suggested exercises (and I am avail
     url: "https://emwww.github.io/home/teaching/modelling_and_validation_of_concurrent_systems/lab2.pdf"
   - descr: "Lecture 3"
     url: "https://emwww.github.io/home/teaching/modelling_and_validation_of_concurrent_systems/lact3.pdf"
+  - descr: "Lecture 4 (part 1)"
+    url: "https://emwww.github.io/home/teaching/modelling_and_validation_of_concurrent_systems/lact4.1.pdf"
+  - descr: "Lecture 4 (part 2)"
+    url: "https://emwww.github.io/home/teaching/modelling_and_validation_of_concurrent_systems/lact4.2.pdf"
+  - descr: "the tool CAAL which can also work offline. Other references for Lecture 4: The theory used is the one I briefly presented in the lectures this week; to see it in more detail as it is used in the tool, you can look at the book, available at the library
+L. Aceto, A. Ingólfsdóttir, K. Larsen, J. Srba:
+Reactive systems: modelling, specification and verification.
+Cambridge University Press 2007."
+    url: "https://caal.cs.aau.dk/"
 
 
 - title: "Introduction to Formal Methods"

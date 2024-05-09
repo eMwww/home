@@ -1,6 +1,6 @@
 - title: "Modelling and Validation of Concurrent systems"
   descr: "Advanced Course held by Prof. Antonio Ravara"
-  guest: "António Ravara, Universidad NOVA, Lisbon (PT)"
+  guest: "António Ravara, Universidade NOVA, Lisbon (PT)"
   when:
   - "6-9 May 2024"
   url: ""
@@ -27,6 +27,8 @@ Note - all lectures have a companion list of suggested exercises (and I am avail
     url: "https://emwww.github.io/home/teaching/modelling_and_validation_of_concurrent_systems/lect2.2.pdf"
   - descr: "Lab 2"
     url: "https://emwww.github.io/home/teaching/modelling_and_validation_of_concurrent_systems/lab2.pdf"
+  - descr: "Lecture 3"
+    url: "https://emwww.github.io/home/teaching/modelling_and_validation_of_concurrent_systems/lact3.pdf"
 
 
 - title: "Introduction to Formal Methods"

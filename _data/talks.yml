@@ -1,3 +1,11 @@
+- title: "Behavioural Specifications and Quantitative Techniques"
+  slides: "https://emwww.github.io/home/slides/pisa24.pdf"
+  date: "16/5/2024"
+  descr: "An overview of quantitative techniques and behavioural types"
+  venue: "Challenges and Perspectives of Formal Methods for Trustworthy Software - PhD seminars series (University of Pisa and IMT Scuola Alti Studi Lucca)"
+  cover: "pisa24-01.png"
+
+
 - title: "Quantitative Techniques"
   slides: "https://emwww.github.io/home/slides/qt.pdf"
   date: "29/1/2024"

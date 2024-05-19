@@ -1,3 +1,19 @@
+- title: "Protocol Specifications for Concurrent and Distributed Systems"
+  descr: "Advanced Course held by Prof. Nobuko Yoshida"
+  guest: "Nobuko Yoshida, U. of Oxford (UK)"
+  when:
+  - "3-5 June 2024"
+  url: ""
+  date: "/0306/2024"
+  where: "GSSI"
+  ay: "2023/24"
+  list: "yes"
+  path: "protocol_specifications_for_concurrent_and_distributed_systems"
+  syllabus: "<b>Advanced course</b><br/><b>Lecturer: Nobuko Yoshida, University of Oxford, UK</b><br/>Session types are a popular approach for the verification and specification of message-passing programs. This course:<ul><li>introduces the syntax and semantics of a process calculus to formally reason about communicating programs;</li><li>presents the binary session type system, which disciplines the communication of pairs of concurrent processes and guarantees type preservation and progress; and</li><li>extends the binary session-type approach to systems of multiple (two or more) concurrent participants, by introducing multiparty session types.</li></ul>Examples and exercises are provided, and no prior knowledge of session types is required."
+  material:
+  - descr: "test"
+    url: "test.pdf"
+
 - title: "Modelling and Validation of Concurrent systems"
   descr: "Advanced Course held by Prof. Antonio Ravara"
   guest: "António Ravara, Universidade NOVA, Lisbon (PT)"

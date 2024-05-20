@@ -16,7 +16,7 @@ Academic year {{ course.ay }}
 ### References and material
 <div markdown="1">
 {% for m in course.material %}
-- {% if m.url %}[Click here]({{ m.url }}) for {% endif %}{{ m.descr }} {% endfor %}
+- {% if m.url %}[Click here](https://emwww.github.io/home/teaching/{{ course.path}}/{{ m.url }}) for {% endif %}{{ m.descr }} {% endfor %}
 </div>
 {% endif %}
 
@@ -24,7 +24,7 @@ Academic year {{ course.ay }}
 ### Lecture notes:
 <div markdown="1">
 {% for l in course.notes %}
-- {{ l.date }}: {% for i in l.items %}[{{ i.name }}]({{ i.url }}){% if i.last %}{% else %}, {% endif %}{% endfor %}[{{ l.name }}]({{ l.url }}){% if l.video %}<br/>Last year's [recording]({{ l.video }}){% endif %}{% endfor %}
+- {{ l.date }}: {% for i in l.items %}[{{ i.name }}]({{ i.url }}){% if i.last %}{% else %}, {% endif %}{% endfor %}[https://emwww.github.io/home/teaching/{{ course.path}}/{{ l.name }}]({{ l.url }}){% if l.video %}<br/>Last year's [recording]({{ l.video }}){% endif %}{% endfor %}
 </div>
 {% endif %}
 {% endfor %}

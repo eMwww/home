@@ -1,7 +1,7 @@
 - name: "PhD Coordinator"
   type: "phd"
   role: "Coordinator"
-  descr: "Coordinator of the PhD programme in computer science of the GSSI"
+  descr: "Chair of the academic board (collegio dei docenti) of the PhD programme in computer science of the GSSI"
   date: "May 2024"
 
 - name: "Communication"

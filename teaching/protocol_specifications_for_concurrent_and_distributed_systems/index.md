@@ -28,43 +28,16 @@ Academic year {{ course.ay }}
 </div>
 <div>
 
-Topic: Protocol Specifications for Concurrent and Distributed Systems (Prof. Nobuko Yoshida) (N. Yoshida)
-
-Time: Jun 3, 2024 10:00 AM Rome
-
-        Every day, until Jun 9, 2024, 7 occurrence(s)
-
-        Jun 3, 2024 10:00 AM
-
-        Jun 4, 2024 10:00 AM
-
-        Jun 5, 2024 10:00 AM
-
-        Jun 6, 2024 10:00 AM
-
-        Jun 7, 2024 10:00 AM
-
-        Jun 8, 2024 10:00 AM
-
-        Jun 9, 2024 10:00 AM
-
-Please download and import the following iCalendar (.ics) files to your calendar system.
-
-Daily: https://us02web.zoom.us/meeting/tZwsdeGspzsvEtLv7iS6vmFBh8tYmGfD9dh1/ics?icsToken=98tyKuGgrzkiHt2VtRGBRpw-BYjoWejxmGJYj7dxikjsMHZFbyXUPrpWC79YFvyJ
-
-
-
 Join Zoom Meeting
+</br>
 
-https://us02web.zoom.us/j/88128490586?pwd=M3RuK1ZWWS85TzhLc1FYY2g4YmdFZz09
-
-
+<a>https://us02web.zoom.us/j/88128490586?pwd=M3RuK1ZWWS85TzhLc1FYY2g4YmdFZz09</a>
+</br>
 
 Meeting ID: 881 2849 0586
-
+</br>
 Passcode: 909330
-
-
+</br>
 
 ---
 

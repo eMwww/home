@@ -6,7 +6,7 @@
 - name: "dblp"
   img: "dblp.png"
   style: "width:75%; title:dblp;"
-  url: "http://www.informatik.uni-trier.de/~ley/pers/hd/t/Tuosto:Emilio.html"
+  url: "https://dblp.org/pid/10/5529.html"
 
 - name: "orcid"
   img: "orcid.png"

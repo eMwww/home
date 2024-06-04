@@ -17,6 +17,8 @@
     url: "session-types-intro.pdf"
   - descr: "Exercise sheet 1"
     url: "tutorial_1_new.pdf"
+  - descr: "Multiparty session types (Lecture 3)"
+    url: "mpst_no_pause.pdf"
 
 - title: "Modelling and Validation of Concurrent systems"
   descr: "Advanced Course held by Prof. Antonio Ravara"

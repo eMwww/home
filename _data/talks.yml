@@ -3,13 +3,12 @@
   date: "19/6/2024"
   descr: "The title says almost all. Search supports dynamic and semantic-based composition of services inplemented with different programming languages"
   venue: "COORDINATION 2024"
-  cover: "coordination24-01.png"
+  cover: "coordination24-01.pngy"
 
 - title: "Behavioural Specifications and Quantitative Techniques"
-  slides: "https://emwww.github.io/home/slides/pisa24.pdf"
-  date: "16/5/2024"
-  descr: "An overview of quantitative techniques and behavioural types"
-  venue: "Challenges and Perspectives of Formal Methods for Trustworthy Software - PhD seminars series (University of Pisa and IMT Scuola Alti Studi Lucca)"
+  slides: "https://emwww.github.io/home/slides/pisa24.pdf" date:
+  "16/5/2024" descr: "A revised overview of quantitative techniques and behavioural types"
+  venue: "Course on Challenges and Perspectives of Formal Methods for Trustworthy Software - PhD seminars series (University of Pisa and IMT Scuola Alti Studi Lucca)"
   cover: "pisa24-01.png"
 
 - title: "Quantitative Techniques"

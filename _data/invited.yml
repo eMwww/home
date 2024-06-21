@@ -1,9 +1,3 @@
-- title: "Choreographic Development of Message-Passing Applications - A Tutorial"
-  date: "2020/6/15"
-  when: "15/6/2020"
-  where: "DisCoTec 2020"
-  url : "https://www.discotec.org/2020/tutorials#choreographic-development-of-message-passing-applications"
-
 - where: "Dagstuhl Seminar: 24051 Next Generation Protocols for Heterogeneous Systems"
   when: "28/01-2/02/1/2024"
   date: "2024/01/29"
@@ -30,6 +24,12 @@
   date: "2022/7/27"
   type: "talk"
   title: "Automata for Choreographies"
+
+- title: "Choreographic Development of Message-Passing Applications - A Tutorial"
+  date: "2020/6/15"
+  when: "15/6/2020"
+  where: "DisCoTec 2020"
+  url : "https://www.discotec.org/2020/tutorials#choreographic-development-of-message-passing-applications"
 
 - where: "NOVA LINCS  FCT-UNL (Lisbon, Portugal)"
   when: "26/2/2020"

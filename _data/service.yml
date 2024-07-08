@@ -1,3 +1,9 @@
+- name: "Electoral Commission"
+  type: "wg"
+  role: "Chair"
+  descr: "Chair of the electoral commission for electing a member of the academic senate of the GSSI"
+  date: "June 2024"
+
 - name: "PhD Coordinator"
   type: "phd"
   role: "Coordinator"

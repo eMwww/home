@@ -1,5 +1,25 @@
 - ateneo: "Gran Sasso Science Institute - Scuola di dottorato internazionale"
   titolo: "COMPUTER SCIENCE"
+  ay: "2024/2025"
+  ciclo: "40"
+
+- ateneo: "Scuola IMT Alti Studi - LUCCA"
+  titolo: "DOTTORATO IN CYBERSICUREZZA"
+  ay: "2024/2025"
+  ciclo: "40"
+
+- ateneo: "Gran Sasso Science Institute - Scuola di dottorato internazionale"
+  titolo: "COMPUTER SCIENCE"
+  ay: "2023/2024"
+  ciclo: "39"
+
+- ateneo: "Scuola IMT Alti Studi - LUCCA"
+  titolo: "DOTTORATO IN CYBERSICUREZZA"
+  ay: "2023/2024"
+  ciclo: "39"
+
+- ateneo: "Gran Sasso Science Institute - Scuola di dottorato internazionale"
+  titolo: "COMPUTER SCIENCE"
   ay: "2022/2023"
   ciclo: "38"
 
@@ -8,6 +28,11 @@
   ay: "2022/2023"
   ciclo: "38"
 
+- ateneo: "Scuola IMT Alti Studi - LUCCA"
+  titolo: "COMPUTER SCIENCE"
+  ay: "2021/2022"
+  ciclo: "37"
+  
 - ateneo: "Gran Sasso Science Institute - Scuola di dottorato internazionale"
   titolo: "COMPUTER SCIENCE"
   ay: "2021/2022"

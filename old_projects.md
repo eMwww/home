@@ -3,6 +3,7 @@ layout: default
 content: true
 ---
 <div markdown="1" class="research">
+- [ASTRA - Advanced Space Technologies and Research Alliance]() <span class="tooltip"><span class="tooltiptext">SPOKE GSSI of the Innovation, digitalization and sustainability for the diffused economy in Central Italy - VITALITY. Task leader of the WP2, PNRR ECS_00000041 (Missione 4 Componente 2 Investimento 1.5, €~10M of which ~2M for WP2)</span> (11/10/2022 - 31/07/2024)</span>
 - 2019: site manager of [IT-Matters](http://itmatters.imtlucca.it)<!-- - (1/9/2019 - 28/8/2023) -->
 - 2018: co-PI **RCADE** (EU MSCA Fellowship) [Claudio Mezzina](https://www.uniurb.it/persone/claudio-mezzina) joined in September 2018 our department as MSCA fellow collaborating with [Irek Ulidowski](http://www.cs.le.ac.uk/people/iu3) and me on causal consistency reversible debuggers; the project is discontinued since, shortly after the start, Claudio got a permanent job in Italy
 - 2017: Scientific mentor of the Daphe Jackson fellowship of Dr. Paula Severi

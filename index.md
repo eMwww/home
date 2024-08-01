@@ -29,7 +29,7 @@ https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#github-cust
 <tr>
 <td valign="top" markdown="1">
 <div style="font-size:70%; text-align:left;">
-    Associate Professor
+    Professor
 	<br/><a href="https://www.gssi.it">GSSI</a>
 	<br/>67100 L'Aquila (Italy)
 	<br/><img alt="office" src="/home/images/office.jpg" width="10%"  title="office"/>Viale Rendina, 28 Room P2-16
@@ -76,7 +76,6 @@ https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#github-cust
 <td class="quicklinks" valign="top" markdown="1"><!-- Projects -->
 - [DeLiCE: Decentralised Ledgers in Circular Economy]() <span class="tooltip"><span class="tooltiptext">PRIN PNRR</span></span>
 - [BehAPI - Behavioural Application Program Interfaces](https://www.um.edu.mt/projects/behapi)<span class="tooltip"><span class="tooltiptext">Site leader and Work package leader (Marie Skłodowska-Curie Actions RISE, agreement No 778233, €742,500.00)</span> (1/3/2018 to-date)</span>
-- [ASTRA - Advanced Space Technologies and Research Alliance]() <span class="tooltip"><span class="tooltiptext">SPOKE GSSI of the Innovation, digitalization and sustainability for the diffused economy in Central Italy - VITALITY. Task leader of the WP2, PNRR ECS_00000041 (Missione 4 Componente 2 Investimento 1.5, €~10M of which ~2M for WP2)</span> (11/10/2022 to-date)</span>
 - Involvement in [past projects](old_projects)
 </td>
 <td class="quicklinks" valign="top" markdown="1"><!-- Tools -->

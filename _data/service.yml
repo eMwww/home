@@ -1,7 +1,7 @@
 - name: "Electoral Commission"
   type: "wg"
   role: "Chair"
-  descr: "Chair of the electoral commission for electing a member of the academic senate of the GSSI"
+  descr: "the electoral commission for electing a member of the academic senate of the GSSI"
   date: "June 2024"
 
 - name: "PhD Coordinator"
@@ -44,13 +44,13 @@
   type: "hire"
   institution: "Gran Sasso Science Institute (L'Aquila, Italy)"
   role: "Chair"
-  date: "5/3/2013"
+  date: "5/3/2023"
 
 - name: "a post-doc on the DREAM project"
   type: "hire"
   institution: "Gran Sasso Science Institute (L'Aquila, Italy)"
   role: "Chair"
-  date: "4/3/2013"
+  date: "4/3/2023"
 
 - name: "an RTDa position"
   type: "hire"

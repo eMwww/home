@@ -84,7 +84,10 @@ Cambridge University Press 2007."
   notes:
   - date: "4/11/24"
     name: "First lecture: An overview of FMs: motivating examples. Concurrency & Communication"
-    url: "24_25/l1_notes.pdf"
+    url: "current/l1_notes.pdf"
+    video: "https://gssi-it.zoom.us/rec/share/4UA0gO5rsSZKQYjKHAlRpS26VETDDgZ_N5OEJeHbsOPSgTNcXed3iKtLRTCcJ7sj.uBK-h1l8lKw0lxTs?startTime=1730726393000
+    # Passcode: h8=?cQ3K"
+    # url: "24_25/l1_notes.pdf"
     # video: "https://www.dropbox.com/scl/fi/oy4uub1c1lap8kvbsbyzk/ifmNov042022.mp4?rlkey=z8wxibb65q9n8n8a4a6g1ujjr&dl=0"
   # - date: "8/11/23"
   #   name: "Second lecture: basics of semantical concepts; a glimpse of axiomatic semantics & transition systems"

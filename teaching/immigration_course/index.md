@@ -24,7 +24,7 @@ Academic year {{ course.ay }}
 ### Lecture notes:
 <div markdown="1">
 {% for l in course.notes %}
-- {{ l.date }}: {% for i in l.items %}[{{ i.name }}]({{ i.url }}){% if i.last %}{% else %}, {% endif %}{% endfor %}[https://emwww.github.io/home/teaching/{{ course.path}}/{{ l.name }}]({{ l.url }}){% if l.video %}<br/>Lecture 1's  [recording]({{ l.video }}){% endif %}{% endfor %}
+- {{ l.date }}: {% for i in l.items %}[{{ i.name }}]({{ i.url }}){% if i.last %}{% else %}, {% endif %}{% endfor %}[{{ l.name }}]({{ l.url }}){% if l.video %}<br/>Lecture 1's  [recording]({{ l.video }}){% if l.passcode %} (passcode: {{ l.passcode}}){% endif %}{% endif %}{% endfor %}
 </div>
 {% endif %}
 {% endfor %}

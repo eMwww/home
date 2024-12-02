@@ -81,6 +81,8 @@ Cambridge University Press 2007."
     url: "plotkin_a_structural_approach_to_operational_semantics.pdf"
   - descr: "the notes on SOS for concurrency liberally follow the first two chapeters of the book of Bergstra, Fokkink, and Ponse"
     url: "bergstra_fokkink_ponse_process_algebra_with_recursive_operations_handbook.pdf"
+  - descr: "Slides on message passing concurrency "
+    url: ""
   notes:
   - date: "4/11/24"
     name: "First lecture: An overview of FMs: motivating examples. Concurrency & Communication"

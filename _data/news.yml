@@ -1,6 +1,3 @@
-- date: "April 10, 2025"
-  descr: "My new <a href="https://www.sciencedirect.com/journal/theoretical-computer-science">TCS</a> paper is out!"
-
 - date: "April 8, 2025"
   descr: "Scince is joy...expecially when you have Franco Barbanera and Marco Carbone around!"
 
@@ -14,13 +11,13 @@
   descr: "7 PhD Defenses today!"
 
 - date: "February 10, 2025"
-  descr: "Modelling markets with JOIN...too cool!:sunglasses:"
+  descr: "Modelling markets with JOIN...too cool! :sunglasses:"
 
 - date: "January 25, 2025"
   descr: "Starting to learn about online market models from Dragisa"
 
 - date: "January 31, 2025"
-  descr: "On the Model Checking classes again"
+  descr: "Model Checking classes again"
 
 - date: "January 16, 2025"
   descr: "Working on FORTE's tutorial"

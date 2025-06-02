@@ -12,8 +12,6 @@
   path: "protocol_specifications_for_concurrent_and_distributed_systems"
   syllabus: "<b>Advanced course</b><br/><b>Lecturer: Nobuko Yoshida, University of Oxford, UK</b><br/>Session types are a popular approach for the verification and specification of message-passing programs. This course:<ul><li>introduces the syntax and semantics of a process calculus to formally reason about communicating programs;</li><li>presents the binary session type system, which disciplines the communication of pairs of concurrent processes and guarantees type preservation and progress; and</li><li>extends the binary session-type approach to systems of multiple (two or more) concurrent participants, by introducing multiparty session types.</li></ul>Examples and exercises are provided, and no prior knowledge of session types is required."
   material:
-  - descr: "Zoom details"
-    url: "zoom.txt"
   - descr: "Introduction to session types (Lecture 1)"
     url: "session_types_introduction.pdf"
   - descr: "Binary session types (Lecture 2)"

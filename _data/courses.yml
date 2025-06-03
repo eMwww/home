@@ -15,7 +15,7 @@
   - descr: "Introduction to session types (Lecture 1)"
     url: "session_types_introduction.pdf"
   - descr: "Binary session types (Lecture 2)"
-    url: "binary_no_pause.pdf"
+    url: "binarysession.pdf"
   - descr: "Exercise sheet 1"
     url: "tutorial_1_new.pdf"
   - descr: "Multiparty session types (Lecture 3)"

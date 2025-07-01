@@ -16,7 +16,6 @@ Academic year {{ course.ay }}
 {% if course.material %}
 ### References and material
 <div markdown="1">
-A video [presentation](https://drive.google.com/file/d/1uDbHMdEPwpCu_nL8JETfER12TWCgTIXm/view?usp=sharing)<br/>
 {% for m in course.material %}
 - {% if m.url %}[Click here](https://emwww.github.io/home/teaching/{{ course.path}}/{{ m.url }}) for {% endif %}{{ m.descr }} {% endfor %}
 </div>

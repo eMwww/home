@@ -27,8 +27,6 @@
   #   url: "pa_7.pdf"
   # - descr: "Lecture 4 (part II): Incorrectness logic, its relations with Hoare's logic, validity, soundness, completeness"
   #   url: "pa_8.pdf"
-  - descr: "...much more stuff"
-    url: "https://pages.di.unipi.it/bruni/PA2025-GSSI/index.html"
 
 
 - title: "Protocol Specifications for Concurrent and Distributed Systems"

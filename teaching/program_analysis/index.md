@@ -30,3 +30,6 @@ Academic year {{ course.ay }}
 
 {% endif %}
 {% endfor %}
+
+<br/>
+Click [here](https://pages.di.unipi.it/bruni/PA2025-GSSI/index.html) for more stuff

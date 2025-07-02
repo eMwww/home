@@ -1,3 +1,9 @@
+- name: "Evaluation Panel"
+  type: "wg"
+  role: "Member"
+  descr: "the evaluation panel for the international mobility program TNE-Desk"
+  date: "June 2025"
+
 - name: "Electoral Commission"
   type: "wg"
   role: "Chair"

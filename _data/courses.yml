@@ -12,9 +12,9 @@
   syllabus: "<b>Auxiliary course</b><br/><b>Lecturer: Hernán C. Melgratti, CONICET and U. of Buenos Aires, AR</b><br/>The design-by-contract approach promotes the usage of executable specifications to describe the mutual obligations that regulate the interaction between different modules. Contracts are embedded in code and checked at runtime to help developers identify faulty modules. Behavioural types instead  provide a description of the interaction aspects of a program and are used to specify the communication protocols that regulate the communication among distributed components. In this course we will present the current approaches for combining contracts and behavioural types. We will cover the following topics: Design-by-Contract approach (DbC), Higher-order contracts (Findler & Felleisen), Binary Session Types, Chaperone contracts for session types, Multiparty Session Types (MST), DbC for MST, Dependent Session Types, Dependent types and smart contracts. The course requires no prior knowledge of the subjects."
   material:
   - descr: "Lecture 1: Introduction to the DbC and (binary) session types. Logistics and course structure"
-    url: ""
+    url: "00-course-intro.pdf"
   - descr: "Lecture 2: Type states, A formal presentation of (binary) session types"
-    url: ""
+    url: "01-BSTsyntax.pdf"
 
 - title: "Program Analysis"
   descr: "Advanced Course held by Prof. Roberto Bruni"

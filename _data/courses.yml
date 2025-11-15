@@ -13,8 +13,10 @@
   material:
   - descr: "Lecture 1: Introduction to the DbC and (binary) session types. Logistics and course structure"
     url: "00-course-intro.pdf"
-  - descr: "Lecture 2: Type states, A formal presentation of (binary) session types"
+  - descr: "Lecture 2: Type states, A formal presentation of (binary) session types (1st part)"
     url: "01-BSTsyntax.pdf"
+  - descr: "Lecture 3: Type states, A formal presentation of (binary) session types (2nd part)"
+    url: "01-BSTsemantics.pdf"
 
 - title: "Program Analysis"
   descr: "Advanced Course held by Prof. Roberto Bruni"

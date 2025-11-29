@@ -18,7 +18,7 @@
   - descr: "Lecture 3: Type states, A formal presentation of (binary) session types (2nd part)"
     url: "02-BSTsemantics.pdf"
   - descr: "Lecture 4: "
-    url: "02-BST.pdf"
+    url: "04-BSTImp.pdf"
   - descr: "a gentle introduction to binary session types (Vasconcelos)"
     url: "vasconcelos_fundamental_sessions.pdf"
   - descr: "session subtyping (Gay, Hole)"

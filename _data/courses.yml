@@ -15,9 +15,6 @@
   - date: "21/01/2026"
     name: "Lecture 1: Introduction to concurrency and parallelism"
     url: "lecture_1.pdf"
-  - date: "21/01/2026"
-    name: "Lecture 1: Zoom recording"
-    url: "zoom_1.pdf"
 
 - title: "Design By Contracts and Behavioural Types"
   descr: "Auxiliary Course held by Prof. Hernán C. Melgratti under the TNE-Desk project"

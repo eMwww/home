@@ -212,7 +212,11 @@ Cambridge University Press 2007."
     name: "Fourth lecture: Transition systems' specifications, operational semantics of RegExp, bisimulation"
     url: "current/l4_notes.pdf"
   - date: "16/12/25"
+<<<<<<< HEAD
     name: "Fifth lecture: Properties of bisimulations and communication<"
+=======
+    name: "Fifth lecture: Properties of bisimulations and communication"
+>>>>>>> refs/remotes/origin/master
     url: "current/l5_notes.pdf"
   #   video: "https://gssi-it.zoom.us/rec/share/c5UG3CfTHXrsuYIRciGihWpyB7r5onGoKeiLR_spUNrzltGo6QGRRabTl2z3w5Up.O2Hm4_nOJnMT1J7f"
   #   passcode: "7Ez1N+X#"

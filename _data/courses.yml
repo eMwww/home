@@ -8,7 +8,7 @@
   where: "GSSI"
   ay: "2025/26"
   list: "yes"
-  path: "pcpp"
+  path: "principles_of_concurrent_and_distributed_programming"
   syllabus: "<b>Advanced course</b><br/><b>Lecturer: Rocco De Nicola, CNR Pisa and GSSI</b><br/>
   This course introduces models of concurrent and distributed programming. The course will explore this topic presenting different paradigms of coordination of concurrent and distributed systems (including shared-memory, message-passing, and tuple spaces) as well as related linguistic constructs. The theoretical underpinning will be reinforced by showing how popular programming languages feature concurrency."
   notes:

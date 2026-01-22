@@ -1,6 +1,5 @@
 - title: "Principles of Concurrent and Distributed Programming"
-  descr: "Advanced Course held by Prof. Rocco De Nicola and Emilio Tuosto"
-  guest: "Rocco De Nicola, CNR Pisa & GSSI & Emilio Tuosto"
+  descr: "Core module held by Prof. Rocco De Nicola and Emilio Tuosto"
   when:
    - "21 - 30 January 2026"
   url: ""
@@ -9,7 +8,7 @@
   ay: "2025/26"
   list: "yes"
   path: "principles_of_concurrent_and_distributed_programming"
-  syllabus: "<b>Advanced course</b><br/><b>Lecturer: Rocco De Nicola, CNR Pisa and GSSI</b><br/>This course introduces models of concurrent and distributed programming. The course will explore this topic presenting different paradigms of coordination of concurrent and distributed systems (including shared-memory, message-passing, and tuple spaces) as well as related linguistic constructs. The theoretical underpinning will be reinforced by showing how popular programming languages feature concurrency."
+  syllabus: "<b>Advanced course</b><br/><b>Lecturer: Rocco De Nicola, CNR Pisa and GSSI</b><br/>This course introduces models of concurrent and distributed programming. The course will explore this topic presenting different paradigms of coordination of concurrent and distributed systems (including shared-memory, message-passing, and tuple spaces) as well as related linguistic constructs. The theoretical underpinning will be reinforced by showing how popular programming languages feature concurrency as well as experimental prototype languages. The exam modality will be a group mini-project."
   notes:
   - date: "21/01/2026"
     name: "Lecture 1: Introduction to concurrency and parallelism"

@@ -1,5 +1,5 @@
 - title: "Principles of Concurrent and Distributed Programming"
-  descr: "Advanced Course held by Prof. Rocco De Nicola"
+  descr: "Advanced Course held by Prof. Rocco De Nicola and Emilio Tuosto"
   guest: "Rocco De Nicola, CNR Pisa & GSSI & Emilio Tuosto"
   when:
    - "21 - 30 January 2026"
@@ -9,8 +9,7 @@
   ay: "2025/26"
   list: "yes"
   path: "principles_of_concurrent_and_distributed_programming"
-  syllabus: "<b>Advanced course</b><br/><b>Lecturer: Rocco De Nicola, CNR Pisa and GSSI</b><br/>
-  This course introduces models of concurrent and distributed programming. The course will explore this topic presenting different paradigms of coordination of concurrent and distributed systems (including shared-memory, message-passing, and tuple spaces) as well as related linguistic constructs. The theoretical underpinning will be reinforced by showing how popular programming languages feature concurrency."
+  syllabus: "<b>Advanced course</b><br/><b>Lecturer: Rocco De Nicola, CNR Pisa and GSSI</b><br/>This course introduces models of concurrent and distributed programming. The course will explore this topic presenting different paradigms of coordination of concurrent and distributed systems (including shared-memory, message-passing, and tuple spaces) as well as related linguistic constructs. The theoretical underpinning will be reinforced by showing how popular programming languages feature concurrency."
   notes:
   - date: "21/01/2026"
     name: "Lecture 1: Introduction to concurrency and parallelism"
@@ -212,11 +211,7 @@ Cambridge University Press 2007."
     name: "Fourth lecture: Transition systems' specifications, operational semantics of RegExp, bisimulation"
     url: "current/l4_notes.pdf"
   - date: "16/12/25"
-<<<<<<< HEAD
-    name: "Fifth lecture: Properties of bisimulations and communication<"
-=======
     name: "Fifth lecture: Properties of bisimulations and communication"
->>>>>>> refs/remotes/origin/master
     url: "current/l5_notes.pdf"
   #   video: "https://gssi-it.zoom.us/rec/share/c5UG3CfTHXrsuYIRciGihWpyB7r5onGoKeiLR_spUNrzltGo6QGRRabTl2z3w5Up.O2Hm4_nOJnMT1J7f"
   #   passcode: "7Ez1N+X#"

@@ -31,6 +31,8 @@ Academic year {{ course.ay }}
 ### Zoom recordings:
 - 21/01/2026: [1st class](https://www.dropbox.com/scl/fi/a165ue2kv4ekso7xz8p35/zoom_1.mp4?rlkey=5szv1zpqfsuzvzzh4aynclyy3&dl=0)
 - 22/01/2026: [2nd class](https://www.dropbox.com/scl/fi/0v3r7jka8ph4bqrv4fk0s/zoom_2.mp4?rlkey=k74pkysittxwgju7wf60jektl&dl=0)
+- 26/01/2026: [3rd class](https://www.dropbox.com/scl/fi/0v3r7jka8ph4bqrv4fk0s/zoom_2.mp4?rlkey=k74pkysittxwgju7wf60jektl&dl=0)
+- 27/01/2026: [4th class](https://www.dropbox.com/scl/fi/ph8xsp56ovglgx9gmkjgp/zoom_4.mp4?rlkey=843ds1fkoupume053uqx866bg&dl=0)
 
 {% endif %}
 {% endfor %}

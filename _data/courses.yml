@@ -22,6 +22,9 @@
   - date: "27/01/2026"
     name: "Lecture 4: Linguistic Primitives for Distributed Systems"
     url: "lecture_4.pdf"
+  - date: "28/01/2026"
+    name: "Lecture 5: Java concurrency and RMI"
+    url: "lecture_5.pdf"
 
 - title: "Design By Contracts and Behavioural Types"
   descr: "Auxiliary Course held by Prof. Hernán C. Melgratti under the TNE-Desk project"

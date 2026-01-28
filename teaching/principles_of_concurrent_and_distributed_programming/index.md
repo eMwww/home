@@ -37,5 +37,13 @@ Academic year {{ course.ay }}
 - 29/01/2026: [6th class]()
 - 30/01/2026: [7th class]()
 
+### Programming examples
+#### The "promotion" example
+- [PromotionConcurrent](code/java/promotion/PromotionConcurrent.java)
+- [Report](code/java/promotion/Report.java)
+- [Print](code/java/promotion/print.java)
+- [StaffMember](code/java/promotion/StaffMember.java)
+
+
 {% endif %}
 {% endfor %}

@@ -25,6 +25,9 @@
   - date: "28/01/2026"
     name: "Lecture 5: Java concurrency and RMI"
     url: "lecture_5.pdf"
+  - date: "29/01/2026"
+    name: "Lecture 6: Concurrency with channels and with actors"
+    url: "lecture_6.pdf"
 
 - title: "Design By Contracts and Behavioural Types"
   descr: "Auxiliary Course held by Prof. Hernán C. Melgratti under the TNE-Desk project"

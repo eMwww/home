@@ -41,7 +41,7 @@ Communications of the ACM, 32(4):444–458, April 1989.
 - [Eck02]Bruce Eckel. Thinking in Java, 4rd Edition.
 Prentice-Hall, December 2002. Chapter 13. The beta version of the 3rd edition
 is available at
-[http://www.javaclue.org/pub/java/ebooks/tij/tij-3rd-ed.pdf]{http://www.javaclue.org/pub/java/ebooks/tij/tij-3rd-ed.pdf}.
+[http://www.javaclue.org/pub/java/ebooks/tij/tij-3rd-ed.pdf](http://www.javaclue.org/pub/java/ebooks/tij/tij-3rd-ed.pdf).
 - [FG96]Cedric Fournet and George Gonthier. The reflexive CHAM and the join-calculus.
 In Conference Record of POPL ’96: The 23rd ACM SIGPLAN-SIGACT
 Symposium on Principles of Programming Languages, pages 372–385, St.

@@ -34,7 +34,7 @@ Academic year {{ course.ay }}
 - 26/01/2026: [3rd class](https://www.dropbox.com/scl/fi/0v3r7jka8ph4bqrv4fk0s/zoom_2.mp4?rlkey=k74pkysittxwgju7wf60jektl&dl=0)
 - 27/01/2026: [4th class](https://www.dropbox.com/scl/fi/ph8xsp56ovglgx9gmkjgp/zoom_4.mp4?rlkey=843ds1fkoupume053uqx866bg&dl=0)
 - 28/01/2026: [5th class](https://www.dropbox.com/scl/fi/glbkpf6bio8om2ja0e05d/zoom_5.mp4?rlkey=ilpq2xppy5bo8n37zbzy5u7iq&dl=0)
-- 29/01/2026: [6th class]()
+- 29/01/2026: [6th class](https://www.dropbox.com/scl/fi/ltneivppuf1nhza3wid4g/zoom_6.mp4?rlkey=w3y4pf2tqyh9hgcsks71pr1ed&dl=0)
 - 30/01/2026: [7th class]()
 
 ### Programming examples

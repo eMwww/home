@@ -28,6 +28,9 @@
   - date: "29/01/2026"
     name: "Lecture 6: Concurrency with channels and with actors"
     url: "lecture_6.pdf"
+  - date: "30/01/2026"
+    name: "Lecture 7: Join patterns, actors, and generative communication in Klaim"
+    url: "lecture_7.pdf"
 
 - title: "Design By Contracts and Behavioural Types"
   descr: "Auxiliary Course held by Prof. Hernán C. Melgratti under the TNE-Desk project"

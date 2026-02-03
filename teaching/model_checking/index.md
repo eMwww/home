@@ -20,11 +20,17 @@ Academic year {{ course.ay }}
 </div>
 {% endif %}
 
+
+### Lecture notes:
+The lecture notes of the course are on [Clemens' webpage](https://clegra.github.io/mc/25-26/mc.html).
+
+
 {% if course.notes %}
 ### Lecture notes:
 <div markdown="1">
 {% for l in course.notes %}
 - {{ l.date }}: {% for i in l.items %}[{{ i.name }}]({{ i.url }}){% if i.last %}{% else %}, {% endif %}{% endfor %}[{{ l.name }}](https://emwww.github.io/home/teaching/{{ course.path}}/{{ l.url }}){% endfor %}
 </div>
+
 {% endif %}
 {% endfor %}

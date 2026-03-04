@@ -5,12 +5,13 @@ docs_list_title: Teaching
 use-site-title: false
 ---
 
-{% assign courses = site.data.courses | where: "title", "Principles of Concurrent and Distributed Programming" %}
+{% assign courses = site.data.courses | where: "title", "Formal Methods for Communication Protocols" %}
 {% for course in courses %}
 
 ## <a id='{{ course.title }}'></a>{{ course.title }}
-Academic year {{ course.ay }}
+
 <p style="font-size:12pt">{{ course.syllabus }}</p>
+
 
 {% if course.material %}
 ### References and material

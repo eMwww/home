@@ -8,11 +8,14 @@
   ay: ""
   list: "yes"
   path: "formal_methods_for_communication_protocols"
-  syllabus: "<b>Course on the TNE-Desk project</b><br/>This course is designed to present basic ideas of some formal behavioural specifications used in academia and industry. The course is designed to be accessible to master and PhD students; many concepts are presented informally, yet precisely."
+  syllabus: "<b>Course on the TNE-Desk project</b><br/>This course presents basic ideas of some formal behavioural specifications used in academia and industry. The course is designed to be accessible to master and PhD students; many concepts are presented informally, yet precisely. The overall topic of the course regards some recent formal models proposed for distributed coordination and based choreographic approaches. The first model is based on a variant of multiparty session types [1], a pretty successful model for the design and analysis of communication protocols. The second model advocates local-first principles for communication protocols and departs from multiparty session types in several ways [2,3]. In the final part of the course we will consider an actor model featuring join patterns, a programming constructs that allows the straightforward realisation of complex coordination policies. Surprisingly, join patterns [4,5] have an application in computational economy; in fact we will see how they can be used to implement the design of on-line market designs."
   notes:
   - date: "03/03/2026"
     name: "Lecture 1: Introduction and motivation"
     url: "lecture_1.pdf"
+  - date: "04/03/2026"
+    name: "Lecture 2: G-choreographies"
+    url: "lecture_2.pdf"
 
 
 - title: "Principles of Concurrent and Distributed Programming"

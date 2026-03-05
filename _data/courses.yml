@@ -14,8 +14,11 @@
     name: "Lecture 1: Introduction and motivation"
     url: "lecture_1.pdf"
   - date: "04/03/2026"
-    name: "Lecture 2: G-choreographies"
+    name: "Lecture 2: Global choreographies as pomsets"
     url: "lecture_2.pdf"
+  - date: "05/03/2026"
+    name: "Lecture 3: Swarms and Swarm Protocols"
+    url: "lecture_3.pdf"
 
 
 - title: "Principles of Concurrent and Distributed Programming"

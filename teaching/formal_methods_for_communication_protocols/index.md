@@ -21,6 +21,11 @@ use-site-title: false
 </div>
 {% endif %}
 
+Besides the papers [2,3] below, these lectures are based on the following references:
+
+[4] Roberto Guanciale and Emilio Tuosto. Realisability of pomsets.
+Journal of Logic and Algebraic Methods in Programming, 108:69–89, 2019.
+
 {% if course.notes %}
 
 ### Lecture notes:
@@ -31,6 +36,7 @@ use-site-title: false
 {% endif %}
 {% endfor %}
 
+
 Further readings:
 
 - [1] K. Honda, N. Yoshida and M. Carbone. Multiparty Asynchronous Session Types. JACM 63(1), 2016.
@@ -38,7 +44,14 @@ Further readings:
 - [3] R. Kuhn, H. C. Melgratti and E. Tuosto. Behavioural Types for Local-First Software (Artifact). Dagstuhl Artifacts Ser. 2023
 - [4] C. Fournet and G. Gonthier. The Reflexive CHAM and the Join-Calculus. POPL'96
 - [5] A. J. Turon, C. V. Russo. Scalable join patterns. SPLASH 2011
-
+- [6] Gul Agha. Actors: A Model of Concurrent Computation in Distributed Systems.
+MIT Press, Cambridge, MA, USA, 1986.
+- [7] D. Brand and P. Zafiropulo. On Communicating Finite-State Machines.
+JACM, 30(2):323–342, 1983.
+- [8] P. Deniélou and N. Yoshida. Multiparty session types meet communicating automata. In ESOP 2012.
+- [9] C. Hewitt, P. B. Bishop, and R. Steiger. A Universal Modular ACTOR Formalism for Artificial Intelligence. IJCAI, 1973.
+- [6] N. Kavantzas, D. Burdett, G. Ritzinger, T. Fletcher, and Y. Lafon. Web services choreography description language version 1.0.
+http://www.w3.org/TR/2004/WD-ws-cdl-10-20041217. Working Draft 17 December 2004.
 
 <!--
 

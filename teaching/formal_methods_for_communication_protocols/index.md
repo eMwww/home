@@ -18,13 +18,26 @@ use-site-title: false
 <div markdown="1">
 {% for m in course.material %}
 - {% if m.url %}[Click here](https://emwww.github.io/home/teaching/{{ course.path}}/{{ m.url }}) for {% endif %}{{ m.descr }} {% endfor %}
-</div>
-{% endif %}
+
+<br/>
 
 Besides the papers [2,3] below, these lectures are based on the following references:
 
+<br/>
+
 [4] Roberto Guanciale and Emilio Tuosto. Realisability of pomsets.
 Journal of Logic and Algebraic Methods in Programming, 108:69–89, 2019.
+
+<br/>
+
+The slides of the seminar
+for the joint seminar series
+MISANU & Centre for Mathematics and Statistics FTN, UNS
+held on March 9, 2026 
+are [here](seminar.pdf).
+
+</div>
+{% endif %}
 
 {% if course.notes %}
 

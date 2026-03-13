@@ -19,9 +19,12 @@
   - date: "05/03/2026"
     name: "Lecture 3: Swarms and Swarm Protocols"
     url: "lecture_3.pdf"
-  - date: "19/03/2026"
+  - date: "10/03/2026"
     name: "Lecture 4: Programming actors"
     url: "lecture_4.pdf"
+  - date: "12/03/2026"
+    name: "Lecture 5: Formalisation of market models"
+    url: "lecture_5.pdf"
 
 
 - title: "Principles of Concurrent and Distributed Programming"

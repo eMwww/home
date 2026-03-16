@@ -25,6 +25,9 @@
   - date: "12/03/2026"
     name: "Lecture 5: Formalisation of market models"
     url: "lecture_5.pdf"
+  - date: "12/03/2026"
+    name: "Final: all slides in one go"
+    url: "all.pdf"
 
 
 - title: "Principles of Concurrent and Distributed Programming"

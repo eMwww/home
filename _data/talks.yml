@@ -5,6 +5,13 @@
   venue: "EMW 2026"
   cover: "emw26-01.png"
 
+- title: "A Choreographic View of Smart Contracts"
+  slides: "https://emwww.github.io/home/slides/forte2025-tutorial.pdf"
+  date: "16/6/2025"
+  descr: "A tutorial on recent work on formal models of smart contracts"
+  venue: "FORTE 2025"
+  cover: "forte2025-tutorial-01.png"
+
 - title: "SEArch: an execution infrastructure for service-based software systems"
   slides: "https://emwww.github.io/home/slides/coordination24.pdf"
   date: "19/6/2024"

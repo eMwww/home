@@ -1,4 +1,4 @@
-file=""
+file="coordination25"
 
 clean:
 	find . -name "*~" -exec ls -al {} \;

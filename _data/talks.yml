@@ -1,9 +1,16 @@
 - title: "How I Learned to Stop Worrying and Love the Bomb[s]"
   slides: "https://emwww.github.io/home/slides/emw26.pdf"
-  date: "11/4/2022"
+  date: "11/4/2026"
   descr: "A talk at the ETAPS Mentoring Workshop about mentor - mentee relationship"
   venue: "EMW 2026"
   cover: "emw26-01.png"
+
+- title: "Adaptability as a Programming Pattern in SEArch"
+  slides: "https://emwww.github.io/home/slides/waca25.pdf"
+  date: "20/6/2025"
+  descr: "A talk about how to use our SEArch platform for architectural adaptation."
+  venue: "WACA 2025"
+  cover: "waca25-01.png"
 
 - title: "A Choreographic View of Smart Contracts"
   slides: "https://emwww.github.io/home/slides/forte2025-tutorial.pdf"
@@ -11,6 +18,13 @@
   descr: "A tutorial on recent work on formal models of smart contracts"
   venue: "FORTE 2025"
   cover: "forte2025-tutorial-01.png"
+
+- title: "Behavioural, Functional, and Non-Functional Contracts for Dynamic Selection of Services"
+  slides: "https://emwww.github.io/home/slides/coordination25"
+  date: "17/6/2025"
+  descr: "A platform for dynamic service composition based on contracts featuring (non-)functional and behavioural."
+  venue: "COORDINATION 2025"
+  cover: "coordination25-01.png"
 
 - title: "SEArch: an execution infrastructure for service-based software systems"
   slides: "https://emwww.github.io/home/slides/coordination24.pdf"

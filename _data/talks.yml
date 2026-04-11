@@ -1,3 +1,10 @@
+- title: "How I Learned to Stop Worrying and Love the Bomb[s]"
+  slides: "https://emwww.github.io/home/slides/emw26.pdf"
+  date: "11/4/2022"
+  descr: "A talk at the ETAPS Mentoring Workshop about mentor - mentee relationship"
+  venue: "EMW 2026"
+  cover: "emw26-01.png"
+
 - title: "SEArch: an execution infrastructure for service-based software systems"
   slides: "https://emwww.github.io/home/slides/coordination24.pdf"
   date: "19/6/2024"

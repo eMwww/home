@@ -1,3 +1,19 @@
+- title: "Specification and analysis of communication protocols"
+  descr: "An introduction to specifications of communication protocols relying on formal behavioural contracts"
+  when:
+   - "20 - 24 April and 4 - 7 May 2026"
+  url: ""
+  date: "20/04/2026"
+  where: "Pisa"
+  ay: ""
+  list: "yes"
+  path: "specification_and_analysis_of_communication_protocols"
+  syllabus: "The course provides an overview of the application of formal methods to the specification and analysis of communication protocols in distributed systems. It introduces mathematical models and languages for describing process interactions, with particular emphasis on formal reasoning and the verification of key properties in relevant application domains such as the analysis of smart contracts and of robotics systems."
+  notes:
+  - date: "20/04/2026"
+    name: "Lecture 1: Introduction and motivation"
+    url: ""
+
 - title: "Formal Methods for Communication Protocols"
   descr: "An introduction to specifications of communication protocols relying on formal behavioural contracts"
   when:

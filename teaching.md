@@ -14,7 +14,7 @@ use-site-title: false
   </tr>
   <tr>
 <td class="quicklinks" valign="top" markdown="1">
-{% assign courses = items | where: "where", "GSSI" %}
+{% assign courses = items %}
 - Current courses{% for course in courses %}{% unless course.list == "past" %}
 	- [{{ course.title }}](teaching/{{ course.path }}){% if course.guest %} (Lecturer: {{ course.guest }}){% endif %}{% endunless %}{% endfor %}
 {% assign past = courses | where: "list", "past" %}

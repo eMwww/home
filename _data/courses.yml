@@ -13,8 +13,8 @@
   - date: "20/04/2026"
     name: "Lecture 1: Motivation, introduction to choreographic models and their relations with programs"
     url: "lecture_1.pdf"
-  - date: "20/04/2026"
-    name: "Lecture 2: Semantics of g-choreographies"
+  - date: "21/04/2026"
+    name: "Lecture 2: Semantics of g-choreographies and communicating systems"
     url: "lecture_2.pdf"
   material:
   - descr: "the pomset semantics of g-choreographies"

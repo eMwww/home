@@ -10,32 +10,14 @@ use-site-title: false
 
 ## <a id='{{ course.title }}'></a>{{ course.title }}
 
-<p style="font-size:12pt">{{ course.syllabus }}</p>
-
+{{ course.syllabus }}
 
 {% if course.material %}
 ### References and material
 <div markdown="1">
+These lectures are based on the following references:
 {% for m in course.material %}
-- {% if m.url %}[Click here](https://emwww.github.io/home/teaching/{{ course.path}}/{{ m.url }}) for {% endif %}{{ m.descr }} {% endfor %}
-
-<br/>
-
-Besides the papers [2,3] below, these lectures are based on the following references:
-
-<br/>
-
-[4] Roberto Guanciale and Emilio Tuosto. Realisability of pomsets.
-Journal of Logic and Algebraic Methods in Programming, 108:69–89, 2019.
-
-<br/>
-
-The slides of the seminar
-for the joint seminar series
-MISANU & Centre for Mathematics and Statistics FTN, UNS
-held on March 9, 2026 
-are [here](seminar.pdf).
-
+- {% if m.url %}[Click here]({{ m.url }}) for {% endif %}{{ m.descr }} {% endfor %}
 </div>
 {% endif %}
 
@@ -55,16 +37,14 @@ Further readings:
 - [1] K. Honda, N. Yoshida and M. Carbone. Multiparty Asynchronous Session Types. JACM 63(1), 2016.
 - [2] R. Kuhn, H. C. Melgratti and E. Tuosto. Behavioural Types for Local-First Software. ECOOP 2023
 - [3] R. Kuhn, H. C. Melgratti and E. Tuosto. Behavioural Types for Local-First Software (Artifact). Dagstuhl Artifacts Ser. 2023
-- [4] C. Fournet and G. Gonthier. The Reflexive CHAM and the Join-Calculus. POPL'96
-- [5] A. J. Turon, C. V. Russo. Scalable join patterns. SPLASH 2011
-- [6] Gul Agha. Actors: A Model of Concurrent Computation in Distributed Systems.
+- [5] C. Fournet and G. Gonthier. The Reflexive CHAM and the Join-Calculus. POPL'96
+- [6] A. J. Turon, C. V. Russo. Scalable join patterns. SPLASH 2011
+- [7] Gul Agha. Actors: A Model of Concurrent Computation in Distributed Systems.
 MIT Press, Cambridge, MA, USA, 1986.
 - [7] D. Brand and P. Zafiropulo. On Communicating Finite-State Machines.
 JACM, 30(2):323–342, 1983.
 - [8] P. Deniélou and N. Yoshida. Multiparty session types meet communicating automata. In ESOP 2012.
 - [9] C. Hewitt, P. B. Bishop, and R. Steiger. A Universal Modular ACTOR Formalism for Artificial Intelligence. IJCAI, 1973.
-- [6] N. Kavantzas, D. Burdett, G. Ritzinger, T. Fletcher, and Y. Lafon. Web services choreography description language version 1.0.
-http://www.w3.org/TR/2004/WD-ws-cdl-10-20041217. Working Draft 17 December 2004.
 
 <!--
 

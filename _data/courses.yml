@@ -11,8 +11,18 @@
   syllabus: "The course provides an overview of the application of formal methods to the specification and analysis of communication protocols in distributed systems. It introduces mathematical models and languages for describing process interactions, with particular emphasis on formal reasoning and the verification of key properties in relevant application domains such as the analysis of smart contracts and of robotics systems."
   notes:
   - date: "20/04/2026"
-    name: "Lecture 1: Introduction and motivation"
-    url: ""
+    name: "Lecture 1: Motivation, introduction to choreographic models and their relations with programs"
+    url: "lecture_1.pdf"
+  - date: "20/04/2026"
+    name: "Lecture 2: Semantics of g-choreographies"
+    url: "lecture_2.pdf"
+  material:
+  - descr: "the pomset semantics of g-choreographies"
+    url: "https://www.sciencedirect.com/science/article/pii/S2352220818301664?via%3Dihub"
+  - descr: "Swarm protocols"
+    url: "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ECOOP.2023.15"
+  - descr: "Artifact for swarm protocols"
+    url: "https://drops.dagstuhl.de/entities/document/10.4230/DARTS.9.2.14"	 
 
 - title: "Formal Methods for Communication Protocols"
   descr: "An introduction to specifications of communication protocols relying on formal behavioural contracts"
@@ -44,7 +54,6 @@
   - date: "12/03/2026"
     name: "Final: all slides in one go"
     url: "all.pdf"
-
 
 - title: "Principles of Concurrent and Distributed Programming"
   descr: "Core module held by Prof. Rocco De Nicola and Emilio Tuosto"

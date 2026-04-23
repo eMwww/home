@@ -16,6 +16,12 @@
   - date: "21/04/2026"
     name: "Lecture 2: Semantics of g-choreographies and communicating systems"
     url: "lecture_2.pdf"
+  - date: "22/04/2026"
+    name: "Lecture 3: Relating global and local views"
+	 url: "lecture_3.pdf"
+  - date: "23/04/2026"
+    name: "Swarms & swarm protocols"
+	 url: "lecture_4.pdf"
   material:
   - descr: "the pomset semantics of g-choreographies"
     url: "https://www.sciencedirect.com/science/article/pii/S2352220818301664?via%3Dihub"

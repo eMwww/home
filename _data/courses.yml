@@ -22,6 +22,9 @@
   - date: "23/04/2026"
     name: "Swarms & swarm protocols"
     url: "lecture_4.pdf"
+  - date: "4/05/2026"
+    name: "Tools for choreographies and swarms, join patterns"
+    url: "lecture_5.pdf"
   material:
   - descr: "the pomset semantics of g-choreographies"
     url: "https://www.sciencedirect.com/science/article/pii/S2352220818301664?via%3Dihub"

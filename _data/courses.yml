@@ -32,7 +32,7 @@
     name: "Implementing fair join patterns"
     url: "lecture_7.pdf"
   - date: "7/05/2026"
-    name: ""
+    name: "A case study. Exam arrangements"
     url: "lecture_8.pdf"
   material:
   - descr: "the pomset semantics of g-choreographies"

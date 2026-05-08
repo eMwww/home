@@ -16,14 +16,14 @@
   slides: "https://emwww.github.io/home/slides/novisad26.pdf"
   date: "9/3/2026"
   descr: "Modelling online trading with reaction systems"
-  venue: "Dipartimento di Informatica di Pisa"
+  venue: "Joint Seminar Series MISANU & Centre for Mathematics and Statistics FTN, UNS"
   cover: "novisad26-01.png"
 
 - title: "Leveraging computer science methods to represent and design market models"
   slides: "https://emwww.github.io/home/slides/sassari26.pdf"
   date: "26/2/2026"
   descr: "Modelling online trading with reaction systems"
-  venue: "Dipartimento di Informatica di Pisa"
+  venue: "Dipartimento di Scienze Economiche e Aziendali, Sassari"
   cover: "sassari26-01.png"
 
 - title: "Adaptability as a Programming Pattern in SEArch"

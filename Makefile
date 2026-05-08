@@ -1,4 +1,4 @@
-file="coordination25"
+file="26pisa_seminario"
 
 clean:
 	find . -name "*~" -exec ls -al {} \;
@@ -16,9 +16,9 @@ bundle:
 	bundle exec jekyll build --trace
 	bundle exec jekyll serve
 
-slides:
-	git pull
+talk:
 	cp ~/emtalks/$(file)/main.pdf slides/$(file).pdf
+	echo "cp done"
 	pdftoppm -l 1 -png slides/$(file).pdf slides/$(file)
 	git add slides/$(file)*
 

@@ -31,6 +31,7 @@ These lectures are based on the following references:
 {% endif %}
 {% endfor %}
 
+All the lectures in [all.pdf](one file).
 
 Further readings:
 

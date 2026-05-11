@@ -1,22 +1,26 @@
-- name: "BehAPI"
-  url: "https://www.um.edu.mt/projects/behapi"
-  tooltip: "GSSI is almost in :)"
-
 - name: "ChorGram"
   url: "https://bitbucket.org/eMgssi/stable_chorgram/wiki/Home"
   tooltip: "One of my favourtie hobbies"
 
-- name: "CIRC"
-  url: "https://spots.augusta.edu/caubert/research/cinrc/"
-  tooltip: "Clément Aubert new project on concurrency in reversible computing"
+- name: "DeLiCE"
+  url: "https://prin.unica.it/delice/"
+  tooltip: "An Italian national project on decentralised finance and circular economy"
+
+# - name: "CIRC"
+#   url: "https://spots.augusta.edu/caubert/research/cinrc/"
+#   tooltip: "Clément Aubert new project on concurrency in reversible computing"
   
 - name: "Formal Methods Europe"
   url: "https://www.fmeurope.org/"
   tooltip: "Site about FM in Europe"
   
-- name: "GSSI seminars"
-  url: "https://sites.google.com/gssi.it/csgssi/seminars-and-events/2023-csgssi-seminars?authuser=0"
-  tooltip: "I'm organising the seminars at GSSI: contact me if you are interested to give a talk"
+# - name: "GSSI seminars"
+#   url: "https://sites.google.com/gssi.it/csgssi/seminars-and-events/2023-csgssi-seminars?authuser=0"
+#   tooltip: "I'm organising the seminars at GSSI: contact me if you are interested to give a talk"
+
+# - name: "BehAPI"
+#  url: "https://www.um.edu.mt/projects/behapi"
+#  tooltip: "GSSI is almost in :)"
 
 # - name: "Supporting Frontiers"
 #   url: "https://www.frontiersin.org/"

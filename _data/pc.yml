@@ -5,6 +5,13 @@
   to: "12/6/26"
   date: "2026/6/8"
 
+- pc: "28th International Conference on Coordination Models and Languages"
+  url: "https://www.discotec.org"
+  acr: "COORDINATION 2026"
+  from: "8/06/2023"
+  to: "12/06/2023"
+  date: 2023/06/8
+
 - pc: "SPIN 2026"
   url: "https://spin-web.github.io/SPIN2026"
   acr: "SPIN"

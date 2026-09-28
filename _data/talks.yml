@@ -1,3 +1,10 @@
+- title: "A Cryptographic Infrastructure for Friend-to-Friend Choreographies"
+  slides: "https://emwww.github.io/home/slides/lap26.pdf"
+  date: "26/9/2026"
+  descr: "Local-first + friend-to-friend coordination in Nearbytes"
+  venue: "Inter University Centre, Dubrovnik"
+  cover: "lap26-01.png"
+
 - title: "Leveraging computer science methods to represent and design market models"
   slides: "https://emwww.github.io/home/slides/pisa26.pdf"
   date: "7/5/2026"

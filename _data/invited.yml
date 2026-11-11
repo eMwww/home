@@ -1,3 +1,12 @@
+- where: "Reliable Software by Construction (Lorentz Center, Leiden)"
+  when: "5-10/10/2026"
+  date: "2026/10/5"
+  type: "talk"
+  url: "https://www.lorentzcenter.nl/reliable-software-by-construction.html"
+  slides: "https://emwww.github.io/home/slides/leiden26.pdf"
+  cover: "leiden26-01.png"
+  title: "Types in concurrency"
+
 - where: "Dagstuhl Seminar: 24051 Next Generation Protocols for Heterogeneous Systems"
   when: "28/01-2/02/1/2024"
   date: "2024/01/29"

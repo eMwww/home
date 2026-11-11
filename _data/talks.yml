@@ -12,12 +12,33 @@
   venue: "Inter University Centre, Dubrovnik"
   cover: "lap26-01.png"
 
+- title: "What do you mean A → B : m?"
+  slides: "https://emwww.github.io/home/slides/ice26.pdf"
+  date: "12/6/2026"
+  descr: "A reflection on formal models of choreographies"
+  venue: "ICE 2026"
+  cover: "ice26-01.png"
+
+- title: "Runtime adaptation as a programming pattern in service composition"
+  slides: "https://emwww.github.io/home/slides/coord26.pdf"
+  date: "10/6/2026"
+  descr: "An adaptation model based on a programming pattern of services"
+  venue: "Coordination 2026"
+  cover: "coord26-01.png"
+
 - title: "Leveraging computer science methods to represent and design market models"
   slides: "https://emwww.github.io/home/slides/pisa26.pdf"
   date: "7/5/2026"
   descr: "Modelling online trading with reaction systems"
   venue: "Dipartimento di Informatica di Pisa"
   cover: "pisa26-01.png"
+
+- title: "Behavioural Types and Local-First Principles for Swarms"
+  slides: "https://emwww.github.io/home/slides/apm26.pdf"
+  date: "17/4/2026"
+  descr: "A talk on local-first coordination"
+  venue: "APM 2026"
+  cover: "apm26-01.png"
 
 - title: "How I Learned to Stop Worrying and Love the Bomb[s]"
   slides: "https://emwww.github.io/home/slides/emw26.pdf"

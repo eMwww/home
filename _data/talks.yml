@@ -5,6 +5,13 @@
   venue: "ISoLA 2026, Kos"
   cover: "xbc26-01.png"
 
+- title: "Types in concurrency"
+  slides: "https://emwww.github.io/home/slides/leiden26.pdf"
+  date: "5/10/2026"
+  descr: "Invited tutorial"
+  venue: "Reliable Software by Construction (Lorentz Center, Leiden)"
+  cover: "leiden26-01.png"
+
 - title: "A Cryptographic Infrastructure for Friend-to-Friend Choreographies"
   slides: "https://emwww.github.io/home/slides/lap26.pdf"
   date: "26/9/2026"
